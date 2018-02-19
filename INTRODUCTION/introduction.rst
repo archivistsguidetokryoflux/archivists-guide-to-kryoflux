@@ -67,6 +67,7 @@ information about pricing.
 
 The KryoFlux has several features that differentiate it from an external USB floppy 
 disk drive: 
+
 *	**Supports a wide variety of encoding formats:** Data stored on a floppy disk is 
 	encoded using one of a number of available formats. The KryoFlux supports a wide 
 	variety of floppy disk encoding formats and can help users identify the correct 
@@ -98,6 +99,7 @@ disk drive:
 	removing the need for extra write-blocking hardware.
 
 **Example:**
+
 Emory University’s Stuart A. Rose Manuscript, Archives, and Rare Book Library 
 (formally, MARBL) experimented with a range of imaging methods, including the 
 KryoFlux, in order to process thirty-seven 3.5” floppy disks included among the 
