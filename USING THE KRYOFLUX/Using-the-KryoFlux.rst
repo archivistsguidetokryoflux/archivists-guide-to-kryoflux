@@ -23,7 +23,9 @@ approach over the other. Your decision as to which to use will likely depend in 
 on your own experience and personal preference. That said, the following summary 
 provides an overview of some of the differences between the two.
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Ease of use for beginners**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 THE WINNER: The GUI
 As might be expected, the GUI provides a more intuitive interface and a lower 
@@ -34,7 +36,9 @@ unfamiliar with the command line. Documentation about the GUI is more widely
 available and more accessible than its CLI counterpart, which tends to assume some 
 existing knowledge of the command line. 
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 **Efficiency and flexibility**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 THE WINNER: The CLI
 In terms of efficiency and flexibility, the CLI may just pip the GUI to the 
@@ -54,7 +58,9 @@ Finally, the number of options available using the CLI may provide more advanced
 users with added flexibility. The CLI, for example, allows greater control over what 
 information is reported as part of the KryoFlux’s log files.
 
+^^^^^^^^^^^^^^
 **Reporting**
+^^^^^^^^^^^^^^
 
 THE WINNER: The GUI
 A particularly nice feature of the GUI are the visualizations that it provides as 
@@ -108,11 +114,50 @@ and other dependencies can be found in the :ref:`Downloading the Software sectio
 NOTE: See the :ref:`troubleshooting section<>` if you experience difficulties in 
 calibrating your drive when using the GUI.
 
-.. image:: screenshot_callibrate.png
+.. image:: figure9.png
 
 *Figure 9: Select the correct drive from the Drive menu, then select Calibrate.*
 
+3.	Configure the KryoFlux GUI to select the output directory for your newly-created 
+	disk images and log files. To do so, select *File → Settings* and click on the 
+	*Output* tab. Browse to the appropriate path to storage. Ensure that the *Logs* 
+	button is checked, and then click *OK* (see figure 10). 
+	
+.. image:: figure10.png
 
+*Figure 10: Enter the appropriate path to storage, check the Logs option and click 
+OK.*
 
+4.	For each disk, enter a unique identifier. Click on *Enter name…* and type in a 
+	unique ID associated with the disk.  The text entered here will become the 
+	filename for any disk images and log files created.  Do not include the 
+	extension of the file name.
+	
+5.	Select the :ref:`image format(s)<>` for the disk image using the dropdown list 
+	below the filename field (see figure 12). Use the table below (figure 11) to  
+	select the necessary image formats. In order to choose multiple outputs, hold 
+	down the *Control (Ctrl)* key while making your selections.  In most cases, 
+	selecting an image format to obtain a sector image requires that you know 
+	something about the media in hand.
+	
+NOTE: You may wish to capture :ref:`preservation stream files<>` (listed as 
+*KryoFlux stream files, preservation*) in addition to a formatted disk image as part 
+of your imaging workflow, since these stream files can be used later to create 
+formatted disk images using :ref:`*Deviceless Mode*<>`.
 
++----------------------+-------------------+-----------------------------------+
+| **Physical Format**  | **System Format** | **KryoFlux Image Format**         |
++======================+===================+===================================+
+| 3.5” double density  | Macintosh         | Apple DOS 400K/800K sector image  |
++----------------------+-------------------+-----------------------------------+
+| 3.5” double density  | PC                | MFM sector image                  |
++----------------------+-------------------+-----------------------------------+
+| 3.5” high density    | Any               | MFM sector image                  |
++----------------------+-------------------+-----------------------------------+
+| 5.25” double density | Kaypro            | MFM sector image (40 track)_      |
++----------------------+-------------------+-----------------------------------+
+| 5.25” double density | PC                | MFM sector image (40 track)       |
++----------------------+-------------------+-----------------------------------+
+| 5.25” high density   | PC                | MFM sector image                  |
++----------------------+-------------------+-----------------------------------+
 
