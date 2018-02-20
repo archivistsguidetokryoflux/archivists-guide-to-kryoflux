@@ -189,13 +189,13 @@ NOTE: The colors of the track cells mean the following:
 +-------------------------+---------------------------------------------------------+
 | Orange                  | *Good+Modified:* The track was imaged successfully,     |
 |                         | but has one or more sectors that were modified after    |
-|				          |	formatting or mastering.                                |
+|                         | formatting or mastering.                                |
 |                         | **NOTE:** The KryoFlux was designed to acquire          |
-|						  |	unmodified copies of commercial software duplicated on  |
-|						  |	commercial “mastering” machines. It is extremely likely |
-|						  |	that you will encounter many “good/modified” tracks on  |
-|						  |	media received from donors. While this is a measure of  |
-|						  |	authenticity designed by the developers of the          |
+|                         | unmodified copies of commercial software duplicated on  |
+|                         | commercial “mastering” machines. It is extremely likely |
+|                         | that you will encounter many “good/modified” tracks on  |
+|                         | media received from donors. While this is a measure of  |
+|                         | authenticity designed by the developers of the          |
 |                         | KryoFlux, it is largely inapplicable to archival        |
 |                         | collections that focus on receiving papers and          |
 |                         | records of private donors or organizations.             |
