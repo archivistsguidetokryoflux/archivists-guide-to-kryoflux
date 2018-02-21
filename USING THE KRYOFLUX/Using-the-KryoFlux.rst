@@ -217,6 +217,45 @@ NOTE: The colors of the track cells mean the following:
 7.	Once the disk stops spinning and the green *Stream* indicator stops flashing, 
 	the imaging process has completed. The disk image(s) and log file for the disk 
 	you just imaged can be found in the directory you selected in step 3. 
+	
+8.	To image another disk, continue from step 4. If you switch drives (e.g. from 
+	imaging 3.5” disks to 5.25” disks) and have not calibrated the other drive, 
+	continue from step 3.
+	
+.. _Using-deviceless-mode:
+
+^^^^^^^^^^^^^^^^^^^^^^
+USING DEVICELESS MODE
+^^^^^^^^^^^^^^^^^^^^^^
+
+:ref:`Stream files <>` created in KryoFlux can be used to create :ref:`formatted 
+images <>` with the KryoFlux software.  
+
+If you have previously created stream files you can use this workflow to create 
+images using the KryoFlux software without needing the hardware or disk itself.
+
+1.	At the beginning of each imaging session calibrate the drive by selecting 
+	*Stream* Files from the *Drive* menu. Unlike working with a physical drive, the 
+	stream file option does not require calibration.
+	
+2.	Configure the KryoFlux GUI to select the output directory for your newly-created 
+	disk images and log files. To do so, select *File → Settings* and click on the 
+	*Output* tab. Browse to the appropriate path to the *Staging storage*. Ensure 
+	that the *Logs* button is checked, and then click *OK*. 
+	
+3.	For each disk, enter a unique identifier by clicking on *Enter name…* Type in the 
+	unique ID number.  Do not include the extension of the file name.
+	
+4.	Select the image format(s) for the disk image using the dropdown list below the 
+	filename field, select the necessary image formats from the table below. In order 
+	to choose multiple outputs, hold down the *Control (Ctrl)* key while making your 
+	selections. 
+	
+5.	Click *Start* and browse to the folder containing stream files.
+
+The `Floppy Disk Format Identifier Tool <http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool>`_, created by Euan Cochrane, allows the user to create multiple image types over a directory of stream files from multiple disks. See :ref:`Additional Tools and Resources <>` for further information.
+
+
 
 
 
