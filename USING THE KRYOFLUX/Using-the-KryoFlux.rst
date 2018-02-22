@@ -288,46 +288,48 @@ Here's an example:
 USEFUL COMMAND LINE OPTIONS	
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**NOTE:** In the following table, the KryoFlux user should replace the angle brackets ( < > ) and any text stored inside the angle brackets with the required information.	
+**NOTE:** In the following table, the KryoFlux user should replace the angle brackets 
+( < > ) and any text stored inside the angle brackets with the required 
+information.	
 
 *For example:*	``-f<name>`` might become ``-f filename.img``.
-			    ``-i<type>`` might become ``-i0``.
+				``-i<type>`` might become ``-i0``.
 				
 +-------------+----------------------------------------------------------------------+
 | ``-f<name>``|	Used to set filename (and, if necessary, file path).                 |
 +-------------+----------------------------------------------------------------------+
 | ``-i<type>``|	Used to determine image type. This relates to how data has been      |
-|			  |	encoded on the floppy disk—which may or may not be known in advance  |
-|			  |	of imaging. When used in a command, option –i is paired with a       |
+|             | encoded on the floppy disk—which may or may not be known in advance  |
+|             | of imaging. When used in a command, option –i is paired with a       |
 |             | number representing a certain encoding format, e.g., STREAM = 0,     |
-|			  |	MFM = 4, Apple DOS 400k/800k = 9. (See the                           |
+|             | MFM = 4, Apple DOS 400k/800k = 9. (See the                           |
 |             | :ref:`KryoFlux manual <https://www.kryoflux.com/?page=download>`_    |
-|			  | for a full list of supported image types).                           |
+|             | for a full list of supported image types).                           |
 +-------------+----------------------------------------------------------------------+
 | ``-m<id>``  |	Set device mode. This option is used to generate additional disk     |
-|			  |	images using existing STREAM files, rather than the original floppy  |
-|			  |	disk.                                                                |
+|             | images using existing STREAM files, rather than the original floppy  |
+|             | disk.                                                                |
 +-------------+----------------------------------------------------------------------+
 | ``-d<id>``  |	Select drive, used if multiple drives are connected to KryoFlux      |
-|			  |	(e.g., both a 3.5” and a 5.25” drive).                               |
+|             | (e.g., both a 3.5” and a 5.25” drive).                               |
 +-------------+----------------------------------------------------------------------+
 |``l<mask>``  |	Used to select the level of output generated during imaging. Using   |
-|			  |	–l8 will restrict output to formatting information only, which can be|
-|			  |	used to verify data against a specified image type.                  |
+|             | –l8 will restrict output to formatting information only, which can be|
+|             | used to verify data against a specified image type.                  |
 +-------------+----------------------------------------------------------------------+
 | ``-t<try>`` |	Used to specify the number of retries per track in the event that    |
 |             | the KryoFlux encounters errors. The default number of retries is     |
-|			  |	5; increasing this number can sometimes help recover data from       |
-|			  |	worn disks.                                                          |
+|             | 5; increasing this number can sometimes help recover data from       |
+|             | worn disks.                                                          |
 +-------------+----------------------------------------------------------------------+
-| ``-p``	  |	Used to force creation of directories listed in file path.           |
+| ``-p``      | Used to force creation of directories listed in file path.           |
 +-------------+----------------------------------------------------------------------+
 | ``-dd<val>``|	Used to set drive density line (i.e., high density (HD) or double    |
-|			  |	density ( DD)). This is particularly useful when working with        |
-|			  |	5.25-inch drives. The disk may appear unformatted if the wrong       |
-|			  |	density is used. This flag is less useful for 3.5-inch drives, which |
-|			  |	typically include a sensor to automatically detect the correct       |
-|    		  |	density.                                                             |
+|             | density ( DD)). This is particularly useful when working with        |
+|             | 5.25-inch drives. The disk may appear unformatted if the wrong       |
+|             | density is used. This flag is less useful for 3.5-inch drives, which |
+|             | typically include a sensor to automatically detect the correct       |
+|             | density.                                                             |
 +-------------+----------------------------------------------------------------------+
 				              
 
