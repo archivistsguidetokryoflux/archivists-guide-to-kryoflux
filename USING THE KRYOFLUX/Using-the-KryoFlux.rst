@@ -255,6 +255,38 @@ images using the KryoFlux software without needing the hardware or disk itself.
 
 The `Floppy Disk Format Identifier Tool <http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool>`_, created by Euan Cochrane, allows the user to create multiple image types over a directory of stream files from multiple disks. See :ref:`Additional Tools and Resources <>` for further information.
 
+.. _Using-and-interpreting-DTC-via-the-CLI:
+
+---------------------------------------
+Using and interpreting DTC via the CLI:
+---------------------------------------
+
+.. _KryoFlux-Command-Line-Syntax:
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KRYOFLUX COMMAND LINE SYNTAX
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you look at the command line examples listed further down this document, you will notice that all KryoFlux commands begin with ``dtc``. This is because dtc is the name of the command that we execute whenever we run any task using the KryoFlux.
+
+What comes after ``dtc`` depends on what task we want the KryoFlux to perform. KryoFlux’s Disk Tool Console (DTC) provides a number of options that we can use—sometimes on their own, but more often in combination with other options. These options allow us to set the parameters of the command (for example, the file names we want to use or the encoding format in which we want to create our disk image). As with other command line tools, you may want to add the folder containing dtc to your operating system environment variables. Doing so will allow calling the application from any directory without specifying the absolute path to dtc. Steps to add system variables vary from system to system. See :ref:`below <Adding-DTC-to-your-system-variables>` for more information about how to add system variables.
+
+Here's an example:
+
++-------------+-------------------------------+--------------------------------------+
+| **Command** | **Option**                    | **Parameter**                        |
++=============+===============================+======================================+
+| ``dtc``     | ``-f``                        | ``kryofluxDiskImage_file             |
++-------------+-------------------------------+--------------------------------------+
+| Executes the| Serves as a flag to identify  | Provides our chosen filename (and    |
+| DTC command | how the following parameter   | if necessary, its file path)         |
+|             | should be interpreted (in     |                                      |
+|			  |	this case, it should be	      |		                                 |
+|			  |	interpreted as a filename)    |	                                     |
++-------------+-------------------------------+--------------------------------------+		  
+							 
+							              
+
 
 
 
