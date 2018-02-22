@@ -295,6 +295,7 @@ information.
 *For example*:	
 
 ``-f<name>`` might become ``-f filename.img``
+
 ``-i<type>`` might become ``-i0``
 				
 +--------------+---------------------------------------------------------------------+
@@ -304,8 +305,8 @@ information.
 |              | encoded on the floppy disk—which may or may not be known in         |
 |              | advance of imaging. When used in a command, option –i is paired     |
 |              | with a number representing a certain encoding format, e.g.,         |
-|              |  STREAM = 0, MFM = 4, Apple DOS 400k/800k = 9. (See the             |
-|              |  `KryoFlux manual <https://www.kryoflux.com/?page=download>`_       |
+|              | STREAM = 0, MFM = 4, Apple DOS 400k/800k = 9. (See the              |
+|              | `KryoFlux manual <https://www.kryoflux.com/?page=download>`_        |
 |              | for a full list of supported image types).                          |
 +--------------+---------------------------------------------------------------------+
 | ``-m<id>``   | Set device mode. This option is used to generate additional disk    |
