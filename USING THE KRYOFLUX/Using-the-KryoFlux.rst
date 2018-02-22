@@ -292,11 +292,13 @@ USEFUL COMMAND LINE OPTIONS
 ( < > ) and any text stored inside the angle brackets with the required 
 information.	
 
-*For example*:	``-f<name>`` might become ``-f filename.img``.
-				``-i<type>`` might become ``-i0``.
+*For example*:	
+
+``-f<name>`` might become ``-f filename.img``
+``-i<type>`` might become ``-i0``
 				
 +--------------+---------------------------------------------------------------------+
-| ``-f<name>`` |	Used to set filename (and, if necessary, file path).             |
+| ``-f<name>`` | Used to set filename (and, if necessary, file path).                |
 +--------------+---------------------------------------------------------------------+
 | ``-i<type>`` | Used to determine image type. This relates to how data has been     |
 |              | encoded on the floppy disk—which may or may not be known in         |
