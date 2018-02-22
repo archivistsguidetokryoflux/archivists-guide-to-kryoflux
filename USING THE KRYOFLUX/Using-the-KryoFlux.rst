@@ -299,9 +299,9 @@ information.
 ``-i<type>`` might become ``-i0``
 				
 +--------------+---------------------------------------------------------------------+
-| ``-f<name>`` | Used to set filename (and, if necessary, file path).                |
+| ``-f <name>``| Used to set filename (and, if necessary, file path).                |
 +--------------+---------------------------------------------------------------------+
-| ``-i<type>`` | Used to determine image type. This relates to how data has been     |
+| ``-i <type>``| Used to determine image type. This relates to how data has been     |
 |              | encoded on the floppy disk—which may or may not be known in         |
 |              | advance of imaging. When used in a command, option –i is paired     |
 |              | with a number representing a certain encoding format, e.g.,         |
@@ -327,7 +327,7 @@ information.
 +--------------+---------------------------------------------------------------------+
 | ``-p``       | Used to force creation of directories listed in file path.          |
 +--------------+---------------------------------------------------------------------+
-| ``-dd<val>`` | Used to set drive density line (i.e., high density (HD) or double   |
+| ``-dd <val>``| Used to set drive density line (i.e., high density (HD) or double   |
 |              | density ( DD)). This is particularly useful when working with       |
 |              | 5.25-inch drives. The disk may appear unformatted if the wrong      |
 |              | density is used. This flag is less useful for 3.5-inch drives, which|
