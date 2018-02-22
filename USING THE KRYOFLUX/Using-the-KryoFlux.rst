@@ -281,8 +281,8 @@ Here's an example:
 | Executes the| Serves as a flag to identify  | Provides our chosen filename (and    |
 | DTC command | how the following parameter   | if necessary, its file path)         |
 |             | should be interpreted (in     |                                      |
-|			  |	this case, it should be	      |		                                 |
-|			  |	interpreted as a filename)    |	                                     |
+|             | this case, it should be       |                                      |
+|             | interpreted as a filename)    |                                      |
 +-------------+-------------------------------+--------------------------------------+		  
 							 
 							              
