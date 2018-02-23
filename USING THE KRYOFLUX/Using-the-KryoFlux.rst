@@ -445,6 +445,100 @@ parts:
 |                                                           | <Deviceless-mode>`    |
 +-----------------------------------------------------------+-----------------------+
 
+**Force creation of directories in file path:**
+
+Use the ``–p`` option if some of the directories in your file path don’t yet exist. 
+This prevents you from having to manually create directories prior to running the 
+command.
+
+For example, the following command would create the directories named *UnitedStates* 
+and *Georgia* in the process of generating the stream file named Atlanta:
+
+::
+
+	dtc –p –fUnitedStates\Georgia\Atlanta -i0
+	
+**Sending DTC output to log file:**
+
+If you want to keep a copy of output generated during imaging for your records, this 
+command will create a log file. However, note that this command sends output to the 
+log file *instead* of the terminal window.
+
+::
+
+	dtc –fpath\to\streamFile -i0 –fpath\to\formattedFile -i4 > path\to\output.log
+	
+**Using tee or Wintee to send DTC output to both DTC terminal and log file:**
+
+If you want to send output to both the terminal window *and* a log file, you will 
+need to run an additional command alongside dtc.
+
+On a Mac or Linux machine, use the command tee (tee is a native utility and does not 
+need to be installed):
+
+::
+
+	dtc –fpath\to\streamFile -i0 –fpath\to\formattedFile -i4 2>&1 | tee 
+	path\to\output.log
+	
+Windows has no native utility for this purpose, but Wintee is a free utility that can 
+be used for this purpose. Download Wintee prior to running this command:
+
+::
+
+	dtc –fpath\to\streamFile -i0 –fpath\to\formattedFile -i4 2>&1 | wtee 
+	path\to\output.log
+	
+.. _Adding-DTC-to-your-System-Variables:
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adding DTC to your System Variables:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Windows:**
+
+1.	Launch Control Panel --> System and Security --> System.
+2.	Select *Advance system settings* on the left-hand panel.
+3.	In the System Properties dialog, select *Environment Variables…*
+4.	In the Environment Variables dialog, select the Path line in the System Variables 
+	list and select *Edit…*
+5.	In the *Edit* environment variable dialog, select *New* and type the path to your 
+	DTC folder.
+	
+**Mac:**
+
+**NOTE:** The method for setting these variables changes dramatically from OS version 
+to OS version. The following instructions should work in MacOS 10.13, but be aware 
+that your mileage may vary:
+
+1.	Launch terminal and ensure that your working directory is your home 
+	directory.
+2.	Type ``nano .bash_profile`` to create (or edit an existing) .bash_profile file.
+3.	Add a line to the .bash_profile file that reads ``export PATH=”/path/to/ 
+	DTC:$PATH”``
+4.	Save and close the .bash_profile file.
+5.	Quit and relaunch Terminal.
+6.	Type ``echo $PATH`` to confirm that DTC has been added as a variable.
+
+**Ubuntu Linux:**
+
+**NOTE:** Depending on your version of Linux, you might need to replace .bash_profile 
+with .profile or .bashrc.
+
+1.	Launch terminal and ensure your working directory is your home directory.
+2.	Type ``nano .bash_profile`` to create (or edit an existing) .bash_profile file.
+3.	Add a line to the .bash_profile file that reads ``export 
+	PATH=$PATH:/path/to/dtc-dir``
+4.	Save and close the .bash_profile file.
+5.	Type ``source ~/.bash_profile``
+ 	
+
+
+
+
+	
+
+
 
 
 
