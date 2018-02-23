@@ -102,8 +102,8 @@ CAPTURING DISK IMAGES
 	DTC folder where the GUI installer was located and double-clicking on the file 
 	called kryoflux-ui.jar.
 
-NOTE: Java is required in order to launch the GUI. Instructions for installing Java 
-and other dependencies can be found in the :ref:`Downloading the Software section<>`.
+**NOTE:** Java is required in order to launch the GUI. Instructions for installing 
+Java and other dependencies can be found in the :ref:`Downloading the Software section<>`.
 
 2.	At the beginning of each imaging session calibrate the floppy drive by selecting 
 	the correct drive from the Drive menu then selecting Calibrate from the same 
@@ -111,7 +111,7 @@ and other dependencies can be found in the :ref:`Downloading the Software sectio
 	imaging session and any time you switch between 3.5-inch and 5.25-inch disk 	
 	drives.
 	
-NOTE: See the :ref:`troubleshooting section<>` if you experience difficulties in 
+**NOTE:** See the :ref:`troubleshooting section<>` if you experience difficulties in 
 calibrating your drive when using the GUI.
 
 .. image:: figure9.png
@@ -140,7 +140,7 @@ OK.*
 	selecting an image format to obtain a sector image requires that you know 
 	something about the media in hand.
 	
-NOTE: You may wish to capture :ref:`preservation stream files<>` (listed as 
+**NOTE:** You may wish to capture :ref:`preservation stream files<>` (listed as 
 *KryoFlux stream files, preservation*) in addition to a formatted disk image as part 
 of your imaging workflow, since these stream files can be used later to create 
 formatted disk images using :ref:`*Deviceless Mode*<>`.
@@ -180,7 +180,7 @@ TWO<>`.*
 off and the* Tracks *display on the left-hand side of the window will fill with 
 blocks of color*.
 
-NOTE: The colors of the track cells mean the following: 
+**NOTE:** The colors of the track cells mean the following: 
 
 +-------------------------+---------------------------------------------------------+
 | **Color of Track Cell** | **Meaning**                                             |
@@ -190,7 +190,7 @@ NOTE: The colors of the track cells mean the following:
 | Orange                  | *Good+Modified:* The track was imaged successfully,     |
 |                         | but has one or more sectors that were modified after    |
 |                         | formatting or mastering.                                |
-|                         | **NOTE:** The KryoFlux was designed to acquire          |
+|                         | ****NOTE:**** The KryoFlux was designed to acquire          |
 |                         | unmodified copies of commercial software duplicated on  |
 |                         | commercial “mastering” machines. It is extremely likely |
 |                         | that you will encounter many “good/modified” tracks on  |
@@ -201,7 +201,7 @@ NOTE: The colors of the track cells mean the following:
 |                         | records of private donors or organizations.             |
 +-------------------------+---------------------------------------------------------+
 | Red                     | *Bad:* the track was not imaged successfully.           |
-|                         | **NOTE:** The KryoFlux can retry reads of a given       |
+|                         | ****NOTE:**** The KryoFlux can retry reads of a given       |
 |                         | track; this configuration option is available           |
 |                         | by selecting File → Settings and going to the Advanced  |
 |                         | tab.                                                    |
@@ -290,7 +290,7 @@ Here's an example:
 USEFUL COMMAND LINE OPTIONS	
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**NOTE:** In the following table, the KryoFlux user should replace the angle brackets 
+****NOTE:**** In the following table, the KryoFlux user should replace the angle brackets 
 ( < > ) and any text stored inside the angle brackets with the required 
 information.	
 
@@ -396,7 +396,7 @@ fragile.
 
 	dtc –fpath/to/existing/streamFile -i0 –fpath/to/new/formattedFile -i4 –m1
 	
-**NOTE:** For people who are less familiar with the command line, here is an example 
+****NOTE:**** For people who are less familiar with the command line, here is an example 
 of how the above command would look in practice, and a breakdown of its component 
 parts:
 
@@ -507,7 +507,7 @@ Adding DTC to your System Variables:
 	
 **Mac:**
 
-**NOTE:** The method for setting these variables changes dramatically from OS version 
+****NOTE:**** The method for setting these variables changes dramatically from OS version 
 to OS version. The following instructions should work in MacOS 10.13, but be aware 
 that your mileage may vary:
 
@@ -522,7 +522,7 @@ that your mileage may vary:
 
 **Ubuntu Linux:**
 
-**NOTE:** Depending on your version of Linux, you might need to replace .bash_profile 
+****NOTE:**** Depending on your version of Linux, you might need to replace .bash_profile 
 with .profile or .bashrc.
 
 1.	Launch terminal and ensure your working directory is your home directory.
