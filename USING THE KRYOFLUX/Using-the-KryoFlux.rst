@@ -224,9 +224,9 @@ blocks of color*.
 	
 .. _Using-deviceless-mode:
 
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 USING DEVICELESS MODE
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 :ref:`Stream files <>` created in KryoFlux can be used to create :ref:`formatted 
 images <>` with the KryoFlux software.  
