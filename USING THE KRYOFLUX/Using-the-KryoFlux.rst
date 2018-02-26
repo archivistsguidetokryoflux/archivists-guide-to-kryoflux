@@ -143,7 +143,7 @@ OK.*
 **NOTE:** You may wish to capture :ref:`preservation stream files<>` (listed as 
 *KryoFlux stream files, preservation*) in addition to a formatted disk image as part 
 of your imaging workflow, since these stream files can be used later to create 
-formatted disk images using :ref:`Deviceless Mode<Using-deviceless-mode>`
+formatted disk images using [Deviceless Mode] https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/blob/master/USING%20THE%20KRYOFLUX/Using-the-KryoFlux.rst#Using-deviceless-mode 
 
 +----------------------+-------------------+-----------------------------------+
 | **Physical Format**  | **System Format** | **KryoFlux Image Format**         |
