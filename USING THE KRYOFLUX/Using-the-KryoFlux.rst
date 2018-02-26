@@ -143,7 +143,7 @@ OK.*
 **NOTE:** You may wish to capture :ref:`preservation stream files<>` (listed as 
 *KryoFlux stream files, preservation*) in addition to a formatted disk image as part 
 of your imaging workflow, since these stream files can be used later to create 
-formatted disk images using :ref:`Deviceless Mode<Using-deviceless-mode>`
+formatted disk images `Using deviceless mode`_.
 
 +----------------------+-------------------+-----------------------------------+
 | **Physical Format**  | **System Format** | **KryoFlux Image Format**         |
@@ -221,8 +221,6 @@ blocks of color*.
 8.	To image another disk, continue from step 4. If you switch drives (e.g. from 
 	imaging 3.5” disks to 5.25” disks) and have not calibrated the other drive, 
 	continue from step 3.
-	
-#Using-deviceless-mode
 
 ^^^^^^^^^^^^^^^^^^^^^^
 USING DEVICELESS MODE
