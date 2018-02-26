@@ -268,7 +268,7 @@ KRYOFLUX COMMAND LINE SYNTAX
 
 If you look at the command line examples listed further down this document, you will notice that all KryoFlux commands begin with ``dtc``. This is because dtc is the name of the command that we execute whenever we run any task using the KryoFlux.
 
-What comes after ``dtc`` depends on what task we want the KryoFlux to perform. KryoFlux’s Disk Tool Console (DTC) provides a number of options that we can use—sometimes on their own, but more often in combination with other options. These options allow us to set the parameters of the command (for example, the file names we want to use or the encoding format in which we want to create our disk image). As with other command line tools, you may want to add the folder containing dtc to your operating system environment variables. Doing so will allow calling the application from any directory without specifying the absolute path to dtc. Steps to add system variables vary from system to system. See :ref:`below <Adding-DTC-to-your-system-variables>` for more information about how to add system variables.
+What comes after ``dtc`` depends on what task we want the KryoFlux to perform. KryoFlux’s Disk Tool Console (DTC) provides a number of options that we can use—sometimes on their own, but more often in combination with other options. These options allow us to set the parameters of the command (for example, the file names we want to use or the encoding format in which we want to create our disk image). As with other command line tools, you may want to add the folder containing dtc to your operating system environment variables. Doing so will allow calling the application from any directory without specifying the absolute path to dtc. Steps to add system variables vary from system to system. See `Adding-DTC-to-your-system-variables`_ for more information about how to add system variables.
 
 Here's an example:
 
@@ -439,9 +439,7 @@ parts:
 |                                                           | disk image            |
 +-----------------------------------------------------------+-----------------------+
 | ``-m1``                                                   | Denotes that you are  | 
-|                                                           | working in            | 
-|                                                           | :ref:`deviceless mode | 
-|                                                           | <Deviceless-mode>`    |
+|                                                           | `using deviceless     | |                                                           | mode`_.               |
 +-----------------------------------------------------------+-----------------------+
 
 **Force creation of directories in file path:**
