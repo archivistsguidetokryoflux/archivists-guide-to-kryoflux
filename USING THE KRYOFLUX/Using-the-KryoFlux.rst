@@ -145,15 +145,6 @@ OK.*
 of your imaging workflow, since these stream files can be used later to create 
 <<<<<<< Local Changes
 formatted disk images `using deviceless mode`_.
-=======
-<<<<<<< HEAD:PART ONE/USING THE KRYOFLUX/Using-the-KryoFlux.rst
-formatted disk images `Using deviceless mode`_.
-=======
-<<<<<<< HEAD
-formatted disk images using [Deviceless Mode] #Using-deviceless-mode 
-=======
-formatted disk images `using deviceless mode`_.
-
 
 +----------------------+-------------------+-----------------------------------+
 | **Physical Format**  | **System Format** | **KryoFlux Image Format**         |
