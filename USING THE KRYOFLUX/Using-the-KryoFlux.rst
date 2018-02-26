@@ -439,7 +439,8 @@ parts:
 |                                                           | disk image            |
 +-----------------------------------------------------------+-----------------------+
 | ``-m1``                                                   | Denotes that you are  | 
-|                                                           | `using deviceless     | |                                                           | mode`_.               |
+|                                                           | `using deviceless     | 
+|                                                           | mode`_.               |
 +-----------------------------------------------------------+-----------------------+
 
 **Force creation of directories in file path:**
