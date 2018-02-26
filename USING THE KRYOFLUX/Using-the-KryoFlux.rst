@@ -143,15 +143,17 @@ OK.*
 **NOTE:** You may wish to capture :ref:`preservation stream files<>` (listed as 
 *KryoFlux stream files, preservation*) in addition to a formatted disk image as part 
 of your imaging workflow, since these stream files can be used later to create 
+<<<<<<< Local Changes
+formatted disk images `using deviceless mode`_.
+=======
 <<<<<<< HEAD:PART ONE/USING THE KRYOFLUX/Using-the-KryoFlux.rst
 formatted disk images `Using deviceless mode`_.
 =======
 <<<<<<< HEAD
 formatted disk images using [Deviceless Mode] #Using-deviceless-mode 
 =======
-formatted disk images using :ref:`Deviceless Mode<Using-deviceless-mode>`
->>>>>>> parent of 04e6b69... Tests internal links
->>>>>>> parent of 4d57287... Tests internal links:USING THE KRYOFLUX/Using-the-KryoFlux.rst
+formatted disk images `using deviceless mode`_.
+
 
 +----------------------+-------------------+-----------------------------------+
 | **Physical Format**  | **System Format** | **KryoFlux Image Format**         |
