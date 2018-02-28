@@ -20,13 +20,30 @@ Somewhat confusingly, the logs output by the CLI and GUI are somewhat different 
 
 This data is presented in three line chunks, prefaced by a three-digit code specifying the track and side that the following data pertain to. In the following image, 05.0 refers to track 5, side 1. These lines will repeat if the user has specified that DTC should retry tracks more than once.
   
-.. image:: figure1.png  
-  
+.. image:: log-files-figure01.png  
 *Figure 1: Example snippet from a log file.*
 
 The GUI log includes two extra features not present in the CLI log:
 
 * The first line of a GUI-derived log file contains the corresponding command DTC ran as if it had run from the CLI
-  
+* A series of timestamps recorded in hexadecimal notation before each chunk of data listing the track and side information in a more human readable format.
+
+.. image:: log-files-figure02.png
+*Figure 2: Example showing hexadecmial timestamps and track and side information.*
+
+------------------------------------------
+Inferences from base and band information:
+------------------------------------------
+
+Looking more closely at the log file snippet below, there are a few inferences one may draw from the information presented.
+
+.. image:: log-files-figure03.png
+*Figure 3: Example snippet from a log file.*
+
+In this case, the user specified that DTC should treat the source floppy disk as one with MFM encoding. According to a discussion on the KryoFlux message board with two of the creators of the device,[2]_ MFM-encoded high density (HD) floppy disks should expect a base of 1 μ with bands at 2, 3, and 4 μs. In the example, DTC detected the base band at 1.003 μs and the additional bands at 1.999, 3.009, and 3.982 μs. This is as expected, and the data in the sector was successfully decoded to MFM.
+
+Worth noting is that both the GUI and CLI allow the user to specify multiple types of sector image specifications at once, as well as the KryoFlux stream format. In the event that the user specifies a second or third type of sector image, the log should reflect the above information for each attempt. Further, because the KryoFlux stream function is encoding and format agnostic, this type of information is only available if the user specifies a sector image type.
+
   
   .. [1] http://www.kryoflux.com/download/kryoflux_manual.pdf
+  .. [2] http://forum.kryoflux.com/viewtopic.php?f=3&t=1044
