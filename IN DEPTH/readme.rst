@@ -11,6 +11,7 @@ Log files in brief:
 -------------------
 
 Somewhat confusingly, the logs output by the CLI and GUI are somewhat different in how each displays data, though the data conveyed is ultimately similar. A log file, regardless of its origin, contains the following information per track (and side, if applicable):
+
  - tfer: the average transfer rate (bytes/second)
  - rpm: revolutions per minute of the disk in the drive
  - base: the base data band used in the track. This is calculated in two ways: from what is expected given the encoding scheme (MFM/FM/GCR) and what is detected on the disk surface by DTC. Data unit recorded in *μ*, though represented as *u* in the log file.
