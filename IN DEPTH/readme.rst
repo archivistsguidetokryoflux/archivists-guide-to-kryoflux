@@ -25,6 +25,7 @@ This data is presented in three line chunks, prefaced by a three-digit code spec
 *Figure 1: Example snippet from a log file.*
 
 The GUI log includes two extra features not present in the CLI log:
+
  - The first line of a GUI-derived log file contains the corresponding command DTC ran as if it had run from the CLI
   
   
