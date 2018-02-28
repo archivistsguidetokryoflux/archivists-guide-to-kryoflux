@@ -26,7 +26,7 @@ This data is presented in three line chunks, prefaced by a three-digit code spec
 
 The GUI log includes two extra features not present in the CLI log:
 
- - The first line of a GUI-derived log file contains the corresponding command DTC ran as if it had run from the CLI
+* The first line of a GUI-derived log file contains the corresponding command DTC ran as if it had run from the CLI
   
   
   .. [1] http://www.kryoflux.com/download/kryoflux_manual.pdf
