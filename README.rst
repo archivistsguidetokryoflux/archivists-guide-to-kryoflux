@@ -1,7 +1,6 @@
-# archivists-guide-to-kryoflux
-==============================
-Introduction and Front Matter
-==============================
+=============
+Introduction
+=============
 
 ------------
 Contributors
