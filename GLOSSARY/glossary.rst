@@ -22,7 +22,7 @@ Known as soft errors or bit rot, decay of data in memory can occur when the smal
 
 *Decay of storage media*
 
-Data degradation can also be used to describe the phenomenon of storage media gradually decaying over the duration of many years. Common factors of storage media decay include sun exposure, dust, temperature, humidity, and other macro-environmental factors. For more information on ideal storage conditions for magnetic media, please see the Image Permanence Institute `Media Storage Quick Reference Guide<https://www.imagepermanenceinstitute.org/webfm_send/301>`_.
+Data degradation can also be used to describe the phenomenon of storage media gradually decaying over the duration of many years. Common factors of storage media decay include sun exposure, dust, temperature, humidity, and other macro-environmental factors. For more information on ideal storage conditions for magnetic media, please see the Image Permanence Institute `Media Storage Quick Reference Guide <https://www.imagepermanenceinstitute.org/webfm_send/301>`_.
 
 **Deviceless Mode:**
 
