@@ -20,7 +20,7 @@ Somewhat confusingly, the logs output by the CLI and GUI are somewhat different 
 
 This data is presented in three line chunks, prefaced by a three-digit code specifying the track and side that the following data pertain to. In the following image, 05.0 refers to track 5, side 1. These lines will repeat if the user has specified that DTC should retry tracks more than once.
   
-.. image:: log-files-figure01.png  
+.. image:: images/log-files-figure01.png  
 *Figure 1: Example snippet from a log file.*
 
 The GUI log includes two extra features not present in the CLI log:
