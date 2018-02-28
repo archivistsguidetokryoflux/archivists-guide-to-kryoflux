@@ -93,6 +93,6 @@ At Princeton, even though Java was installed on the Ubuntu Linux workstation, ar
 **DTC is reporting that it successfully created a sector image. Why can’t I mount or export files from the image file?**
 
 There is no single answer to this question, but here a few reasons why you might be unable to successfully mount or otherwise export logical files from a disk image.
-* - Many sectors were good or okay, but the sectors with important file system data were not due to bit rot and related media degradation.
-* - The file system is intact, but incompatible with the software you are to analyze the disk image. Since many forensic applications are designed to work with mainstream, contemporary systems, those that were obscure or mainstream but older often have compatibility issues.
-* - The disk image type selected was incorrect or some of the configuration options were incorrect. Certain disk image formats are similar enough to each other that selecting the wrong one will still result in a complete disk image. For example, a double-density 5.25” floppy when the options were configured for a single-density disk.
+* Many sectors were good or okay, but the sectors with important file system data were not due to bit rot and related media degradation.
+* The file system is intact, but incompatible with the software you are to analyze the disk image. Since many forensic applications are designed to work with mainstream, contemporary systems, those that were obscure or mainstream but older often have compatibility issues.
+* The disk image type selected was incorrect or some of the configuration options were incorrect. Certain disk image formats are similar enough to each other that selecting the wrong one will still result in a complete disk image. For example, a double-density 5.25” floppy when the options were configured for a single-density disk.
