@@ -29,7 +29,7 @@ If you are still having trouble, try again from the beginning with the following
 
 The following instructions have been verified and written for Windows 10 Enterprise build 1703 x64. They are modified from those found on: `https://forum.kryoflux.com/viewtopic.php?t=1038<https://forum.kryoflux.com/viewtopic.php?t=1038>`_.
 
-1.  Connect the KryoFlux board.Verify the *Bossa device* is under *Unspecified in the Control Panel\All Control Panel Items\Devices and Printers*
+1.  Connect the KryoFlux board.Verify the *Bossa device* is under *Unspecified in the Control Panel\\All Control Panel Items\\Devices and Printers*
 2.  Right click the Bossa device
 3.  Click on *properties*
 4.  Select the *hardware* tab
@@ -44,12 +44,12 @@ The following instructions have been verified and written for Windows 10 Enterpr
 13. Click *Next*
 14. Install the drivers
 15. Reboot (may not be necessary)
-16. Open *Control Panel\All Control Panel Items\Devices and Printers*
+16. Open *Control Panel\\All Control Panel Items\\Devices and Printers*
 17. Verify the device in *Unspecified* is listed as *KryoFlux DiskSystem*
 
 If the drivers do not load, or it says you already have the latest driver:
 
-1.  Open *Control Panel\All Control Panel Items\Devices and Printers*
+1.  Open *Control Panel\\All Control Panel Items\\Devices and Printers*
 2.  Right click the Bossa device
 3.  Click *Properties*
 4.  Select the *Hardware* tab
