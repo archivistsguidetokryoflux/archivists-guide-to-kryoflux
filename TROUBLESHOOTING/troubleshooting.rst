@@ -27,7 +27,7 @@ Disk System listed and can simply select it and proceed to step 6.
 
 If you are still having trouble, try again from the beginning with the following steps:
 
-The following instructions have been verified and written for Windows 10 Enterprise build 1703 x64. They are modified from those found on: `https://forum.kryoflux.com/viewtopic.php?t=1038<https://forum.kryoflux.com/viewtopic.php?t=1038>`_.
+The following instructions have been verified and written for Windows 10 Enterprise build 1703 x64. They are modified from those found on: `https://forum.kryoflux.com/viewtopic.php?t=1038 <https://forum.kryoflux.com/viewtopic.php?t=1038>`_.
 
 1.  Connect the KryoFlux board.Verify the *Bossa device* is under *Unspecified in the Control Panel\\All Control Panel Items\\Devices and Printers*
 2.  Right click the Bossa device
