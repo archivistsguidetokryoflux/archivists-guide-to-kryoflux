@@ -27,7 +27,7 @@ Disk System listed and can simply select it and proceed to step 6.
 
 If you are still having trouble, try again from the beginning with the following steps:
 
-The following instructions have been verified and written for Windows 10 Enterprise build 1703 x64. They are modified from those found on: `https://forum.kryoflux.com/viewtopic.php?t=1038<https://forum.kryoflux.com/viewtopic.php?t=1038>`.
+The following instructions have been verified and written for Windows 10 Enterprise build 1703 x64. They are modified from those found on: `https://forum.kryoflux.com/viewtopic.php?t=1038<https://forum.kryoflux.com/viewtopic.php?t=1038>`_.
 
 1.  Connect the KryoFlux board.Verify the *Bossa device* is under *Unspecified in the Control Panel\All Control Panel Items\Devices and Printers*
 2.  Right click the Bossa device
@@ -74,10 +74,10 @@ Altogether. Other workarounds not listed here may be necessary.  See :ref:`Princ
 
 **Why am I getting bcadmin permission errors when trying to run the KryoFlux using Linux BitCurator?**
 
-    If this is your first time installing the KryoFlux, you will also need to create a udev rule.
+If this is your first time installing the KryoFlux, you will also need to create a udev rule.
 The udev rule will prevent bcadmin permissions errors as well as erasing the need for the user to root. If this file is missing it is highly likely that the KryoFlux will not work properly.
 
-    If this is your first time installing the Kryoflux, you may need to also create a udev (Userspace Device) rule. This is often necessary to configure a Debian Linux (of which Ubuntu and BitCurator are flavors) environment, allowing access to the Kryoflux device for users in the *floppy* group. It is possible that BitCurator users will not need to to create a udev rule, as the default user (bcadmin) should already be part of the *floppy* group, however, some users report needing this udev rule on BitCurator systems as well as other Debian flavors of Linux.
+If this is your first time installing the Kryoflux, you may need to also create a udev (Userspace Device) rule. This is often necessary to configure a Debian Linux (of which Ubuntu and BitCurator are flavors) environment, allowing access to the Kryoflux device for users in the *floppy* group. It is possible that BitCurator users will not need to to create a udev rule, as the default user (bcadmin) should already be part of the *floppy* group, however, some users report needing this udev rule on BitCurator systems as well as other Debian flavors of Linux.
 
 See here for instructions to create a udev rule.
 
@@ -88,11 +88,11 @@ When using the GUI, the drive will not calibrate if you have selected the incorr
 
 **Why is the Settings window blank when I use the KryoFlux GUI?**
 
-    At Princeton, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” The GUI would appear to open correctly, but important functionality would be missing (such as a completely blank Settings window). For more information on how to address this, see :ref:`Princeton's Tale of KryoFlux Woe<>`.
+At Princeton, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” The GUI would appear to open correctly, but important functionality would be missing (such as a completely blank Settings window). For more information on how to address this, see :ref:`Princeton's Tale of KryoFlux Woe<>`.
 
 **DTC is reporting that it successfully created a sector image. Why can’t I mount or export files from the image file?**
 
 There is no single answer to this question, but here a few reasons why you might be unable to successfully mount or otherwise export logical files from a disk image.
--Many sectors were good or okay, but the sectors with important file system data were not due to bit rot and related media degradation.
--The file system is intact, but incompatible with the software you are to analyze the disk image. Since many forensic applications are designed to work with mainstream, contemporary systems, those that were obscure or mainstream but older often have compatibility issues.
--The disk image type selected was incorrect or some of the configuration options were incorrect. Certain disk image formats are similar enough to each other that selecting the wrong one will still result in a complete disk image. For example, a double-density 5.25” floppy when the options were configured for a single-density disk.
+* - Many sectors were good or okay, but the sectors with important file system data were not due to bit rot and related media degradation.
+* - The file system is intact, but incompatible with the software you are to analyze the disk image. Since many forensic applications are designed to work with mainstream, contemporary systems, those that were obscure or mainstream but older often have compatibility issues.
+* - The disk image type selected was incorrect or some of the configuration options were incorrect. Certain disk image formats are similar enough to each other that selecting the wrong one will still result in a complete disk image. For example, a double-density 5.25” floppy when the options were configured for a single-density disk.
