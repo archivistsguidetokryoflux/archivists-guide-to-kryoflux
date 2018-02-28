@@ -28,7 +28,7 @@ The GUI log includes two extra features not present in the CLI log:
 * The first line of a GUI-derived log file contains the corresponding command DTC ran as if it had run from the CLI
 * A series of timestamps recorded in hexadecimal notation before each chunk of data listing the track and side information in a more human readable format.
 
-.. image:: log-files-figure02.png
+.. image:: images/log-files-figure02.png
 *Figure 2: Example showing hexadecmial timestamps and track and side information.*
 
 ------------------------------------------
@@ -37,7 +37,7 @@ Inferences from base and band information:
 
 Looking more closely at the log file snippet below, there are a few inferences one may draw from the information presented.
 
-.. image:: log-files-figure03.png
+.. image:: images/log-files-figure03.png
 *Figure 3: Example snippet from a log file.*
 
 In this case, the user specified that DTC should treat the source floppy disk as one with MFM encoding. According to a discussion on the KryoFlux message board with two of the creators of the device,[2]_ MFM-encoded high density (HD) floppy disks should expect a base of 1 μ with bands at 2, 3, and 4 μs. In the example, DTC detected the base band at 1.003 μs and the additional bands at 1.999, 3.009, and 3.982 μs. This is as expected, and the data in the sector was successfully decoded to MFM.
