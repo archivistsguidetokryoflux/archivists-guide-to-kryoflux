@@ -101,6 +101,32 @@ See also the Troubleshooting section for more information related to this issue.
 
 ////////////////////////////LINK TO TROUBLESHOOTING SECTION//////////////////////////////////
 
+------------
+Setting Up the KryoFlux
+------------
+While it does not require an especially high level of technical skill, setting up the KryoFlux does demand some careful attention to detail.  
+
+	- **Make sure to read this entire section before attempting to connect and power your board!**
+
+	- **The floppy drive is an unstable source of power that can permanently damage the board, so it is imperative to follow the correct order when connecting/disconnecting KryoFlux.**
+
+	- **If you suspect that you have a malfunctioning board or have damaged a board in the process of installing, and you have a backup board, do not use the backup board until you have successfully troubleshooted the original board. If you do not know why the original board is not working, you may inadvertently replicate the problem if you connect a backup board.**
+
+1. Always place the KryoFlux board on a non-conductive surface while it is in use. You may choose to use an anti-static mat or wristband, but typically this won’t be necessary and there’s debate about whether or not these types of anti-static devices will be helpful in a scenario like this one. NOTE: do not place the board on top of the anti-static bag in which the KryoFlux is shipped. The anti-static bags are conductive, and although the resistance is fairly high, it might cause data errors nonetheless.
+
+2. Make sure the floppy disk drive is placed so that the spinning mechanism on its bottom side is not obstructed (i.e. on a raised surface that doesn’t cover the bottom of the drive, such as bridging the drive across the space between two DVD cases).
+
+3. Enable write-blocking functionality by removing the jumper for the write gate (see figure 4).
+
+4. Connect the drive to the board via the data cable. Ensure that the data cable’s first pin (the colored band) is oriented correctly. For more information about this, please see Understanding Drive 1/0.
+
+////////////////////////////LINK TO Understanding Drive 1/0 SECTION//////////////////////////////////
+	
+	
+	
+
+	
+
 
 
 
