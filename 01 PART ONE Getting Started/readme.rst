@@ -17,6 +17,6 @@ Part one provides provides step-by-step instructions designed to get you set up 
 
 **USING THE KRYOFLUX**
 
-* GUI vs. CLI
-* Using and Interpreting the Graphical User Interface (GUI)
-* Using and Interpreting DTC Via the CLI (GUI)
+* GUI vs. CLI -->Link to this
+* Using and Interpreting the Graphical User Interface (GUI) -->Link to this
+* Using and Interpreting DTC Via the CLI (GUI) -->Link to this
