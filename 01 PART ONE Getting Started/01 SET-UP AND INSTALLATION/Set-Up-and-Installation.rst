@@ -12,7 +12,7 @@ What's in the Box?
 
 The KryoFlux setup consists of several pieces of hardware connected by cables (see figure 1). Because the KryoFlux board is so small and light, the setup can be a little precarious once connected. It also takes up more space than it does when boxed, so be sure that you have enough desk space to accommodate the various components. When moving hardware, handle it with caution, and have someone else help move the components as needed. As always when working with sensitive electronic components, take steps to protect against static electricity by using an anti-static mat or anti-static wristband; always place the KryoFlux board on a non-conductive surface while it is in use. 
 
-///////////////////INSERT FIGURE 1 [ON P. 6] HERE /////////////////////////////////
+.. image:: figure1.png
 
 *Figure 1: The various components included in the KryoFlux package. Depending on the package purchased by your institution, your box may also include a second backup KryoFlux board or a 5.25” floppy disk drive.*
 
@@ -50,7 +50,7 @@ USING MAC...
 	- Double-click KryoFlux.mpkg (see figure 2);
 	- Follow prompts to install the software.
 
-///////////////////INSERT FIGURE 2 [ON P. 8] HERE /////////////////////////////////
+.. image:: figure2.png
 
 *Figure 2: If using MacOSX, double-click KryoFlux.mpkg to install DTC.*
 
@@ -59,7 +59,7 @@ USING MAC...
 **NOTE:** If you receive an unidentified developer warning (see figure 3) when trying to install the 
 package, right click on the package and choose "Open" from the menu and then choose "Open" from the pop-up window.
 
-///////////////////INSERT FIGURE 3 [ON P. 8] HERE /////////////////////////////////
+.. image:: figure3.png
 
 *Figure 3: The unidentified developer MacOSX warning.*
 
@@ -121,11 +121,22 @@ While it does not require an especially high level of technical skill, setting u
 4. Connect the drive to the board via the data cable. Ensure that the data cable’s first pin (the colored band) is oriented correctly. For more information about this, please see Understanding Drive 1/0.
 
 ////////////////////////////LINK TO Understanding Drive 1/0 SECTION//////////////////////////////////
-	
-	
-	
+	* For 3.5” drives, pin 1 must face left when the front of the drive is facing away from you. For some drives, this means that pin 1 will fact the outside of the drive when plugged in correctly, but this is not always the case. The rule of facing the drive away from you before plugging it in, and making sure that pin 1 faces left, should still be applicable to all 3.5” drives.  
+
+	* For 5.25” drives, the same rule should apply. When the drive is facing away from you the first pin should be on the left.
+
+	* On the KryoFlux side, the cable’s first pin should be on the right if viewing the board with the cable connector closest to you (as in figure 5).
 
 	
+	
+.. image:: figure4.png
+
+*Figure 4: Enable writeblocking functionality by removing the jumper for the write gate. This photograph shows the write gate once the jumper has been removed and writeblocking functionality enabled.*	
+
+**NOTE:** If you are not familiar with the connectors on the data cable, the smaller ones connect to the board and to 3.5” drives, while the larger ones with gold lining connect to 5.25” drives.
+
+5. Connect the KryoFlux board to the computer using the USB cable (see figure 5).
+
 
 
 
