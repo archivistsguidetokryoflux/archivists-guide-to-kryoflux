@@ -12,7 +12,7 @@ What's in the Box?:
 
 The KryoFlux setup consists of several pieces of hardware connected by cables (see figure 1). Because the KryoFlux board is so small and light, the setup can be a little precarious once connected. It also takes up more space than it does when boxed, so be sure that you have enough desk space to accommodate the various components. When moving hardware, handle it with caution, and have someone else help move the components as needed. As always when working with sensitive electronic components, take steps to protect against static electricity by using an anti-static mat or anti-static wristband; always place the KryoFlux board on a non-conductive surface while it is in use. 
 
-///////////////////INSERT PIC ON P. 6 HERE /////////////////////////////////
+///////////////////INSERT FIGURE 1 [ON P. 6] HERE /////////////////////////////////
 
 *Figure 1: The various components included in the KryoFlux package. Depending on the package purchased by your institution, your box may also include a second backup KryoFlux board or a 5.25” floppy disk drive.*
 
@@ -31,18 +31,67 @@ USING WINDOWS...
 2.	Save the directory to your chosen location. Make a note of this location. For example: C:\Users\Public\Desktop\kryoflux_2.51_windows
 
 
-	
-
-
-
-
 ^^^^^^^^^^^^^^^^^^^^^^
 USING MAC...
 ^^^^^^^^^^^^^^^^^^^^^^
 
+1. Download the JDK Java Runtime Platform files from the Oracle website: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
+
+2. Run the JDK dmg file (it will have a name similar to this: jdk-8ku121-macosx-x64.dmg).
+
+3. Download the KryoFlux software from the KryoFlux website: http://kryoflux.com/?page=download.
+
+4. Save the downloaded KryoFlux file to your chosen location. Make a note of this location (MacOSX will place the download in the following path by default, ~/Downloads/kryoflux_2.62_macosx).
+
+5. Unzip the downloaded file and navigate to the dtc folder.
+
+6. Install DTC 
+
+	- Double-click KryoFlux.mpkg (see figure 2);
+	- Follow prompts to install the software.
+
+///////////////////INSERT FIGURE 2 [ON P. 8] HERE /////////////////////////////////
+
+*Figure 2: If using MacOSX, double-click KryoFlux.mpkg to install DTC.*
+
+**NOTE:** You will need administrator rights to the computer to install the package.
+
+**NOTE:** If you receive an unidentified developer warning (see figure 3) when trying to install the 
+package, right click on the package and choose "Open" from the menu and then choose "Open" from the pop-up window.
+
+///////////////////INSERT FIGURE 3 [ON P. 8] HERE /////////////////////////////////
+
+*Figure 3: The unidentified developer MacOSX warning.*
+
+
 ^^^^^^^^^^^^^^^^^^^^^^
 USING LINUX...
 ^^^^^^^^^^^^^^^^^^^^^^
+
+1. Download the Linux .tar file containing KryoFlux driver and DTC files from the KryoFlux website: http://kryoflux.com/?page=download
+
+2. Save the .tar file and then use Archive Manager to extract the directory to your chosen location. Make a note of this location (for example, ~/Downloads/kryoflux_2.6_linux).
+
+3. Launch a terminal window.
+
+4. In the terminal window, type the following three commands (each followed by the Enter key) to install libusb and the JDK Java Runtime Platform:
+
+	``sudo apt-get install libusb-1.0-0-dev``
+
+	``sudo apt-get install libusb-dev``
+
+	``sudo apt-get install openjdk-7-jre``
+
+If they are already installed, the system will tell you that your version is up to date.
+
+
+
+
+
+
+
+
+
 
 
 
