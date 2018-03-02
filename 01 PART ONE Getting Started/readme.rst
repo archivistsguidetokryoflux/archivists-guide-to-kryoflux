@@ -19,5 +19,4 @@ Part one provides provides step-by-step instructions designed to get you set up 
 
 * GUI vs. CLI
 * Using and Interpreting the Graphical User Interface (GUI)
-* GUI vs. CLI
 * Using and Interpreting DTC Via the CLI (GUI)
