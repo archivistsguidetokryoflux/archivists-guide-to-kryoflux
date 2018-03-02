@@ -125,9 +125,7 @@ While it does not require an especially high level of technical skill, setting u
 
 	* For 5.25” drives, the same rule should apply. When the drive is facing away from you the first pin should be on the left.
 
-	* On the KryoFlux side, the cable’s first pin should be on the right if viewing the board with the cable connector closest to you (as in figure 5).
-
-	
+	* On the KryoFlux side, the cable’s first pin should be on the right if viewing the board with the cable connector closest to you (as in figure 5).	
 	
 .. image:: figure4.png
 
@@ -136,6 +134,35 @@ While it does not require an especially high level of technical skill, setting u
 **NOTE:** If you are not familiar with the connectors on the data cable, the smaller ones connect to the board and to 3.5” drives, while the larger ones with gold lining connect to 5.25” drives.
 
 5. Connect the KryoFlux board to the computer using the USB cable (see figure 5).
+	
+.. image:: figure5.png
+
+*Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.*	
+**NOTE:** If using Windows, proceed to step 6. If using Mac or Linux, skip step 6 and proceed directly to step 7.
+
+6. WINDOWS USERS ONLY
+
+**FIRST TIME WINDOWS USERS** (If using the KryoFlux on a Windows machine for the first time, you will need to complete the *Install the KryoFlux Drivers* instructions below. If, however, drivers are already installed, skip to *Launch the Command Prompt* step below):
+
+* Install the KryoFlux drivers:
+
+	* Launch the *Start* menu; 
+
+	* Right-click on *Computer*;
+
+	* Click *Properties*; 
+
+	* Click *Device Manager*; 
+
+	* Right-click on *Unknown Device* in the Device Manager menu (see figure 6). 
+
+	* Select *Browse my computer for driver software*. Depending on your institution’s policies, you may need admin credentials starting with this step.
+
+	* Click *Browse* and navigate to the folder where the KryoFlux directory was saved in step 2. 
+
+	* Select the KryoFlux directory and click *Next*. 
+
+	* Click *OK* on all of the prompts to install the drivers.
 
 
 
