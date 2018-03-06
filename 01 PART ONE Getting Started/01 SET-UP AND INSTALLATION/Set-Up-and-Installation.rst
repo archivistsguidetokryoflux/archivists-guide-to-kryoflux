@@ -47,8 +47,8 @@ USING MAC...
 
 6. Install DTC 
 
-	- Double-click KryoFlux.mpkg (see figure 2);
-	- Follow prompts to install the software.
+- Double-click KryoFlux.mpkg (see figure 2);
+- Follow prompts to install the software.
 
 .. image:: figure2.png
 
@@ -97,9 +97,8 @@ If this is your first time installing the KryoFlux software, you will also need 
 *JAVA DEPENDENCY*
 The KryoFlux software relies on Java to launch the GUI. In some cases, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” As a workaround, archivists at Princeton have developed a short `bash script <https://github.com/kellybolding/scripts/blob/master/run-kryoflux-gui.sh>`_that invokes Java each time they launch the GUI. This script lives on the workstation’s desktop and users click on it in order to start up the GUI in place of a desktop icon.
 
-See also the Troubleshooting section for more information related to this issue.
+See also the :ref:`troubleshooting section<>` section for more information related to this issue.
 
-////////////////////////////LINK TO TROUBLESHOOTING SECTION//////////////////////////////////
 
 ------------
 Setting Up the KryoFlux
@@ -118,9 +117,8 @@ While it does not require an especially high level of technical skill, setting u
 
 3. Enable write-blocking functionality by removing the jumper for the write gate (see figure 4).
 
-4. Connect the drive to the board via the data cable. Ensure that the data cable’s first pin (the colored band) is oriented correctly. For more information about this, please see Understanding Drive 1/0.
+4. Connect the drive to the board via the data cable. Ensure that the data cable’s first pin (the colored band) is oriented correctly. For more information about this, please see the :ref:`Understanding Drive 1/0<>` section.
 
-////////////////////////////LINK TO Understanding Drive 1/0 SECTION//////////////////////////////////
 	* For 3.5” drives, pin 1 must face left when the front of the drive is facing away from you. For some drives, this means that pin 1 will fact the outside of the drive when plugged in correctly, but this is not always the case. The rule of facing the drive away from you before plugging it in, and making sure that pin 1 faces left, should still be applicable to all 3.5” drives.  
 
 	* For 5.25” drives, the same rule should apply. When the drive is facing away from you the first pin should be on the left.
@@ -164,9 +162,19 @@ While it does not require an especially high level of technical skill, setting u
 
 	* Click *OK* on all of the prompts to install the drivers.
 
+.. image:: figure6.png
 
+*Figure 6: Device Manager. One of the devices in this menu will be labeled “Unknown Device.” This is the KryoFlux. During installation, you may have to search through this list to find the “Unknown Device.” Once the KryoFlux has been recognized, however, it should be listed under Universal Serial Bus controllers. The steps are largely the same in Windows 10, although the presentation is slightly different.* 
 
+**NOTE:** See the :ref:`troubleshooting section<>` if you have trouble with this step, or if your Windows 
+instance seems to have forgotten the drivers in between KryoFlux sessions.
 
+* Launch the command prompt:
 
+	* Go to the *Start* menu and type ``command prompt`` command prompt or ``cmd`` into the search box and hit *Enter*.
+	* Using the command prompt, navigate to the dtc folder (located inside the KryoFlux directory downloaded at step 1) (see figure 7). 
+	* Type  ``dtc -c2`` into the command prompt, and press *Enter*. If DTC gives an error message, this means it is working (it tried to install the driver, but the driver was already there, so DTC returned an error). 
+	
+**NOTE:** the above steps may require admin credentials depending on your institution’s setup.
 
 
