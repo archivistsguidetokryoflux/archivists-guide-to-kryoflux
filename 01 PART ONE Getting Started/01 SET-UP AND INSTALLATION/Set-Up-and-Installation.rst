@@ -177,4 +177,48 @@ instance seems to have forgotten the drivers in between KryoFlux sessions.
 	
 **NOTE:** the above steps may require admin credentials depending on your institution’s setup.
 
+.. image:: figure7.png
+
+*Figure 7*
+
+.. image:: figure8.png
+
+*Figure 8: Navigate to C drive by typing c: and pressing enter.*
+
+* Connect the floppy drive to the power. **This must be done last.**
+
+	* Plug one end of the power adapter into the power supply. The 4 3 2 1 on the power adapter plug is faint and hard to read, but the 4 3 2 1 on the power supply and adapter should align when plugging the power supply into the adapter.
+	
+	*The other end is split and has two adaptor plugs. These plug into the floppy disk drive, *not* the KryoFlux board. The larger power adapter plug fits 5.25” floppy disk drives, while the smaller plug fits 3.5” floppy disk drives. You should *not* see a green light on the drive at this point. If the green light is on, the data cable has been connected to the drive backwards. 
+
+	* Finally, plug the power supply into an outlet.
+
+**NOTE:**  Use care when handling the power adapter! The wires are not anchored well and will 
+come loose if not handled gently. When connecting and disconnecting the adapter, try not to pull on the wires themselves--grip the plastic plug casing instead. With frequent handling, it’s likely that the power adapter wires will come loose, but replacements are inexpensive.
+
+**NOTE:** Because KryoFlux is based in Europe, you may need an adapter to plug the supplied 
+power cable into the Type A / B outlets used in America. If you don’t have the appropriate adapter, the second half of a laptop or hard drive charger may work as a replacement for the second half of the power supply.
+
+* In a terminal window, navigate to the dtc folder located inside the KryoFlux directory downloaded at step 1 (see figure 7).
+
+* Insert a floppy disk into the floppy disk drive.
+
+* Type the following command into the terminal window:
+
+	* **WINDOWS AND MAC USERS:** ``dtc -c2``
+	* **LINUX USERS:** ``./dtc -c2`` 
+
+* Press *Enter.* 
+
+**NOTE:** DTC will find the maximum number of tracks available. A floppy disk typically stores data across 80 tracks, but some drives can access as many as 83. 
+
+
+You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See :ref:`Using and interpreting DTC via the CLI<>` and :ref:`Using and interpreting the graphical user interface (GUI)<>`
+
+
+
+
+
+
+
 
