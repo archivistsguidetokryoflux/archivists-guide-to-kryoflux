@@ -185,7 +185,7 @@ instance seems to have forgotten the drivers in between KryoFlux sessions.
 
 *Figure 8: Navigate to C drive by typing c: and pressing enter.*
 
-* Connect the floppy drive to the power. **This must be done last.**
+7. Connect the floppy drive to the power. **This must be done last.**
 
 	* Plug one end of the power adapter into the power supply. The 4 3 2 1 on the power adapter plug is faint and hard to read, but the 4 3 2 1 on the power supply and adapter should align when plugging the power supply into the adapter.
 	
@@ -199,23 +199,79 @@ come loose if not handled gently. When connecting and disconnecting the adapter,
 **NOTE:** Because KryoFlux is based in Europe, you may need an adapter to plug the supplied 
 power cable into the Type A / B outlets used in America. If you don’t have the appropriate adapter, the second half of a laptop or hard drive charger may work as a replacement for the second half of the power supply.
 
-* In a terminal window, navigate to the dtc folder located inside the KryoFlux directory downloaded at step 1 (see figure 7).
+8.  In a terminal or command prompt window, navigate to the dtc folder located inside the KryoFlux directory downloaded at step 1 (see figure 7).
 
-* Insert a floppy disk into the floppy disk drive.
+9. Insert a floppy disk into the floppy disk drive.
 
-* Type the following command into the terminal window:
+10. Type the following command into the terminal window:
 
 	* **WINDOWS AND MAC USERS:** ``dtc -c2``
 	* **LINUX USERS:** ``./dtc -c2`` 
 
-* Press *Enter.* 
+11. Press *Enter.* 
 
 **NOTE:** DTC will find the maximum number of tracks available. A floppy disk typically stores data across 80 tracks, but some drives can access as many as 83. 
-
 
 You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See :ref:`Using and interpreting DTC via the CLI<>` and :ref:`Using and interpreting the graphical user interface (GUI)<>`
 
 
+.. _Disconnecting the KryoFlux
+
+------------
+Disconnecting the KryoFlux
+------------
+
+1. Disconnect the floppy drive’s power supply.
+2. Eject and disconnect the USB cable.
+3. Disconnect the data cable/floppy drive cable. 
+
+.. _Handling the KryoFlux
+
+------------
+Handling the KryoFlux
+------------
+
+^^^^^^^^^^^^^^^^^^^^^^
+GOOD: Tips for basic handling and care
+^^^^^^^^^^^^^^^^^^^^^^
+Because it does not have a protective outer shell or cover, the KryoFlux board is fragile and vulnerable to damage. A good rule of thumb is to try to **handle it as little as possible** to avoid damage, and to **put the board away after you’re done using it**--especially overnight or over the weekend--to prevent dust gathering. 
+
+Another thing to keep in mind is that the board is particularly vulnerable to changes in the electrical current. The most obvious precautionary measures you can take to protect your KryoFlux are: 
+
+1. **Plug its power supply into a surge protector**
+2. **Always keep the KryoFlux away from conductive materials**, such as metal tabletops or other potential sources of static electricity. 
+3. **Place the KryoFlux on top of something non-conductive while in use**, such as a book, folder, or cardboard box. This material will act as a buffer so that you avoid accidentally putting the KryoFlux in direct contact with a conductive material. You may choose to use an anti-static mat or wristband, but typically this won’t be necessary and there’s debate about whether or not these types of anti-static devices will be helpful in a scenario like this one. NOTE: do not place the board on top of the anti-static bag in which the KryoFlux is shipped. The anti-static bags are conductive, and although the resistance is fairly high, it might cause data errors nonetheless. 
+
+^^^^^^^^^^^^^^^^^^^^^^
+BETTER: Creating an enclosure
+^^^^^^^^^^^^^^^^^^^^^^
+In institutions where only one person will be working with the KryoFlux, it may be sufficient to handle the board carefully as described above. In cases when multiple staff members will be using the board, it will be much more challenging to monitor use to ensure careful handling. 
+
+Since the KryoFlux board is costly, you may want to look at simple enclosures. If your electronic acquisitions terminal is a commodity desktop tower or laptop computer, there is likely not going to be room in the housing to mount the board permanently. Archivists at Yale designed and wrote online about an enclosure they printed using a 3-D printer, and uploaded the design to `Thingiverse <https://www.thingiverse.com/thing:64058>`_Thingiverse. It works relatively well, though there are a few caveats:
+
+1. Depending on the 3D printer model available to you, a 3D print may have slight errors. One such enclosure printed with bits of additional polymer needed to be sanded down in order for the board to fit. At Emory, additional polymer supports, designed to help the enclosure maintain its shape during printing, later proved impossible to remove. 
+2. There are now variations on the original enclosure design. The original is a two-piece object and includes a base and a lid. A second version features a slide that may introduce additional complexity. Since 3D printing is iterative, you may want to experiment with designs until you find one that is right.
+3. Though the enclosure is protective, it is still fairly small and both objects together do not weigh much. We make sure to store ours at the end of a session. We leave the ribbon cable attached to the board, and store the board in its enclosure in a slightly larger box along with the ribbon.
+
+^^^^^^^^^^^^^^^^^^^^^^
+BEST: Installing KryoFlux in a computer tower
+^^^^^^^^^^^^^^^^^^^^^^
+At Yale, the KryoFlux is installed internally in this dedicated disk imaging machine. The KryoFlux board is mounted to a disk shelf using zip ties to keep it from shifting inside the tower. A bit of foam is used between the kryoflux and the shelf as an insulator as well as preventing the board from scraping against the shelf. The first photo shows the USB cable from the front of the machine, the second photo shows the data cable attached through the back of the machine.
+
+One note for future archivists attempting to internally install a KryoFlux: Be sure that the data cable is oriented correctly.  In the photo below you can see that the data cable is twisted in order to correctly connect to both the KryoFlux board and the floppy disk drive. The correct orientation is dependent on the specific drive you are working with. See the :ref:`Setting up the KryoFlux<>` instructions for more information.
+
+The USB cable is connected to an internal USB port on the motherboard.  Some motherboards have USB ports installed; however, if your motherboard does not, you can purchase a USB header online for under ten dollars.  This USB header connects to the motherboard to provide two internal USB ports.  Shown here, the KryoFlux USB cable is connected to our USB header.
+The greatest advantage to having the KryoFlux board mounted in this way, is that it is difficult to knock a cord loose, but if someone needs to remove the board or check the connections, the board can be disconnected and removed fairly easily as seen here.
+
+.. image:: tower_install1.jpg
+
+.. image:: tower_install2.jpg
+
+.. image:: tower_install3.jpg
+
+.. image:: tower_install4.jpg
+
+.. image:: tower_install5.gif
 
 
 
