@@ -4,7 +4,7 @@
 KRYOFLUX STREAM FILES
 =====================
 
-The KryoFlux stream file format is a proprietary, though publicly documented, file format for each of the sectors found on a floppy disk. Compared to a disk image file, KryoFlux stream files comprising an entire disk are much larger--a set of stream files for a 1.44 megabyte (MB) floppy disk may be around 20-25 MB. While such a footprint is much smaller many other file types created in contemporary digital environments, it is considerably larger than the maximum capacity of a floppy disk. This, along with the proprietary nature of the stream file format, make it difficult to recommend a set of stream files as a preservation format.
+The KryoFlux stream file format is a proprietary,[1_] though publicly documented, file format for each of the sectors found on a floppy disk. Compared to a disk image file, KryoFlux stream files comprising an entire disk are much larger--a set of stream files for a 1.44 megabyte (MB) floppy disk may be around 20-25 MB. While such a footprint is much smaller many other file types created in contemporary digital environments, it is considerably larger than the maximum capacity of a floppy disk. This, along with the proprietary nature of the stream file format, make it difficult to recommend a set of stream files as a preservation format.
 
 ---------------------------
 Why work with stream files?
@@ -19,3 +19,7 @@ Long term retention of stream files:
 ------------------------------------
 
 As mentioned above, KryoFlux stream files are created and stored in a proprietary format, and they are much larger in size than a disk image file. Whether or not to save stream files long term is a policy decision to be made institutionally. Duke University saves stream files in place of disk image files for disks in limited cases, but they do not save stream files long term as a general rule. Situations in which they have saved stream files include disks for which the GUI can reveal data in the sectors but staff have not been able to determine whether a particular image file was created successfully, disks from high profile donors that they have been unable to salvage, and disks from collections whose creators created or helped create new file formats. Finally, while Kryoflux can create disk images in a large number of sector image formats, these are only a portion of the floppy disk formats that were in use when floppy disks were a popular form of removable storage. Though perhaps uncommon, it is possible such formats are part of current collections and may currently be inaccessible. Storing a dump of such a disk in stream format will allow future archivists to revisit it.
+
+.. [1]  http://www.kryoflux.com/download/kryoflux_stream_protocol_rev1.1.pdf
+.. [2] As discussed by Walker Sampson in the BitCurator Consortium’s webinar on KryoFlux, https://bitcuratorconsortium.org/videos/advanced-topics-webinar-kryoflux
+.. [3] http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool
