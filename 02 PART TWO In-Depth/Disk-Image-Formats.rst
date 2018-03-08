@@ -56,4 +56,4 @@ Additional disk image types available when using KryoFlux include the following:
 * Apple DOS 3.x sector image, DSK DOS 3.3 Interleave - used for 5.25” floppy disks written to by Apple II family of computers in the early 1980s.
 * CBM sector image, various subtypes - used for floppy disks used by the Commodore Business Machines family of computers in the 1980s. As indicated by the KryoFlux user guide, there are a number of subtypes of CBM disk; it appears that different manufacturers created variations of the format.
 
-[1] http://siber-sonic.com/mac/newmillfloppy.html accessed 12/5/2016
+.. [1] http://siber-sonic.com/mac/newmillfloppy.html accessed 12/5/2016
