@@ -90,8 +90,8 @@ To do this:
 
 2. Make sure you’re using the most up-to-date image profile for each format. To update the image profiles:
  
- * Select each profile and click the minus sign to delete it. 
- * Once you have deleted all the profiles, click Update to replace them with the most recent versions. 
+* Select each profile and click the minus sign to delete it. 
+* Once you have deleted all the profiles, click Update to replace them with the most recent versions. 
 
 .. image:: images/40-track-figure04.png
 *Figure 4: The Image Profiles window in the DTC GUI.*
