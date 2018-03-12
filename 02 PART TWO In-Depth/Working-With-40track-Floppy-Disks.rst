@@ -86,17 +86,16 @@ To image 40-track disks, you will need to change some settings. You can create a
 
 To do this:
 
- 1. Go to *File > Settings > Image Profiles* in the GUI. 
+1. Go to *File > Settings > Image Profiles* in the GUI. 
 
 .. image:: images/40-track-figure04.png
 *Figure 4: The Image Profiles window in the DTC GUI.*
 
- 2. Make sure you’re using the most up-to-date image profile for each format. To update the image profiles:
+2. Make sure you’re using the most up-to-date image profile for each format. To update the image profiles:
 * Select each profile and click the minus sign to delete it. 
 * Once you have deleted all the profiles, click Update to replace them with the most recent versions. 
-
 Once the profiles are up to date, it’s time to create a 40-track version of the profile you need. If this version is lost, deleted, or changed, you can create another one using these instructions. 
 
- 3. Select the format of the disk you’re imaging (MFM sector, etc.) and click Copy. This will copy the image profile you want, so that you can change settings within the copy to accommodate a 40-track disk in that format, instead of having to create a profile from scratch.
+3. Select the format of the disk you’re imaging (MFM sector, etc.) and click Copy. This will copy the image profile you want, so that you can change settings within the copy to accommodate a 40-track disk in that format, instead of having to create a profile from scratch.
 
- 4. In the *Settings* for the copy (on the right-hand side of the window), change the *Profile Name* to “[format] [40 tracks]” (e.g. “MFM sector [40 tracks]”), and unclick the Default box next to Track Distance. Change the *Track Distance* to *40 Tracks* in the pulldown menu. Click *OK*. 
+4. In the *Settings* for the copy (on the right-hand side of the window), change the *Profile Name* to “[format] [40 tracks]” (e.g. “MFM sector [40 tracks]”), and unclick the Default box next to Track Distance. Change the *Track Distance* to *40 Tracks* in the pulldown menu. Click *OK*. 
