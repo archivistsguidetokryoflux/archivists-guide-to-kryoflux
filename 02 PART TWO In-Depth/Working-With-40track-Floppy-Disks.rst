@@ -88,7 +88,7 @@ To do this:
 
 1. Go to *File > Settings > Image Profiles* in the GUI. 
 
-.. image: images/40-track-figure04.png
+.. image:: images/40-track-figure04.png
 *Figure 4: The Image Profiles window in the DTC GUI.*
 
 2. Make sure you’re using the most up-to-date image profile for each format. To update the image profiles:
