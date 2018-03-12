@@ -54,11 +54,11 @@ An additional sign that you have a 40-track disk instead of an 80-track disk is 
 
 The following breaks down the sample line of output described above, and explains what each part means:
 
- * **02.0  :**: Track number
- * **MFM**: Check for MFM Formatting
- * **OK***: Disk is MFM-formatted
- * **trk: 002**: Expecting to find track 2
- * **[001],**: Finds track 1 instead (difference signifies 40-track disk)
- * **sec: 9,**: 9 modified sectors
- * ***HT**: Header gap (track has been modified), Track warning
- * **+5**:
+* **02.0  :**: Track number
+* **MFM**: Check for MFM Formatting
+* **OK***: Disk is MFM-formatted
+* **trk: 002**: Expecting to find track 2
+* **[001],**: Finds track 1 instead (difference signifies 40-track disk)
+* **sec: 9,**: 9 modified sectors
+* ***HT**: Header gap (track has been modified), Track warning
+* **+5**:
