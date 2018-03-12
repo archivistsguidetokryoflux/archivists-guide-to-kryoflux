@@ -89,6 +89,7 @@ To do this:
 1. Go to *File > Settings > Image Profiles* in the GUI. 
 
 2. Make sure you’re using the most up-to-date image profile for each format. To update the image profiles:
+ 
  * Select each profile and click the minus sign to delete it. 
  * Once you have deleted all the profiles, click Update to replace them with the most recent versions. 
 
