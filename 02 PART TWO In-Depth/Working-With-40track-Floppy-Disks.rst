@@ -38,7 +38,7 @@ This will create an MFM image of the disk from stream files. (We chose to create
 Then look at the output:
 
 .. image:: images/40-track-figure02.PNG
-*Figure 1: STDOUT to console.*
+*Figure 2: STDOUT to console.*
 
 After the first few lines, each line should look something like this:
 ::
@@ -76,4 +76,27 @@ From the command line, navigate to DTC. Type in:
 This tells the KryoFlux to create an MFM image of a 40-track disk from stream files. -k2 sets the track distance to 2, so DTC will image every other track (40 tracks instead of 80), and skip the parts of the disk that do not contain data. The screenshot below shows what this will look like in the command line.
 
 .. image:: images/40-track-figure03.png
-*Figure 1: STDOUT to console imaging a 40-track floppy**
+*Figure 3: STDOUT to console imaging a 40-track floppy*
+
+^^^
+GUI
+^^^
+
+To image 40-track disks, you will need to change some settings. You can create an imaging profile in the *Settings* tab to save these settings, and avoid having to change them manually every time you encounter a 40-track disk. 
+
+To do this:
+
+1. Go to *File > Settings > Image Profiles* in the GUI. 
+
+.. image: images/40-track-figure04.png
+*Figure 4: The Image Profiles window in the DTC GUI.*
+
+2. Make sure you’re using the most up-to-date image profile for each format. To update the image profiles:
+* Select each profile and click the minus sign to delete it. 
+* Once you have deleted all the profiles, click Update to replace them with the most recent versions. 
+
+Once the profiles are up to date, it’s time to create a 40-track version of the profile you need. If this version is lost, deleted, or changed, you can create another one using these instructions. 
+
+3. Select the format of the disk you’re imaging (MFM sector, etc.) and click Copy. This will copy the image profile you want, so that you can change settings within the copy to accommodate a 40-track disk in that format, instead of having to create a profile from scratch.
+
+4. In the *Settings* for the copy (on the right-hand side of the window), change the *Profile Name* to “[format] [40 tracks]” (e.g. “MFM sector [40 tracks]”), and unclick the Default box next to Track Distance. Change the *Track Distance* to *40 Tracks* in the pulldown menu. Click *OK*. 
