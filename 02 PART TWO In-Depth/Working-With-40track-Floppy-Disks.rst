@@ -37,7 +37,7 @@ This will create an MFM image of the disk from stream files. (We chose to create
 
 Then look at the output:
 
-.. image:: images/40-track-figure02.png
+.. image:: images/40-track-figure02.PNG
 *Figure 1: STDOUT to console.*
 
 After the first few lines, each line should look something like this:
