@@ -88,12 +88,12 @@ To do this:
 
 1. Go to *File > Settings > Image Profiles* in the GUI. 
 
-.. image:: images/40-track-figure04.png
-*Figure 4: The Image Profiles window in the DTC GUI.*
-
 2. Make sure you’re using the most up-to-date image profile for each format. To update the image profiles:
 * Select each profile and click the minus sign to delete it. 
 * Once you have deleted all the profiles, click Update to replace them with the most recent versions. 
+
+.. image:: images/40-track-figure04.png
+*Figure 4: The Image Profiles window in the DTC GUI.*
 
 Once the profiles are up to date, it’s time to create a 40-track version of the profile you need. If this version is lost, deleted, or changed, you can create another one using these instructions. 
 
