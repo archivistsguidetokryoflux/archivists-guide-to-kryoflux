@@ -101,3 +101,11 @@ Once the profiles are up to date, it’s time to create a 40-track version of th
 3. Select the format of the disk you’re imaging (MFM sector, etc.) and click Copy. This will copy the image profile you want, so that you can change settings within the copy to accommodate a 40-track disk in that format, instead of having to create a profile from scratch.
 
 4. In the *Settings* for the copy (on the right-hand side of the window), change the *Profile Name* to “[format] [40 tracks]” (e.g. “MFM sector [40 tracks]”), and unclick the Default box next to Track Distance. Change the *Track Distance* to *40 Tracks* in the pulldown menu. Click *OK*. 
+
+.. image:: images/40-track-figure05.png
+*Figure 5: The Image Profiles window in the DTC GUI showing a 40-track profile.*
+
+5. Every time you image a 40-track disk with the GUI, select the 40-track copy of the image profile you want to use in addition to preservation stream files. Then, create your disk image in the GUI as usual. The displayed result will look something like the screenshot below, with every other track unintelligible. This means the 40-track disk was imaged correctly.
+
+.. image:: images/40-track-figure06.PNG
+*Figure 6: The DTC GUI showing a successfully created 40-track disk image*
