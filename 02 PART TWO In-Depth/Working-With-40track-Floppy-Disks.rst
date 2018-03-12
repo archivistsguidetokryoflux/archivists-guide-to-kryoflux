@@ -61,4 +61,15 @@ The following breaks down the sample line of output described above, and explain
 * **[001],**: Finds track 1 instead (difference signifies 40-track disk)
 * **sec: 9,**: 9 modified sectors
 * ***HT**: Header gap (track has been modified), Track warning
-* **+5**:
+
+----------------------
+Imaging 40-track disks
+----------------------
+
+^^^^^^^^^^^^
+Command line
+^^^^^^^^^^^^
+
+From the command line, navigate to DTC. Type in: 
+::
+  dtc -m1 -fpath\to\STREAM\files/* -i -fpath\to\new\image\file/new_image_filename.img -k2 -i4 -l8 
