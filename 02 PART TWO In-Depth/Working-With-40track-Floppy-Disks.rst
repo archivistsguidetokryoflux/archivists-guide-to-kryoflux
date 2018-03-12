@@ -52,4 +52,12 @@ In the output, *H* stands for header gap. If there’s a header gap, that means 
 
 An additional sign that you have a 40-track disk instead of an 80-track disk is that, after the first few tracks, every other track returns three lines: one that looks like the line shown above, but with MFM <error> instead of MFM OK*, one that says “Bad sector found,” and one that says “Read operation failed.” This is because there’s no track for the software to read.
 
-This table breaks down the sample line of output described above, and explains what each part means:
+The following breaks down the sample line of output described above, and explains what each part means:
+**02.0  :**: Track number
+**MFM**: Check for MFM Formatting
+**OK***: Disk is MFM-formatted
+**trk: 002**: Expecting to find track 2
+**[001],**: Finds track 1 instead (difference signifies 40-track disk)
+**sec: 9,**: 9 modified sectors
+***HT**: Header gap (track has been modified), Track warning
+**+5**:
