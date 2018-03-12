@@ -94,6 +94,7 @@ To do this:
 2. Make sure you’re using the most up-to-date image profile for each format. To update the image profiles:
 * Select each profile and click the minus sign to delete it. 
 * Once you have deleted all the profiles, click Update to replace them with the most recent versions. 
+
 Once the profiles are up to date, it’s time to create a 40-track version of the profile you need. If this version is lost, deleted, or changed, you can create another one using these instructions. 
 
 3. Select the format of the disk you’re imaging (MFM sector, etc.) and click Copy. This will copy the image profile you want, so that you can change settings within the copy to accommodate a 40-track disk in that format, instead of having to create a profile from scratch.
