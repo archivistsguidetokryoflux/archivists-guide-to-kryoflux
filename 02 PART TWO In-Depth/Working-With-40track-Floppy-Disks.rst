@@ -73,3 +73,7 @@ Command line
 From the command line, navigate to DTC. Type in: 
 ::
   dtc -m1 -fpath\to\STREAM\files/* -i -fpath\to\new\image\file/new_image_filename.img -k2 -i4 -l8 
+This tells the KryoFlux to create an MFM image of a 40-track disk from stream files. -k2 sets the track distance to 2, so DTC will image every other track (40 tracks instead of 80), and skip the parts of the disk that do not contain data. The screenshot below shows what this will look like in the command line.
+
+.. image:: images/40-track-figure03.png
+*Figure 1: STDOUT to console imaging a 40-track floppy**
