@@ -48,3 +48,15 @@ It’s unclear why switching from Drive 1 to Drive 0 solves this problem. We tho
 .. image:: images/lessons-learned-figure02.jpg
     :width: 45%
     :class: right
+
+**Why isn’t the KryoFlux showing up when I plug it in?**
+
+*It’s showing up as a Bossa Port:*
+If the KryoFlux is coming up as a “Bossa” device, go to Device Manager -> Ports (COM & LPT). Right-click on the Bossa device listed and Uninstall, making sure that the “delete driver software” box is checked. Unplug the KryoFlux. Disconnect from the internet. Plug in the KryoFlux again and it should come up as “Unknown device”. Install driver software from local files. Once it comes up as KryoFlux again you can turn the internet back on. Note that if you try to “update driver software,”  Windows will tell you you already have the best driver for the device installed and won’t let you change to the KryoFlux driver.
+
+*It’s not showing up at all:*
+If Windows is not recognizing anything when you plug in the KryoFlux, check whether it will recognize other USB devices. If the computer has stopped recognizing any USB devices, try Method 3 here: https://support.microsoft.com/en-us/kb/817900. This issue happened to us frequently when we were using the Kyroflux with a Dell laptop and regularly disconnecting and reconnecting it.
+
+*Why is the Settings window blank when I use the KryoFlux GUI?*
+ 
+At Princeton, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” The GUI would appear to open correctly, but important functionality would be missing (such as a completely blank Settings window). We found a tip for bypassing this problem several paragraphs into the “README.linux file” that comes with the KryoFlux software download for Linux; these instructions indicate that the command “java -jar kryoflux_ui.jar” makes Java available when running the GUI. When we opened the GUI by running this command in the terminal, there was no more blank Settings window and the software was fully operational! To avoid having to run this command in the terminal every single time we use the GUI, we dropped the command into a very short bash script. As a workaround, archivists now use the script each time they launch the GUI. This script lives on the workstation’s desktop and users click on it in order to start up the GUI in place of a desktop icon. The script [link] we use is available on GitHub -- feel free to grab it; just be sure to edit the file path to match the installation location of your KryoFlux software package.
