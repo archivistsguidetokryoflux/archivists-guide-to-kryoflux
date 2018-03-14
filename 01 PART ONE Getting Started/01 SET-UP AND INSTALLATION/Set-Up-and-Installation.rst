@@ -133,7 +133,7 @@ While it does not require an especially high level of technical skill, setting u
 
 5. Connect the KryoFlux board to the computer using the USB cable (see figure 5).
 	
-.. image:: figure5.png
+.. image:: figure5.JPG
 
 *Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.*	
 **NOTE:** If using Windows, proceed to step 6. If using Mac or Linux, skip step 6 and proceed directly to step 7.
