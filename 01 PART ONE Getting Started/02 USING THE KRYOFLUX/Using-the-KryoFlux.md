@@ -123,6 +123,15 @@ OK.*
 of your imaging workflow, since these stream files can be used later to create 
 formatted disk images [using deviceless mode](#using-deviceless-mode).
 
+|  **Physical Format** | **System Format** |     **KryoFlux Image Format**    |
+|:--------------------:|:-----------------:|:--------------------------------:|
+|  3.5" double density |     Macintosh     | Apple DOS 400K/800K sector image |
+|  3.5" double density |         PC        |         MFM sector image         |
+|   3.5" high density  |        Any        |         MFM sector image         |
+| 5.25" double density |       Kaypro      |    MFM sector image (40 track)   |
+| 5.25" double density |         PC        |    MFM sector image (40 track)   |
+|  5.25" high density  |         PC        |         MFM sector image         |
+
 +----------------------+-------------------+-----------------------------------+
 | **Physical Format**  | **System Format** | **KryoFlux Image Format**         |
 +======================+===================+===================================+
