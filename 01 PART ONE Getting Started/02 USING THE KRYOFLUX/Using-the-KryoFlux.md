@@ -1,7 +1,5 @@
-.. _Using-the-KryoFlux:
 
-===================
-Using the KryoFlux
+#Using the KryoFlux
 ===================
 
 .. _GUI-vs-CLI:
