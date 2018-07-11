@@ -93,6 +93,8 @@ Java and other dependencies can be found in the [Downloading the Software sectio
 
 ![Figure 9: Select the correct drive from the Drive menu, then select Calibrate.](figure9.png "Figure 9: Select the correct drive from the Drive menu, then select Calibrate.")
 
+*Figure 9: Select the correct drive from the Drive menu, then select Calibrate.*
+
 3.	Configure the KryoFlux GUI to select the output directory for your newly-created 
 	disk images and log files. To do so, select *File → Settings* and click on the 
 	*Output* tab. Browse to the appropriate path to storage. Ensure that the *Logs* 
