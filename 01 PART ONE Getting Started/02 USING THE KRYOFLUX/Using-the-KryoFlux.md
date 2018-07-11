@@ -28,11 +28,9 @@ unfamiliar with the command line. Documentation about the GUI is more widely
 available and more accessible than its CLI counterpart, which tends to assume some 
 existing knowledge of the command line. 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-**Efficiency and flexibility**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### Efficiency and flexibility
 
-THE WINNER: The CLI
+**THE WINNER:** The CLI
 In terms of efficiency and flexibility, the CLI may just pip the GUI to the 
 post--especially if you are imaging a large number of disks. Whereas changing a 
 setting using the GUI might involve several clicks, changing a setting using the CLI 
@@ -50,11 +48,9 @@ Finally, the number of options available using the CLI may provide more advanced
 users with added flexibility. The CLI, for example, allows greater control over what 
 information is reported as part of the KryoFlux’s log files.
 
-^^^^^^^^^^^^^^
-**Reporting**
-^^^^^^^^^^^^^^
+### Reporting
 
-THE WINNER: The GUI
+**THE WINNER:** The GUI
 A particularly nice feature of the GUI are the visualizations that it provides as 
 data is being imaged. Color-coded blocks provide immediate feedback on whether 
 imaging has been successful. The use of red, orange, green, and grey blocks to 
@@ -67,16 +63,14 @@ interpret flux data as represented in a scatter plot graph, these can help diagn
 media or hardware problems—or so I’ve been told. If you’re not the sort of person 
 who knows how to interpret flux data as represented in a scatter plot graph, these 
 can at least draw your attention to where problems might be lurking—even if you are 
-not able to fully diagnose them (see Gough Lui’s `Project KryoFlux 
-<http://goughlui.com/2013/04/21/project-kryoflux-part-3-recovery-in-practise/>`_ 
-series of Blog posts for more information).
+not able to fully diagnose them (see Gough Lui’s [Project KryoFlux](http://goughlui.com/2013/04/21/project-kryoflux-part-3-recovery-in-practise/) series of Blog posts for more information).
 
 Command line output provides similar levels of information, but its text-heavy 
 delivery may not be quite as digestible as the GUI’s visualizations. That said, 
 command-line options can be used to control the level of detail included in the 
 DTC’s output, which may help users weed out information deemed overly technical and, 
-ultimately, unnecessary (for an example of this, see :doc:`Working with 40-track 
-floppy disks</>`.
+ultimately, unnecessary (for an example of this, see [Working with 40-track 
+floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.rst).
 
 .. _Using-and-interpreting-the-GUI:
 
