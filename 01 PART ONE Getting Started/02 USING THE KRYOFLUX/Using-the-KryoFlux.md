@@ -1,9 +1,8 @@
 
-Using the KryoFlux
-===================
+# Using the KryoFlux
 
-GUI vs. CLI:
-------------
+## GUI vs. CLI:
+
 
 The Kryoflux’s Disk Tool Console (DTC) is the command line application that sits 
 underneath the Kryoflux’s graphical user interface (GUI). 
@@ -18,7 +17,7 @@ approach over the other. Your decision as to which to use will likely depend in 
 on your own experience and personal preference. That said, the following summary 
 provides an overview of some of the differences between the two.
 
-###Ease of use for beginners
+### Ease of use for beginners
 
 THE WINNER: The GUI
 As might be expected, the GUI provides a more intuitive interface and a lower 
