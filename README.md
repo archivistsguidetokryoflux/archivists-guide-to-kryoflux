@@ -39,8 +39,8 @@ The user guide is divided into two parts:
 	before diving in, or if you’re weighing the benefits of purchasing a KryoFlux 
 	for your institution.
 	
-	[p1]: /archivistsguidetokryoflux/archivists-guide-to-kryoflux/01 PART ONE Getting Started/readme.rst
-	[p2]: /archivistsguidetokryoflux/archivists-guide-to-kryoflux/01 PART TWO In-Depth/readme.rst
+	[p1]: /archivists-guide-to-kryoflux/01 PART ONE Getting Started/readme.rst
+	[p2]: /archivists-guide-to-kryoflux/01 PART TWO In-Depth/readme.rst
 	
 This is an unofficial guide and has not been written in affiliation with the 
 Software Preservation Society (SPS). The official KryoFlux manual is available at 
