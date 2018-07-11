@@ -135,7 +135,7 @@ formatted disk images [using deviceless mode](#using-deviceless-mode).
 *Figure 11: Some of the most commonly used disk encoding formats supported by the 
 KryoFlux.  Details on how to handle 40 track images are covered in [part two](/02%20PART%20TWO%20In-Depth/readme.rst)*
 
-![Figure 12: Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.rst) for the disk image using the dropdown list below the filename field.](figure12.png "Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.rst) for the disk image using the dropdown list below the filename field.")
+![Figure 12: Select the image format(s) for the disk image using the dropdown list below the filename field.](figure12.png "Select the image format(s) for the disk image using the dropdown list below the filename field.")
 
 *Figure 12: Select the :doc:`image format(s)</>` for the disk image using the dropdown list below the filename field.*
 
