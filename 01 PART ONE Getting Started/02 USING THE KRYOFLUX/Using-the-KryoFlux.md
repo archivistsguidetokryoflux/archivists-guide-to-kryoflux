@@ -98,28 +98,30 @@ Java and other dependencies can be found in the [Downloading the Software sectio
 3.	Configure the KryoFlux GUI to select the output directory for your newly-created 
 	disk images and log files. To do so, select *File → Settings* and click on the 
 	*Output* tab. Browse to the appropriate path to storage. Ensure that the *Logs* 
-	button is checked, and then click *OK* (see [figure 10](figure10.png)). 
+	button is checked, and then click *OK* (see figure 10). 
 	
 ![Figure 10: Enter the appropriate path to storage, check the Logs option and click 
 OK.](figure10.png "Figure 10: Enter the appropriate path to storage, check the Logs option and click OK.")
+
+*Figure 10: Enter the appropriate path to storage, check the Logs option and click 
+OK.*
 
 4.	For each disk, enter a unique identifier. Click on *Enter name…* and type in a 
 	unique ID associated with the disk.  The text entered here will become the 
 	filename for any disk images and log files created.  Do not include the 
 	extension of the file name.
 	
-5.	Select the :doc:`image format(s)<>` for the disk image using the dropdown list 
+5.	Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.rst) for the disk image using the dropdown list 
 	below the filename field (see figure 12). Use the table below (figure 11) to  
 	select the necessary image formats. In order to choose multiple outputs, hold 
 	down the *Control (Ctrl)* key while making your selections.  In most cases, 
 	selecting an image format to obtain a sector image requires that you know 
 	something about the media in hand.
 	
-**NOTE:** You may wish to capture :doc:`preservation stream files<>` (listed as 
+**NOTE:** You may wish to capture [preservation stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.rst) (listed as 
 *KryoFlux stream files, preservation*) in addition to a formatted disk image as part 
 of your imaging workflow, since these stream files can be used later to create 
-<<<<<<< Local Changes
-formatted disk images `using deviceless mode`_.
+formatted disk images [using deviceless mode](#using-deviceless-mode).
 
 +----------------------+-------------------+-----------------------------------+
 | **Physical Format**  | **System Format** | **KryoFlux Image Format**         |
@@ -197,9 +199,7 @@ blocks of color*.
 	imaging 3.5” disks to 5.25” disks) and have not calibrated the other drive, 
 	continue from step 3.
 
-^^^^^^^^^^^^^^^^^^^^^^
-USING DEVICELESS MODE
-^^^^^^^^^^^^^^^^^^^^^^
+### USING DEVICELESS MODE
 
 :doc:`Stream files </>` created in KryoFlux can be used to create :doc:`formatted 
 images </>` with the KryoFlux software.  
