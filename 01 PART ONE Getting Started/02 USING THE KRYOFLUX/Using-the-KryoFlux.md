@@ -131,21 +131,7 @@ formatted disk images [using deviceless mode](#using-deviceless-mode).
 | 5.25" double density | Kaypro            | MFM sector image (40 track)      |
 | 5.25" double density | PC                | MFM sector image (40 track)      |
 | 5.25" high density   | PC                | MFM sector image                 |
-+----------------------+-------------------+-----------------------------------+
-| **Physical Format**  | **System Format** | **KryoFlux Image Format**         |
-+======================+===================+===================================+
-| 3.5” double density  | Macintosh         | Apple DOS 400K/800K sector image  |
-+----------------------+-------------------+-----------------------------------+
-| 3.5” double density  | PC                | MFM sector image                  |
-+----------------------+-------------------+-----------------------------------+
-| 3.5” high density    | Any               | MFM sector image                  |
-+----------------------+-------------------+-----------------------------------+
-| 5.25” double density | Kaypro            | MFM sector image (40 track)_      |
-+----------------------+-------------------+-----------------------------------+
-| 5.25” double density | PC                | MFM sector image (40 track)       |
-+----------------------+-------------------+-----------------------------------+
-| 5.25” high density   | PC                | MFM sector image                  |
-+----------------------+-------------------+-----------------------------------+
+
 
 *Figure 11: Some of the most commonly used disk encoding formats supported by the 
 KryoFlux.  Details on how to handle 40 track images are covered in :doc:`part two </02 PART TWO In-depth/readme>`.*
