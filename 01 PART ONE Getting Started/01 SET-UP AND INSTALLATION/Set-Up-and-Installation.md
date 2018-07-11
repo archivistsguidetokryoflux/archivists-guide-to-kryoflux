@@ -1,8 +1,7 @@
 .. _Set-Up-and-Installation:
 
-===================
-Set-Up and Installation
-===================
+
+# Set-Up and Installation
 
 .. _What's in the Box?
 
@@ -19,9 +18,8 @@ The KryoFlux setup consists of several pieces of hardware connected by cables (s
 
 .. _Downloading the Software:
 
-------------
-Downloading the Software
-------------
+## Downloading the Software
+
 
 ^^^^^^^^^^^^^^^^^^^^^^
 USING WINDOWS...

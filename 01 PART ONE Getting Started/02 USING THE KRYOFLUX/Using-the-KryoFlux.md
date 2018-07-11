@@ -70,26 +70,18 @@ delivery may not be quite as digestible as the GUI’s visualizations. That said
 command-line options can be used to control the level of detail included in the 
 DTC’s output, which may help users weed out information deemed overly technical and, 
 ultimately, unnecessary (for an example of this, see [Working with 40-track 
-floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.rst).
+floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.rst)).
 
-.. _Using-and-interpreting-the-GUI:
+## Using and interpreting the graphical user interface (GUI):
 
-----------------------------------------------------------
-Using and interpreting the graphical user interface (GUI):
-----------------------------------------------------------
-
-.. _Capturing-disk-images:
-
-^^^^^^^^^^^^^^^^^^^^^^
-CAPTURING DISK IMAGES
-^^^^^^^^^^^^^^^^^^^^^^
+### CAPTURING DISK IMAGES
 
 1.	Launch the KryoFlux GUI, either by clicking the desktop icon, or by opening the 
 	DTC folder where the GUI installer was located and double-clicking on the file 
 	called kryoflux-ui.jar.
 
 **NOTE:** Java is required in order to launch the GUI. Instructions for installing 
-Java and other dependencies can be found in the :doc:`Downloading the Software section</>`.
+Java and other dependencies can be found in the [Downloading the Software section](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/Set-Up-and-Installation.rst/#Downloading%20the%20Software)).
 
 2.	At the beginning of each imaging session calibrate the floppy drive by selecting 
 	the correct drive from the Drive menu then selecting Calibrate from the same 
