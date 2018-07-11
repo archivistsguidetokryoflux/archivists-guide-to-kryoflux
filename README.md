@@ -29,7 +29,7 @@ useful.
 
 The user guide is divided into two parts:
 
-*	[Part One] (https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux.git/01%20PART%20ONE%20Getting%20Started/readme.rst) provides step-by-step instructions designed to get you set up 
+*	[Part One] (/01%20PART%20ONE%20Getting%20Started/readme.rst) provides step-by-step instructions designed to get you set up 
 	and started. You may wish to start here if you already have a KryoFlux in hand 
 	and are ready to jump in. We’ve included links to relevant sections in [part two] (02 PART TWO In-Depth/readme.rst)
 	so you can dip in and out as needed.
