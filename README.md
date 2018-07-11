@@ -44,24 +44,21 @@ This is an unofficial guide and has not been written in affiliation with the
 Software Preservation Society (SPS). The official KryoFlux manual is available at 
 http://www.kryoflux.com/download/kryoflux_manual.pdf. 
 
-----------------------------
 Introduction to the KryoFlux
 ----------------------------
 
-The KryoFlux is a floppy disk controller card developed by the `Software 
-Preservation Society <https://www.kryoflux.com/?page=links_sps>`_ that can read a 
+The KryoFlux is a floppy disk controller card developed by the [Software 
+Preservation Society](https://www.kryoflux.com/?page=links_sps) that can read a 
 wide variety of legacy floppy disks and create bit-for-bit disk images of their 
 contents. Purchase of the KryoFlux hardware typically includes the controller board, 
 a 3.5” floppy disk drive, the KryoFlux software, and any necessary cables, although 
 the exact contents will vary depending on the package selected for purchase. The 
-KryoFlux is available to buy at the `KryoFlux website 
-<https://webstore.kryoflux.com/catalog/index.php>`_, where institutions may choose 
+KryoFlux is available to buy at the [KryoFlux website](https://webstore.kryoflux.com/catalog/index.php), where institutions may choose 
 from a range of “pro” packages depending on their needs. An institutional license is 
 required and is included with every order of a pro package hardware kit. This 
 results in a cost that, while not huge, is also not insignificant. Because costs 
 vary depending on institution size and may change over time, it is difficult to 
-provide an estimated range here. However, institutions can `contact 
-<https://www.kryoflux.com/?page=comp_contact>`_ the KryoFlux team for more 
+provide an estimated range here. However, institutions can [contact](https://www.kryoflux.com/?page=comp_contact) the KryoFlux team for more 
 information about pricing.
 
 The KryoFlux has several features that differentiate it from an external USB floppy 
