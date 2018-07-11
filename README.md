@@ -97,12 +97,10 @@ disk drive:
 **Example:**
 
 Emory University’s Stuart A. Rose Manuscript, Archives, and Rare Book Library 
-(formally, MARBL) experimented with a range of imaging methods, including the 
+(formally, the Manuscript, Archives, and Rare Book Library or MARBL) experimented with a range of imaging methods, including the 
 KryoFlux, in order to process thirty-seven 3.5” floppy disks included among the 
 papers of writer and activist Alice Walker. The integrated setup of the KryoFlux 
 allowed for an OS- and file system-agnostic approach that allowed for the 
 identification and imaging of a wide variety of disks in various states of 
-degradation. An article in the `June 2014 issue of Practical Technology for Archives 
-<https://web.archive.org/web/20141016233702/http://practicaltechnologyforarchives.org
-/issue2_waugh>`_ describes the project in greater detail.
+degradation. An article in the [June 2014 issue of Practical Technology for Archives](https://web.archive.org/web/20141016233702/http://practicaltechnologyforarchives.org/issue2_waugh) describes the project in greater detail.
 
