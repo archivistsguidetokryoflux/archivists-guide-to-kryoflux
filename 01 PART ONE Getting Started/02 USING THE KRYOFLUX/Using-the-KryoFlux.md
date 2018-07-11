@@ -81,7 +81,7 @@ floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.rst)
 	called kryoflux-ui.jar.
 
 **NOTE:** Java is required in order to launch the GUI. Instructions for installing 
-Java and other dependencies can be found in the [Downloading the Software section](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/Set-Up-and-Installation.rst/#downloading-the-software)).
+Java and other dependencies can be found in the [Downloading the Software section](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/Set-Up-and-Installation.md#downloading-the-software))
 
 2.	At the beginning of each imaging session calibrate the floppy drive by selecting 
 	the correct drive from the Drive menu then selecting Calibrate from the same 
