@@ -29,11 +29,11 @@ useful.
 
 The user guide is divided into two parts:
 
-*	[Part One] [./01 PART ONE Getting Started/README.rst] provides step-by-step instructions designed to get you set up 
+*	[Part One] (./01 PART ONE Getting Started/README.rst) provides step-by-step instructions designed to get you set up 
 	and started. You may wish to start here if you already have a KryoFlux in hand 
-	and are ready to jump in. We’ve included links to relevant sections in [part two] [./02 PART TWO In-Depth/README.rst] 
+	and are ready to jump in. We’ve included links to relevant sections in [part two] (./02 PART TWO In-Depth/README.rst)
 	so you can dip in and out as needed.
-*	[Part Two] [./02 PART TWO In-Depth/README.rst] provides a more in-depth introduction to the KryoFlux and 
+*	[Part Two] (./02 PART TWO In-Depth/README.rst) provides a more in-depth introduction to the KryoFlux and 
 	floppy disks as a medium for data storage. You may wish to start here if you are 
 	interested in learning more about the ins and outs of how the KryoFlux works 
 	before diving in, or if you’re weighing the benefits of purchasing a KryoFlux 
