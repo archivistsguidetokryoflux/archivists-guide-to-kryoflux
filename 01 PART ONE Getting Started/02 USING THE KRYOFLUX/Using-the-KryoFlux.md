@@ -98,12 +98,10 @@ Java and other dependencies can be found in the [Downloading the Software sectio
 3.	Configure the KryoFlux GUI to select the output directory for your newly-created 
 	disk images and log files. To do so, select *File → Settings* and click on the 
 	*Output* tab. Browse to the appropriate path to storage. Ensure that the *Logs* 
-	button is checked, and then click *OK* (see figure 10). 
+	button is checked, and then click *OK* (see [figure 10](figure10.png)). 
 	
-.. image:: figure10.png
-
-*Figure 10: Enter the appropriate path to storage, check the Logs option and click 
-OK.*
+![Figure 10: Enter the appropriate path to storage, check the Logs option and click 
+OK.](figure10.png "Figure 10: Enter the appropriate path to storage, check the Logs option and click OK.")
 
 4.	For each disk, enter a unique identifier. Click on *Enter name…* and type in a 
 	unique ID associated with the disk.  The text entered here will become the 
