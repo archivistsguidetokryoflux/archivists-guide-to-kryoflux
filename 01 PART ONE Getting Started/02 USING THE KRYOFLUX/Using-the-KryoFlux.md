@@ -137,20 +137,28 @@ KryoFlux.  Details on how to handle 40 track images are covered in [part two](/0
 
 ![Figure 12: Select the image format(s) for the disk image using the dropdown list below the filename field.](figure12.png "Select the image format(s) for the disk image using the dropdown list below the filename field.")
 
-*Figure 12: Select the :doc:`image format(s)</>` for the disk image using the dropdown list below the filename field.*
+*Figure 12: Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.rst) for the disk image using the dropdown list below the filename field.*
 
 6.	After you have selected the appropriate image format, insert a disk and select 
 	*Start*. You should see the green *Stream* indicator flash on and off, and see 
 	the cells in the *Tracks* display on the left-hand side of the window fill with 
 	different colors (see figure 13).
 	
-.. image:: figure13.png
+![Figure 13:  Once imaging has started, the green* Stream *indicator will flash on and off and the* Tracks *display on the left-hand side of the window will fill with 
+blocks of color*.](figure13.png " Once imaging has started, the green* Stream *indicator will flash on and off and the* Tracks *display on the left-hand side of the window will fill with blocks of color*.")
 
 *Figure 13: Once imaging has started, the green* Stream *indicator will flash on and 
 off and the* Tracks *display on the left-hand side of the window will fill with 
 blocks of color*.
 
 **NOTE:** The colors of the track cells mean the following: 
+
+| **Color of Track Cells** | **Meaning**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Green                    | *Good:* The track was imaged successfully.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Orange                   | *Good+Modified:* The track was imaged successfully, but has one or more sectors that were modified after formatting or mastering.  **NOTE:** The KryoFlux was designed to acquire unmodified copies of commercial software duplicated on commercial "mastering" machines. It is extremely likelythat you will encounter many "good/modified" tracks on media received from donors. While this is a measure of authenticity designed by the developers of the KryoFlux, it is largely inapplicable to archival collections that focus on receiving papers and records of private donors and organizations. |
+| Red                      | *Bad:* The track was not imaged successfully.  **NOTE:** The KryoFlux can retry reads of a given track; this configuration option is available by selecting file → Settings and going to the *Advanced tab.                                                                                                                                                                                                                                                                                                                                                                                               |
+| Grey                     | *Unknown:* the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that thistrack was unformatted or that the wrong format was selected at step 5.If you are creating only preservation stream files, all sectors will be grey.                                                                                                                                                                                                                                                                                                 |
 
 +-------------------------+---------------------------------------------------------+
 | **Color of Track Cell** | **Meaning**                                             |
