@@ -160,37 +160,6 @@ blocks of color*.
 | Red                      | *Bad:* The track was not imaged successfully.  **NOTE:** The KryoFlux can retry reads of a given track; this configuration option is available by selecting file → Settings and going to the *Advanced tab.                                                                                                                                                                                                                                                                                                                                                                                               |
 | Grey                     | *Unknown:* the KryoFlux software could not determine the status of this track. This may or may not mean a successful read. It could indicate that thistrack was unformatted or that the wrong format was selected at step 5.If you are creating only preservation stream files, all sectors will be grey.                                                                                                                                                                                                                                                                                                 |
 
-+-------------------------+---------------------------------------------------------+
-| **Color of Track Cell** | **Meaning**                                             |
-+=========================+=========================================================+
-| Green                   | *Good:* The track was imaged successfully.              |
-+-------------------------+---------------------------------------------------------+
-| Orange                  | *Good+Modified:* The track was imaged successfully,     |
-|                         | but has one or more sectors that were modified after    |
-|                         | formatting or mastering.                                |
-|                         | ****NOTE:**** The KryoFlux was designed to acquire          |
-|                         | unmodified copies of commercial software duplicated on  |
-|                         | commercial “mastering” machines. It is extremely likely |
-|                         | that you will encounter many “good/modified” tracks on  |
-|                         | media received from donors. While this is a measure of  |
-|                         | authenticity designed by the developers of the          |
-|                         | KryoFlux, it is largely inapplicable to archival        |
-|                         | collections that focus on receiving papers and          |
-|                         | records of private donors or organizations.             |
-+-------------------------+---------------------------------------------------------+
-| Red                     | *Bad:* the track was not imaged successfully.           |
-|                         | ****NOTE:**** The KryoFlux can retry reads of a given       |
-|                         | track; this configuration option is available           |
-|                         | by selecting File → Settings and going to the Advanced  |
-|                         | tab.                                                    |
-+-------------------------+---------------------------------------------------------+
-| Grey                    | *Unknown:* the KryoFlux software could not determine    |
-|                         | the status of this track. This may or may not mean a    |
-|                         | successful read. It could indicate that this track was  |
-|                         | unformatted or that the wrong format was selected at    |
-|                         | step 5.  If you are creating only preservation stream   |
-|                         | files, all sectors will be grey.                        |
-+-------------------------+---------------------------------------------------------+
 
 7.	Once the disk stops spinning and the green *Stream* indicator stops flashing, 
 	the imaging process has completed. The disk image(s) and log file for the disk 
@@ -202,8 +171,7 @@ blocks of color*.
 
 ### USING DEVICELESS MODE
 
-:doc:`Stream files </>` created in KryoFlux can be used to create :doc:`formatted 
-images </>` with the KryoFlux software.  
+[Stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.rst) created in KryoFlux can be used to create [formatted images](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.rst) with the KryoFlux software.  
 
 If you have previously created stream files you can use this workflow to create 
 images using the KryoFlux software without needing the hardware or disk itself.
@@ -227,25 +195,22 @@ images using the KryoFlux software without needing the hardware or disk itself.
 	
 5.	Click *Start* and browse to the folder containing stream files.
 
-The `Floppy Disk Format Identifier Tool <http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool>`_, created by Euan Cochrane, allows the user to create multiple image types over a directory of stream files from multiple disks. See :doc:`Additional Tools and Resources </05 ADDITIONAL RESOURCES AND TOOLS/Additional Resources and Tools>` for further information.
+The [Floppy Disk Format Identifier Tool](http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool), created by Euan Cochrane, allows the user to create multiple image types over a directory of stream files from multiple disks. See [Additional Tools and Resources](/05%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/Additional%20Resources%20and%20Tools) for further information.
 
-.. _Using-and-interpreting-DTC-via-the-CLI:
+##Using and interpreting DTC via the CLI:
 
----------------------------------------
-Using and interpreting DTC via the CLI:
----------------------------------------
-
-.. _KryoFlux-Command-Line-Syntax:
-
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-KRYOFLUX COMMAND LINE SYNTAX
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### KRYOFLUX COMMAND LINE SYNTAX
 
 If you look at the command line examples listed further down this document, you will notice that all KryoFlux commands begin with ``dtc``. This is because dtc is the name of the command that we execute whenever we run any task using the KryoFlux.
 
-What comes after ``dtc`` depends on what task we want the KryoFlux to perform. KryoFlux’s Disk Tool Console (DTC) provides a number of options that we can use—sometimes on their own, but more often in combination with other options. These options allow us to set the parameters of the command (for example, the file names we want to use or the encoding format in which we want to create our disk image). As with other command line tools, you may want to add the folder containing dtc to your operating system environment variables. Doing so will allow calling the application from any directory without specifying the absolute path to dtc. Steps to add system variables vary from system to system. See `Adding-DTC-to-your-system-variables`_ for more information about how to add system variables.
+What comes after ``dtc`` depends on what task we want the KryoFlux to perform. KryoFlux’s Disk Tool Console (DTC) provides a number of options that we can use—sometimes on their own, but more often in combination with other options. These options allow us to set the parameters of the command (for example, the file names we want to use or the encoding format in which we want to create our disk image). As with other command line tools, you may want to add the folder containing dtc to your operating system environment variables. Doing so will allow calling the application from any directory without specifying the absolute path to dtc. Steps to add system variables vary from system to system. See [Adding-DTC-to-your-system-variables](#adding-dtc-to-your-system-variables) for more information about how to add system variables.
 
 Here's an example:
+
+|        **Command**       |                                                               **Option**                                                               |                           **Parameter**                          |
+|:------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------:|
+|          ``dtc``         |                                                                 ``-f``                                                                 |                    ``kryofluxDiskImage_file``                    |
+| Executes the DTC command | Serves as a flag to identify how the following parameter should be interpreted (in this case, it should be interpreted as a file name) | Provides our chosen file name (and, if necessary, its file path) |
 
 +-------------+-------------------------------+--------------------------------------+
 | **Command** | **Option**                    | **Parameter**                        |
@@ -464,9 +429,8 @@ be used for this purpose. Download Wintee prior to running this command:
 	
 .. _Adding-DTC-to-your-System-Variables:
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Adding DTC to your System Variables:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### Adding DTC to your System Variables:
+
 
 **Windows:**
 
