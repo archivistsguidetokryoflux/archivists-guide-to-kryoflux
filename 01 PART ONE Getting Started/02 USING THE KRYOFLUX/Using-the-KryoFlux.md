@@ -197,7 +197,7 @@ images using the KryoFlux software without needing the hardware or disk itself.
 
 The [Floppy Disk Format Identifier Tool](http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool), created by Euan Cochrane, allows the user to create multiple image types over a directory of stream files from multiple disks. See [Additional Tools and Resources](/05%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/Additional%20Resources%20and%20Tools) for further information.
 
-##Using and interpreting DTC via the CLI:
+## Using and interpreting DTC via the CLI:
 
 ### KRYOFLUX COMMAND LINE SYNTAX
 
