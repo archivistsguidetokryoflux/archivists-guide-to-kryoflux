@@ -1,37 +1,22 @@
-.. _Set-Up-and-Installation:
-
-
 # Set-Up and Installation
 
-.. _What's in the Box?
-
-------------
-What's in the Box?
-------------
+## What's in the Box?
 
 The KryoFlux setup consists of several pieces of hardware connected by cables (see figure 1). Because the KryoFlux board is so small and light, the setup can be a little precarious once connected. It also takes up more space than it does when boxed, so be sure that you have enough desk space to accommodate the various components. When moving hardware, handle it with caution, and have someone else help move the components as needed. As always when working with sensitive electronic components, take steps to protect against static electricity by using an anti-static mat or anti-static wristband; always place the KryoFlux board on a non-conductive surface while it is in use. 
 
-.. image:: figure1.png
+[INSERT figure1.png here]
 
 *Figure 1: The various components included in the KryoFlux package. Depending on the package purchased by your institution, your box may also include a second backup KryoFlux board or a 5.25” floppy disk drive.*
 
-
-.. _Downloading the Software:
-
 ## Downloading the Software
 
-
-^^^^^^^^^^^^^^^^^^^^^^
 USING WINDOWS...
-^^^^^^^^^^^^^^^^^^^^^^
 1.	Download the directory containing KryoFlux driver and DTC files from the KryoFlux website: http://kryoflux.com/?page=download.
 
 2.	Save the directory to your chosen location. Make a note of this location. For example: C:\Users\Public\Desktop\kryoflux_2.51_windows
 
 
-^^^^^^^^^^^^^^^^^^^^^^
 USING MAC...
-^^^^^^^^^^^^^^^^^^^^^^
 
 1. Download the JDK Java Runtime Platform files from the Oracle website: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
 
@@ -48,7 +33,7 @@ USING MAC...
 - Double-click KryoFlux.mpkg (see figure 2);
 - Follow prompts to install the software.
 
-.. image:: figure2.png
+[INSERT figure2.png here]
 
 *Figure 2: If using MacOSX, double-click KryoFlux.mpkg to install DTC.*
 
@@ -57,14 +42,11 @@ USING MAC...
 **NOTE:** If you receive an unidentified developer warning (see figure 3) when trying to install the 
 package, right click on the package and choose "Open" from the menu and then choose "Open" from the pop-up window.
 
-.. image:: figure3.png
+[INSERT figure3.png here]
 
 *Figure 3: The unidentified developer MacOSX warning.*
 
-
-^^^^^^^^^^^^^^^^^^^^^^
 USING LINUX...
-^^^^^^^^^^^^^^^^^^^^^^
 
 1. Download the Linux .tar file containing KryoFlux driver and DTC files from the KryoFlux website: http://kryoflux.com/?page=download
 
@@ -82,9 +64,8 @@ USING LINUX...
 
 If they are already installed, the system will tell you that your version is up to date.
 
-""""""""""""""""""""""""""
-**USING LINUX: PREREQUISITES AND DEPENDENCIES**
-""""""""""""""""""""""""""
+## USING LINUX: PREREQUISITES AND DEPENDENCIES
+
 *UDEV RULE*
 If this is your first time installing the KryoFlux software, you will also need to create a udev rule. The udev rule will prevent permissions errors as well as erasing the need for the user to root. (If this file is missing it is highly likely that the KryoFlux will not work properly.)
 
@@ -95,19 +76,19 @@ If this is your first time installing the KryoFlux software, you will also need 
 *JAVA DEPENDENCY*
 The KryoFlux software relies on Java to launch the GUI. In some cases, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” As a workaround, archivists at Princeton have developed a short `bash script <https://github.com/kellybolding/scripts/blob/master/run-kryoflux-gui.sh>`_that invokes Java each time they launch the GUI. This script lives on the workstation’s desktop and users click on it in order to start up the GUI in place of a desktop icon.
 
-See also the :ref:`troubleshooting section<>` section for more information related to this issue.
+See also the [INSERT LINK TO TROUBLESHOOTING SECTION HERE] section for more information related to this issue.
 
 
-------------
-Setting Up the KryoFlux
-------------
+
+## Setting Up the KryoFlux
+
 While it does not require an especially high level of technical skill, setting up the KryoFlux does demand some careful attention to detail.  
 
-	- **Make sure to read this entire section before attempting to connect and power your board!**
+* **Make sure to read this entire section before attempting to connect and power your board!**
 
-	- **The floppy drive is an unstable source of power that can permanently damage the board, so it is imperative to follow the correct order when connecting/disconnecting KryoFlux.**
+* **The floppy drive is an unstable source of power that can permanently damage the board, so it is imperative to follow the correct order when connecting/disconnecting KryoFlux.**
 
-	- **If you suspect that you have a malfunctioning board or have damaged a board in the process of installing, and you have a backup board, do not use the backup board until you have successfully troubleshooted the original board. If you do not know why the original board is not working, you may inadvertently replicate the problem if you connect a backup board.**
+* **If you suspect that you have a malfunctioning board or have damaged a board in the process of installing, and you have a backup board, do not use the backup board until you have successfully troubleshooted the original board. If you do not know why the original board is not working, you may inadvertently replicate the problem if you connect a backup board.**
 
 1. Always place the KryoFlux board on a non-conductive surface while it is in use. You may choose to use an anti-static mat or wristband, but typically this won’t be necessary and there’s debate about whether or not these types of anti-static devices will be helpful in a scenario like this one. NOTE: do not place the board on top of the anti-static bag in which the KryoFlux is shipped. The anti-static bags are conductive, and although the resistance is fairly high, it might cause data errors nonetheless.
 
@@ -123,7 +104,7 @@ While it does not require an especially high level of technical skill, setting u
 
 	* On the KryoFlux side, the cable’s first pin should be on the right if viewing the board with the cable connector closest to you (as in figure 5).	
 	
-.. image:: figure4.png
+[INSERT figure4.png here]
 
 *Figure 4: Enable writeblocking functionality by removing the jumper for the write gate. This photograph shows the write gate once the jumper has been removed and writeblocking functionality enabled.*	
 
@@ -131,7 +112,7 @@ While it does not require an especially high level of technical skill, setting u
 
 5. Connect the KryoFlux board to the computer using the USB cable (see figure 5).
 	
-.. image:: figure5.JPG
+[INSERT figure5.JPG here]
 
 *Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.*	
 **NOTE:** If using Windows, proceed to step 6. If using Mac or Linux, skip step 6 and proceed directly to step 7.
@@ -160,11 +141,11 @@ While it does not require an especially high level of technical skill, setting u
 
 	* Click *OK* on all of the prompts to install the drivers.
 
-.. image:: figure6.png
+[INSERT figure6.png here]
 
 *Figure 6: Device Manager. One of the devices in this menu will be labeled “Unknown Device.” This is the KryoFlux. During installation, you may have to search through this list to find the “Unknown Device.” Once the KryoFlux has been recognized, however, it should be listed under Universal Serial Bus controllers. The steps are largely the same in Windows 10, although the presentation is slightly different.* 
 
-**NOTE:** See the :ref:`troubleshooting section<>` if you have trouble with this step, or if your Windows 
+**NOTE:** See the [INSERT LINK TO TROUBLESHOOTING SECTION HERE] if you have trouble with this step, or if your Windows 
 instance seems to have forgotten the drivers in between KryoFlux sessions.
 
 * Launch the command prompt:
@@ -175,11 +156,11 @@ instance seems to have forgotten the drivers in between KryoFlux sessions.
 	
 **NOTE:** the above steps may require admin credentials depending on your institution’s setup.
 
-.. image:: figure7.png
+[INSERT figure7.png here]
 
 *Figure 7*
 
-.. image:: figure8.png
+[INSERT figure8.png here]
 
 *Figure 8: Navigate to C drive by typing c: and pressing enter.*
 
@@ -210,28 +191,17 @@ power cable into the Type A / B outlets used in America. If you don’t have the
 
 **NOTE:** DTC will find the maximum number of tracks available. A floppy disk typically stores data across 80 tracks, but some drives can access as many as 83. 
 
-You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See :ref:`Using and interpreting DTC via the CLI<>` and :ref:`Using and interpreting the graphical user interface (GUI)<>`
+You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See [INSERT LINK TO Using and interpreting DTC via the CLI SECTION HERE] and [INSERT LINK TO Using and interpreting the graphical user interface (GUI) SECTION HERE]
 
-
-.. _Disconnecting the KryoFlux
-
-------------
-Disconnecting the KryoFlux
-------------
+## Disconnecting the KryoFlux
 
 1. Disconnect the floppy drive’s power supply.
 2. Eject and disconnect the USB cable.
 3. Disconnect the data cable/floppy drive cable. 
 
-.. _Handling the KryoFlux
+## Handling the KryoFlux
 
-------------
-Handling the KryoFlux
-------------
-
-^^^^^^^^^^^^^^^^^^^^^^
-GOOD: Tips for basic handling and care
-^^^^^^^^^^^^^^^^^^^^^^
+### GOOD: Tips for basic handling and care
 Because it does not have a protective outer shell or cover, the KryoFlux board is fragile and vulnerable to damage. A good rule of thumb is to try to **handle it as little as possible** to avoid damage, and to **put the board away after you’re done using it**--especially overnight or over the weekend--to prevent dust gathering. 
 
 Another thing to keep in mind is that the board is particularly vulnerable to changes in the electrical current. The most obvious precautionary measures you can take to protect your KryoFlux are: 
@@ -240,9 +210,8 @@ Another thing to keep in mind is that the board is particularly vulnerable to ch
 2. **Always keep the KryoFlux away from conductive materials**, such as metal tabletops or other potential sources of static electricity. 
 3. **Place the KryoFlux on top of something non-conductive while in use**, such as a book, folder, or cardboard box. This material will act as a buffer so that you avoid accidentally putting the KryoFlux in direct contact with a conductive material. You may choose to use an anti-static mat or wristband, but typically this won’t be necessary and there’s debate about whether or not these types of anti-static devices will be helpful in a scenario like this one. NOTE: do not place the board on top of the anti-static bag in which the KryoFlux is shipped. The anti-static bags are conductive, and although the resistance is fairly high, it might cause data errors nonetheless. 
 
-^^^^^^^^^^^^^^^^^^^^^^
-BETTER: Creating an enclosure
-^^^^^^^^^^^^^^^^^^^^^^
+
+### BETTER: Creating an enclosure
 In institutions where only one person will be working with the KryoFlux, it may be sufficient to handle the board carefully as described above. In cases when multiple staff members will be using the board, it will be much more challenging to monitor use to ensure careful handling. 
 
 Since the KryoFlux board is costly, you may want to look at simple enclosures. If your electronic acquisitions terminal is a commodity desktop tower or laptop computer, there is likely not going to be room in the housing to mount the board permanently. Archivists at Yale designed and wrote online about an enclosure they printed using a 3-D printer, and uploaded the design to `Thingiverse <https://www.thingiverse.com/thing:64058>`_Thingiverse. It works relatively well, though there are a few caveats:
@@ -251,9 +220,7 @@ Since the KryoFlux board is costly, you may want to look at simple enclosures. I
 2. There are now variations on the original enclosure design. The original is a two-piece object and includes a base and a lid. A second version features a slide that may introduce additional complexity. Since 3D printing is iterative, you may want to experiment with designs until you find one that is right.
 3. Though the enclosure is protective, it is still fairly small and both objects together do not weigh much. We make sure to store ours at the end of a session. We leave the ribbon cable attached to the board, and store the board in its enclosure in a slightly larger box along with the ribbon.
 
-^^^^^^^^^^^^^^^^^^^^^^
-BEST: Installing KryoFlux in a computer tower
-^^^^^^^^^^^^^^^^^^^^^^
+### BEST: Installing KryoFlux in a computer tower
 At Yale, the KryoFlux is installed internally in this dedicated disk imaging machine. The KryoFlux board is mounted to a disk shelf using zip ties to keep it from shifting inside the tower. A bit of foam is used between the kryoflux and the shelf as an insulator as well as preventing the board from scraping against the shelf. The first photo shows the USB cable from the front of the machine, the second photo shows the data cable attached through the back of the machine.
 
 One note for future archivists attempting to internally install a KryoFlux: Be sure that the data cable is oriented correctly.  In the photo below you can see that the data cable is twisted in order to correctly connect to both the KryoFlux board and the floppy disk drive. The correct orientation is dependent on the specific drive you are working with. See the :ref:`Setting up the KryoFlux<>` instructions for more information.
@@ -261,15 +228,15 @@ One note for future archivists attempting to internally install a KryoFlux: Be s
 The USB cable is connected to an internal USB port on the motherboard.  Some motherboards have USB ports installed; however, if your motherboard does not, you can purchase a USB header online for under ten dollars.  This USB header connects to the motherboard to provide two internal USB ports.  Shown here, the KryoFlux USB cable is connected to our USB header.
 The greatest advantage to having the KryoFlux board mounted in this way, is that it is difficult to knock a cord loose, but if someone needs to remove the board or check the connections, the board can be disconnected and removed fairly easily as seen here.
 
-.. image:: tower_install1.jpg
+[INSERT tower_install1.jpg here]
 
-.. image:: tower_install2.jpg
+[INSERT tower_install2.jpg here]
 
-.. image:: tower_install3.jpg
+[INSERT tower_install3.jpg here]
 
-.. image:: tower_install4.jpg
+[INSERT tower_install4.jpg here]
 
-.. image:: tower_install5.gif
+[INSERT tower_install5.gif here]
 
 
 
