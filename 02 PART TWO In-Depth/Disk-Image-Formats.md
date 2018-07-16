@@ -42,5 +42,7 @@ Additional disk image types available when using KryoFlux include the following:
 * CBM sector image, various subtypes - used for floppy disks used by the Commodore Business Machines family of computers in the 1980s. As indicated by the KryoFlux user guide, there are a number of subtypes of CBM disk; it appears that different manufacturers created variations of the format.
 
 [1] Pages 1-6 of this document have additional details on FM and MFM encoding. http://info-coach.fr/atari/hardware/_fd-hard/AN-505.pdf accessed 05/03/2017
+
 [2] https://groups.google.com/forum/#!topic/vintage-macs/CbD58EqcnUM accessed 12/5/2016
+
 [3] http://siber-sonic.com/mac/newmillfloppy.html accessed 12/5/2016
