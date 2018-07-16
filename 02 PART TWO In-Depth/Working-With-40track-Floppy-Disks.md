@@ -1,12 +1,6 @@
-.. Working with 40-Track Floppy Disks:
+# Working with 40-Track Floppy Disks
 
-==================================
-Working with 40-Track Floppy Disks
-==================================
-
-------------------------
-What are 40-track disks?
-------------------------
+## What are 40-track disks?
 
 The magnetic medium inside a blank floppy disk is coated with magnetic oxide, with particles in no magnetic order. Formatting the disk aligns these particles into a pattern of tracks, which are concentric rings divided into sectors that represent locations where data is stored, with empty space between the rings. This also represents the structure that the stored data follows. Until the mid-1980s, floppy disks typically had 40 tracks each. These tracks were widely-spaced enough that drives would not accidentally overwrite data or write data to the wrong track by mistake. After the mid-1980s, changes in technology halved the physical distance needed between tracks, so more tracks (and data) could fit onto a disk. Floppy disks usually had 80 tracks after this point. 
 
@@ -16,13 +10,12 @@ Reading a 40-track disk with an 80-track drive can be difficult, since 80-track 
 
 It can be difficult to identify a 40-track disk. One clue can be found by checking the disk’s label, since some 40-track disks are labeled “48 tpi,” or 48 tracks per inch. This refers to the density of the tracks on the floppy. If the label says “48 tpi,” you can confirm that it is a 40-track disk via the command line and/or the GUI (see next section).
 
----------------------------
-How to tell if you have one
----------------------------
+## How to tell if you have one
 
 40-track disks can often be identified in the GUI by the distinctive sector pattern they exhibit during imaging, wherein every other track is bad or unintelligible, as shown below. **If you notice this pattern while imaging is underway, it’s important not to stop the process until it is finished, since stopping during imaging can damage the drive.**
 
-.. image:: images/40-track-figure01.png
+![Figure 1: DTC GUI. Note that every other track on side 0 is bad; this is a sign that the floppy disk is likely a 40-track disk.](images/40-track-figure01.png "Figure 1: DTC GUI. Note that every other track on side 0 is bad; this is a sign that the floppy disk is likely a 40-track disk.")
+
 *Figure 1: DTC GUI. Note that every other track on side 0 is bad; this is a sign that the floppy disk is likely a 40-track disk.*
 
 In the above image, the pattern occurs because the drive detects “crosstalk”, or magnetic noise between tracks. The drive expects to see a new track, but does not find one because the disk has 40 wider tracks instead of 80 narrower tracks. The drive/KryoFlux may try to read tracks that shouldn’t have readable data on a 40-track disk (the odd-numbered tracks), resulting in every other track appearing to be bad.
@@ -37,7 +30,8 @@ This will create an MFM image of the disk from stream files. (We chose to create
 
 Then look at the output:
 
-.. image:: images/40-track-figure02.PNG
+![Figure 2: STDOUT to console.](images/40-track-figure02.PNG "Figure 2: STDOUT to console.")
+
 *Figure 2: STDOUT to console.*
 
 After the first few lines, each line should look something like this:
@@ -62,25 +56,20 @@ The following breaks down the sample line of output described above, and explain
 * **sec: 9,**: 9 modified sectors
 * ***HT**: Header gap (track has been modified), Track warning
 
-----------------------
-Imaging 40-track disks
-----------------------
+## Imaging 40-track disks
 
-^^^^^^^^^^^^
-Command line
-^^^^^^^^^^^^
+### Command line
 
 From the command line, navigate to DTC. Type in: 
 ::
   dtc -m1 -fpath\to\STREAM\files/* -i -fpath\to\new\image\file/new_image_filename.img -k2 -i4 -l8 
 This tells the KryoFlux to create an MFM image of a 40-track disk from stream files. -k2 sets the track distance to 2, so DTC will image every other track (40 tracks instead of 80), and skip the parts of the disk that do not contain data. The screenshot below shows what this will look like in the command line.
 
-.. image:: images/40-track-figure03.png
-*Figure 3: STDOUT to console imaging a 40-track floppy*
+![Figure 3: STDOUT to console imaging a 40-track floppy.](images/40-track-figure03.png "Figure 3: STDOUT to console imaging a 40-track floppy.")
 
-^^^
-GUI
-^^^
+*Figure 3: STDOUT to console imaging a 40-track floppy.*
+
+### GUI
 
 To image 40-track disks, you will need to change some settings. You can create an imaging profile in the *Settings* tab to save these settings, and avoid having to change them manually every time you encounter a 40-track disk. 
 
@@ -93,7 +82,8 @@ To do this:
 * Select each profile and click the minus sign to delete it. 
 * Once you have deleted all the profiles, click Update to replace them with the most recent versions. 
 
-.. image:: images/40-track-figure04.png
+![Figure 4: The Image Profiles window in the DTC GUI.](images/40-track-figure04.png "Figure 4: The Image Profiles window in the DTC GUI.")
+
 *Figure 4: The Image Profiles window in the DTC GUI.*
 
 Once the profiles are up to date, it’s time to create a 40-track version of the profile you need. If this version is lost, deleted, or changed, you can create another one using these instructions. 
@@ -102,10 +92,16 @@ Once the profiles are up to date, it’s time to create a 40-track version of th
 
 4. In the *Settings* for the copy (on the right-hand side of the window), change the *Profile Name* to “[format] [40 tracks]” (e.g. “MFM sector [40 tracks]”), and unclick the Default box next to Track Distance. Change the *Track Distance* to *40 Tracks* in the pulldown menu. Click *OK*. 
 
-.. image:: images/40-track-figure05.png
+
+![Figure 5: The Image Profiles window in the DTC GUI showing a 40-track profile.](images/40-track-figure05.png "Figure 5: The Image Profiles window in the DTC GUI showing a 40-track profile.")
+
 *Figure 5: The Image Profiles window in the DTC GUI showing a 40-track profile.*
 
 5. Every time you image a 40-track disk with the GUI, select the 40-track copy of the image profile you want to use in addition to preservation stream files. Then, create your disk image in the GUI as usual. The displayed result will look something like the screenshot below, with every other track unintelligible. This means the 40-track disk was imaged correctly.
 
-.. image:: images/40-track-figure06.PNG
+.. image:: 
+
+
+![Figure 6: The DTC GUI showing a successfully created 40-track disk image](images/40-track-figure06.PNG "Figure 6: The DTC GUI showing a successfully created 40-track disk image")
+
 *Figure 6: The DTC GUI showing a successfully created 40-track disk image*
