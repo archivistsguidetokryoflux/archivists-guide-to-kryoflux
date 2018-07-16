@@ -14,7 +14,7 @@ As a rule of thumb, if you know what system a disk was used with and the approxi
 
 ### MFM/FM Generic Sector Images
 
-Generic MFM and FM encoded floppy disks are perhaps most common, particularly with disks used in the 1990s.[1_] This is largely because IBM personal computers and IBM clones throughout the 1980s and 1990s encoded data using these methods, leading to wide use by users of MS-DOS and CP/M systems at work and in the home. Rising levels of interoperability between peripherals across these systems over time helped lead to increased market share.
+Generic MFM and FM encoded floppy disks are perhaps most common, particularly with disks used in the 1990s.<a href="#anchor1">1</a> This is largely because IBM personal computers and IBM clones throughout the 1980s and 1990s encoded data using these methods, leading to wide use by users of MS-DOS and CP/M systems at work and in the home. Rising levels of interoperability between peripherals across these systems over time helped lead to increased market share.
 
 If a set of disks was used with an MS-DOS machine from the mid-1980s through the early-2000s, it is almost certainly a MFM or FM-encoded disk. Disks using the generic FM and MFM profiles include single-sided/double-density floppies, double-sided/double-density floppies, and double-sided, high-density floppies in both 5.25” and 3.5” sizes. 
 
@@ -41,7 +41,7 @@ Additional disk image types available when using KryoFlux include the following:
 * Apple DOS 3.x sector image, DSK DOS 3.3 Interleave - used for 5.25” floppy disks written to by Apple II family of computers in the early 1980s.
 * CBM sector image, various subtypes - used for floppy disks used by the Commodore Business Machines family of computers in the 1980s. As indicated by the KryoFlux user guide, there are a number of subtypes of CBM disk; it appears that different manufacturers created variations of the format.
 
-[1] Pages 1-6 of this document have additional details on FM and MFM encoding. http://info-coach.fr/atari/hardware/_fd-hard/AN-505.pdf accessed 05/03/2017
+<a id="anchor1">[1]</a> Pages 1-6 of this document have additional details on FM and MFM encoding. http://info-coach.fr/atari/hardware/_fd-hard/AN-505.pdf accessed 05/03/2017
 
 [2] https://groups.google.com/forum/#!topic/vintage-macs/CbD58EqcnUM accessed 12/5/2016
 
