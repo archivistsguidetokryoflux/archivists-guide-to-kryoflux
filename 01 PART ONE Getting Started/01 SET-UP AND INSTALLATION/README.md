@@ -66,14 +66,14 @@ If they are already installed, the system will tell you that your version is up 
 
 ## USING LINUX: PREREQUISITES AND DEPENDENCIES
 
-*UDEV RULE*
+#### *UDEV RULE*
 If this is your first time installing the KryoFlux software, you will also need to create a udev rule. The udev rule will prevent permissions errors as well as erasing the need for the user to root. (If this file is missing it is highly likely that the KryoFlux will not work properly.)
 
 * To create this rule, navigate to the following directory: **/etc/udev/rules.d**
 * While still in the above directory, create a file with the following title (use nano or a similar text editor): **80-kryoflux.rules**
 * Type the following text into the file: **ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="03eb", ATTR{idProduct}=="6124", GROUP="floppy", MODE="0660"**
 
-*JAVA DEPENDENCY*
+#### *JAVA DEPENDENCY*
 The KryoFlux software relies on Java to launch the GUI. In some cases, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” As a workaround, archivists at Princeton have developed a short `bash script <https://github.com/kellybolding/scripts/blob/master/run-kryoflux-gui.sh>`_that invokes Java each time they launch the GUI. This script lives on the workstation’s desktop and users click on it in order to start up the GUI in place of a desktop icon.
 
 See also the [INSERT LINK TO TROUBLESHOOTING SECTION HERE] section for more information related to this issue.
