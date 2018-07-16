@@ -70,7 +70,7 @@ delivery may not be quite as digestible as the GUI’s visualizations. That said
 command-line options can be used to control the level of detail included in the 
 DTC’s output, which may help users weed out information deemed overly technical and, 
 ultimately, unnecessary (for an example of this, see [Working with 40-track 
-floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.rst)).
+floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks)).
 
 ## Using and interpreting the graphical user interface (GUI):
 
@@ -89,7 +89,7 @@ Java and other dependencies can be found in the [Downloading the Software sectio
 	imaging session and any time you switch between 3.5-inch and 5.25-inch disk 	
 	drives.
 	
-**NOTE:** See the [troubleshooting section](03%20TROUBLESHOOTING/troubleshooting.rst) if you experience difficulties in calibrating your drive when using the GUI.
+**NOTE:** See the [troubleshooting section](03%20TROUBLESHOOTING/troubleshooting) if you experience difficulties in calibrating your drive when using the GUI.
 
 ![Figure 9: Select the correct drive from the Drive menu, then select Calibrate.](figure9.png "Figure 9: Select the correct drive from the Drive menu, then select Calibrate.")
 
@@ -111,14 +111,14 @@ OK.*
 	filename for any disk images and log files created.  Do not include the 
 	extension of the file name.
 	
-5.	Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.rst) for the disk image using the dropdown list 
+5.	Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats) for the disk image using the dropdown list 
 	below the filename field (see figure 12). Use the table below (figure 11) to  
 	select the necessary image formats. In order to choose multiple outputs, hold 
 	down the *Control (Ctrl)* key while making your selections.  In most cases, 
 	selecting an image format to obtain a sector image requires that you know 
 	something about the media in hand.
 	
-**NOTE:** You may wish to capture [preservation stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.rst) (listed as 
+**NOTE:** You may wish to capture [preservation stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files) (listed as 
 *KryoFlux stream files, preservation*) in addition to a formatted disk image as part 
 of your imaging workflow, since these stream files can be used later to create 
 formatted disk images [using deviceless mode](#using-deviceless-mode).
@@ -133,11 +133,11 @@ formatted disk images [using deviceless mode](#using-deviceless-mode).
 | 5.25" high density   | PC                | MFM sector image                 |
 
 *Figure 11: Some of the most commonly used disk encoding formats supported by the 
-KryoFlux.  Details on how to handle 40 track images are covered in [part two](/02%20PART%20TWO%20In-Depth/readme.rst)*
+KryoFlux.  Details on how to handle 40 track images are covered in [part two](/02%20PART%20TWO%20In-Depth/readme)*
 
 ![Figure 12: Select the image format(s) for the disk image using the dropdown list below the filename field.](figure12.png "Select the image format(s) for the disk image using the dropdown list below the filename field.")
 
-*Figure 12: Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.rst) for the disk image using the dropdown list below the filename field.*
+*Figure 12: Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats) for the disk image using the dropdown list below the filename field.*
 
 6.	After you have selected the appropriate image format, insert a disk and select 
 	*Start*. You should see the green *Stream* indicator flash on and off, and see 
@@ -171,7 +171,7 @@ blocks of color*.
 
 ### USING DEVICELESS MODE
 
-[Stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.rst) created in KryoFlux can be used to create [formatted images](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.rst) with the KryoFlux software.  
+[Stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files) created in KryoFlux can be used to create [formatted images](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats) with the KryoFlux software.  
 
 If you have previously created stream files you can use this workflow to create 
 images using the KryoFlux software without needing the hardware or disk itself.
@@ -212,25 +212,9 @@ Here's an example:
 |          ``dtc``         |                                                                 ``-f``                                                                 |                    ``kryofluxDiskImage_file``                    |
 | Executes the DTC command | Serves as a flag to identify how the following parameter should be interpreted (in this case, it should be interpreted as a file name) | Provides our chosen file name (and, if necessary, its file path) |
 
-+-------------+-------------------------------+--------------------------------------+
-| **Command** | **Option**                    | **Parameter**                        |
-+=============+===============================+======================================+
-| ``dtc``     | ``-f``                        | ``kryofluxDiskImage_file``           |
-+-------------+-------------------------------+--------------------------------------+
-| Executes the| Serves as a flag to identify  | Provides our chosen filename (and    |
-| DTC command | how the following parameter   | if necessary, its file path)         |
-|             | should be interpreted (in     |                                      |
-|             | this case, it should be       |                                      |
-|             | interpreted as a filename)    |                                      |
-+-------------+-------------------------------+--------------------------------------+		  
-.. _Useful-command-line-options:
+### USEFUL COMMAND LINE OPTIONS	
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-USEFUL COMMAND LINE OPTIONS	
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-****NOTE:**** In the following table, the KryoFlux user should replace the angle brackets 
-( < > ) and any text stored inside the angle brackets with the required 
+**NOTE:** In the following table, the KryoFlux user should replace the angle brackets ( < > ) and any text stored inside the angle brackets with the required 
 information.	
 
 *For example*:	
@@ -238,7 +222,16 @@ information.
 ``-f<name>`` might become ``-f filename.img``
 
 ``-i<type>`` might become ``-i0``
-				
+
+| ``-f<name> `` | Used to set filename (and, if necessary, file path).                                                                                                                                                                                                                                                                                                                                                                           |
+|:-------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ``-i<type> `` | Used to determine image type. This relates to how data has been encoded on the floppy disk, which may or may not be known in advance of imaging. When used in a command, option -i is paired with a number representing a certain encoding format, e.g., STREAM = 0, MFM = 4, Apple DOS 400k/800k = 9. (See the official KryoFlux manual <https://www.kryoflux.com/?page=download> for a full list of supported image types.)  |
+|   ``-m<id>``  | Set device mode. This option is used to generate additional disk images using existing STREAM files, rather than the original floppy disk.                                                                                                                                                                                                                                                                                     |
+|   ``-d<id>``  | Select drive, used if multiple drives are connected to KryoFlux (e.g., both a 3.5" and a 5.25" drive).                                                                                                                                                                                                                                                                                                                         |
+|  ``-l<mask>`` | Used to select the level of output generated during imaging. Using -l8 will restrict output to formatting information only, which can be used to verify data against a specified image type.                                                                                                                                                                                                                                   |
+|  ``-t<try>``  | Used to specify the number of retries per track in the event that the KryoFlux encounters errors. The default number of retries is 5; increasing this number might help recover data from worn disks.                                                                                                                                                                                                                          |
+|     ``-p``    | Used to force creation of directories listed in file path.                                                                                                                                                                                                                                                                                                                                                                     |
+|  ``-dd<val>`` | Used to set drive density line (i.e., high density (HD) or double density ( DD)). This is particularly useful when working with 5.25-inch drives. The disk may appear unformatted if the wrong density is used. This flag is less useful for 3.5-inch drives, which typically include a sensor to automatically detect the correct density.                                                                                    |
 +--------------+---------------------------------------------------------------------+
 | ``-f <name>``| Used to set filename (and, if necessary, file path).                |
 +--------------+---------------------------------------------------------------------+
