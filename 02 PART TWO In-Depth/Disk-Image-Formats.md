@@ -14,7 +14,7 @@ As a rule of thumb, if you know what system a disk was used with and the approxi
 
 ### MFM/FM Generic Sector Images
 
-Generic MFM and FM encoded floppy disks are perhaps most common, particularly with disks used in the 1990s.<a href="#anchor1">1</a> This is largely because IBM personal computers and IBM clones throughout the 1980s and 1990s encoded data using these methods, leading to wide use by users of MS-DOS and CP/M systems at work and in the home. Rising levels of interoperability between peripherals across these systems over time helped lead to increased market share.
+Generic MFM and FM encoded floppy disks are perhaps most common, particularly with disks used in the 1990s.<a href="#anchor1"><sup>1</sup></a> This is largely because IBM personal computers and IBM clones throughout the 1980s and 1990s encoded data using these methods, leading to wide use by users of MS-DOS and CP/M systems at work and in the home. Rising levels of interoperability between peripherals across these systems over time helped lead to increased market share.
 
 If a set of disks was used with an MS-DOS machine from the mid-1980s through the early-2000s, it is almost certainly a MFM or FM-encoded disk. Disks using the generic FM and MFM profiles include single-sided/double-density floppies, double-sided/double-density floppies, and double-sided, high-density floppies in both 5.25” and 3.5” sizes. 
 
