@@ -1,6 +1,19 @@
 
 # Using the KryoFlux
 
+1. [GUI vs. CLI](#gui-vs.-cli)
+	* [Ease of use for beginners](#ease-of-use-for-beginners)
+	* [Efficiency and flexibility](#efficiency-and-flexibility)
+	* [Reporting](#reporting)
+2. [Using and interpreting the graphical user interface (GUI)](#using-and-interpreting-the-graphical-user-interface-(gui))
+	* [Capturing disk images](#capturing-disk-images)
+	* [Using deviceless mode](#using-deviceless-mode)
+3.	[Using and interpreting DTC via the CLI](#using-and-interpreting-dtc-via-the-cli)
+	* [KryoFlux command line syntax](#kryoflux-command-line-syntax)
+	* [Useful command line options](#useful-command-line-options)
+	* [Command line examples](#command-line-examples)
+	* [Adding DTC to your system variables](#adding-dtc-to-your-system-variables)
+
 ## GUI vs. CLI:
 
 
