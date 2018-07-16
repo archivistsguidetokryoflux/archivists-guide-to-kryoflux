@@ -13,8 +13,8 @@ Part one provides provides step-by-step instructions designed to get you set up 
 
 ## USING THE KRYOFLUX
 
-1. [GUI vs. CLI](/01%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX/README.md/#gui-vs-cli)
-	* [Ease of use for beginners](./02%20USING%20THE%20KRYOFLUX/README.md#ease-of-use-for-beginners)
+1. [GUI vs. CLI](/01%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX/README.md#gui-vs-cli)
+	* [Ease of use for beginners](/01%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX/README.md#ease-of-use-for-beginners)
 	* [Efficiency and flexibility](./02%20USING%20THE%20KRYOFLUX/README.md#efficiency-and-flexibility)
 	* [Reporting](./02%20USING%20THE%20KRYOFLUX/README.md#reporting)
 2. [Using and interpreting the graphical user interface (GUI)](./02%20USING%20THE%20KRYOFLUX/README.md#using-and-interpreting-the-graphical-user-interface-(gui))
