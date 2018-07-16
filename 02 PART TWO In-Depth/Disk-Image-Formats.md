@@ -20,7 +20,7 @@ If a set of disks was used with an MS-DOS machine from the mid-1980s through the
 
 ### Apple DOS 400K/800K Sector Images
 
-Apple computers in the 1980s and early 1990s used variable speed floppy drives in order to increase the capacity over their PC counterparts. This allowed for disks to beat early PC disks in terms of raw storage, but made reading those disks on later Apple computers to be much more difficult. KryoFlux’s use of the phrase Apple DOS 400K/800K is a bit of a misnomer in that this type of sector image may include Apple computers not running Apple DOS[2_] (e.g., early Macintosh computers). As a general rule, 400K refers to single sided/single-density floppy disks. These disks were most commonly created on Apple computers running System 0.7-System 7.1. 800K refers to the double-sided or double-density floppy disks created by machines running System 7.5 and later.[3_] By the time Apple introduced the update to its HFS filesystem (HFS+), native support for the variable speed floppies had been deprecated. All of this is a long way of saying, if the user knows that a particular disk was written using an Apple computer made between 1985 and 1995 (generally), the image type to attempt would be the 400K/800K sector image.
+Apple computers in the 1980s and early 1990s used variable speed floppy drives in order to increase the capacity over their PC counterparts. This allowed for disks to beat early PC disks in terms of raw storage, but made reading those disks on later Apple computers to be much more difficult. KryoFlux’s use of the phrase Apple DOS 400K/800K is a bit of a misnomer in that this type of sector image may include Apple computers not running Apple DOS<a href="#anchor2"><sup>2</sup></a> (e.g., early Macintosh computers). As a general rule, 400K refers to single sided/single-density floppy disks. These disks were most commonly created on Apple computers running System 0.7-System 7.1. 800K refers to the double-sided or double-density floppy disks created by machines running System 7.5 and later.<a href="#anchor3"><sup>3</sup></a> By the time Apple introduced the update to its HFS filesystem (HFS+), native support for the variable speed floppies had been deprecated. All of this is a long way of saying, if the user knows that a particular disk was written using an Apple computer made between 1985 and 1995 (generally), the image type to attempt would be the 400K/800K sector image.
 
 
 ## Other disk image types available:
@@ -43,6 +43,6 @@ Additional disk image types available when using KryoFlux include the following:
 
 <a id="anchor1">[1]</a> Pages 1-6 of this document have additional details on FM and MFM encoding. http://info-coach.fr/atari/hardware/_fd-hard/AN-505.pdf accessed 05/03/2017
 
-[2] https://groups.google.com/forum/#!topic/vintage-macs/CbD58EqcnUM accessed 12/5/2016
+<a id="anchor2">[2]</a> https://groups.google.com/forum/#!topic/vintage-macs/CbD58EqcnUM accessed 12/5/2016
 
-[3] http://siber-sonic.com/mac/newmillfloppy.html accessed 12/5/2016
+<a id="anchor3">[3]</a> http://siber-sonic.com/mac/newmillfloppy.html accessed 12/5/2016
