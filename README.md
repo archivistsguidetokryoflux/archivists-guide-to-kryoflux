@@ -1,15 +1,14 @@
-Introduction
-=============
+# Introduction
 
-Contributors
-------------
+
+## Contributors
+
 
 Jennifer Allen, Elvia Arroyo-Ramirez, Kelly Bolding, Faith Charlton, Patricia 
 Ciccone, Yvonne Eadon, Matthew Farrell, Allison Hughes, Victoria Maches, Shira 
 Peltzman, Alice Prael, Scott Reed, Dorothy Waugh.
 
-About this Guide
-----------------
+## About this Guide
 
 For archivists working with aging floppy disks, the KryoFlux can be an incredibly 
 powerful tool. It is not, however, an incredibly user-friendly one. Scant 
@@ -29,11 +28,11 @@ useful.
 
 The user guide is divided into two parts:
 
-*	[Part One](/01%20PART%20ONE%20Getting%20Started/readme.rst) provides step-by-step instructions designed to get you set up 
+*	[Part One](/01%20PART%20ONE%20Getting%20Started/readme.md) provides step-by-step instructions designed to get you set up 
 	and started. You may wish to start here if you already have a KryoFlux in hand 
-	and are ready to jump in. We’ve included links to relevant sections in [part two](02%20PART%20TWO%20In-Depth/readme.rst)
+	and are ready to jump in. We’ve included links to relevant sections in [part two](02%20PART%20TWO%20In-Depth/readme.md)
 	so you can dip in and out as needed.
-*	[Part Two](02%20PART%20TWO%20In-Depth/readme.rst) provides a more in-depth introduction to the KryoFlux and 
+*	[Part Two](02%20PART%20TWO%20In-Depth/readme.md) provides a more in-depth introduction to the KryoFlux and 
 	floppy disks as a medium for data storage. You may wish to start here if you are 
 	interested in learning more about the ins and outs of how the KryoFlux works 
 	before diving in, or if you’re weighing the benefits of purchasing a KryoFlux 
@@ -44,8 +43,8 @@ This is an unofficial guide and has not been written in affiliation with the
 Software Preservation Society (SPS). The official KryoFlux manual is available at 
 http://www.kryoflux.com/download/kryoflux_manual.pdf. 
 
-Introduction to the KryoFlux
-----------------------------
+## Introduction to the KryoFlux
+
 
 The KryoFlux is a floppy disk controller card developed by the [Software 
 Preservation Society](https://www.kryoflux.com/?page=links_sps) that can read a 
