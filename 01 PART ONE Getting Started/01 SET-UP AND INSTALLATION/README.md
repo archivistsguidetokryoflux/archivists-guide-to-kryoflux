@@ -201,7 +201,7 @@ You are now ready to start capturing disk images using the KryoFlux, either usin
 
 ## Handling the KryoFlux
 
-### GOOD: Tips for basic handling and care
+### GOOD Tips for basic handling and care
 Because it does not have a protective outer shell or cover, the KryoFlux board is fragile and vulnerable to damage. A good rule of thumb is to try to **handle it as little as possible** to avoid damage, and to **put the board away after you’re done using it**--especially overnight or over the weekend--to prevent dust gathering. 
 
 Another thing to keep in mind is that the board is particularly vulnerable to changes in the electrical current. The most obvious precautionary measures you can take to protect your KryoFlux are: 
@@ -211,7 +211,7 @@ Another thing to keep in mind is that the board is particularly vulnerable to ch
 3. **Place the KryoFlux on top of something non-conductive while in use**, such as a book, folder, or cardboard box. This material will act as a buffer so that you avoid accidentally putting the KryoFlux in direct contact with a conductive material. You may choose to use an anti-static mat or wristband, but typically this won’t be necessary and there’s debate about whether or not these types of anti-static devices will be helpful in a scenario like this one. NOTE: do not place the board on top of the anti-static bag in which the KryoFlux is shipped. The anti-static bags are conductive, and although the resistance is fairly high, it might cause data errors nonetheless. 
 
 
-### BETTER: Creating an enclosure
+### BETTER Creating an enclosure
 In institutions where only one person will be working with the KryoFlux, it may be sufficient to handle the board carefully as described above. In cases when multiple staff members will be using the board, it will be much more challenging to monitor use to ensure careful handling. 
 
 Since the KryoFlux board is costly, you may want to look at simple enclosures. If your electronic acquisitions terminal is a commodity desktop tower or laptop computer, there is likely not going to be room in the housing to mount the board permanently. Archivists at Yale designed and wrote online about an enclosure they printed using a 3-D printer, and uploaded the design to `Thingiverse <https://www.thingiverse.com/thing:64058>`_Thingiverse. It works relatively well, though there are a few caveats:
@@ -220,7 +220,7 @@ Since the KryoFlux board is costly, you may want to look at simple enclosures. I
 2. There are now variations on the original enclosure design. The original is a two-piece object and includes a base and a lid. A second version features a slide that may introduce additional complexity. Since 3D printing is iterative, you may want to experiment with designs until you find one that is right.
 3. Though the enclosure is protective, it is still fairly small and both objects together do not weigh much. We make sure to store ours at the end of a session. We leave the ribbon cable attached to the board, and store the board in its enclosure in a slightly larger box along with the ribbon.
 
-### BEST: Installing KryoFlux in a computer tower
+### BEST Installing KryoFlux in a computer tower
 At Yale, the KryoFlux is installed internally in this dedicated disk imaging machine. The KryoFlux board is mounted to a disk shelf using zip ties to keep it from shifting inside the tower. A bit of foam is used between the kryoflux and the shelf as an insulator as well as preventing the board from scraping against the shelf. The first photo shows the USB cable from the front of the machine, the second photo shows the data cable attached through the back of the machine.
 
 One note for future archivists attempting to internally install a KryoFlux: Be sure that the data cable is oriented correctly.  In the photo below you can see that the data cable is twisted in order to correctly connect to both the KryoFlux board and the floppy disk drive. The correct orientation is dependent on the specific drive you are working with. See the :ref:`Setting up the KryoFlux<>` instructions for more information.
