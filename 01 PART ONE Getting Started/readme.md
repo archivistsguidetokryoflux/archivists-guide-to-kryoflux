@@ -15,7 +15,7 @@ Part one provides provides step-by-step instructions designed to get you set up 
 4. [Setting up the KryoFlux](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#setting-up-the-kryoflux)
 5. [Disconnecting the KryoFlux](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#disconnecting-the-kryoflux) 
 6. [Handling the KryoFlux](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#handling-the-kryoflux)
-	* [GOOD Tips for basic handling and care](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#good-tips-for-basic-handling)
+	* [GOOD Tips for basic handling and care](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#GOOD-tips-for-basic-handling)
 	* [BETTER Creating an enclosure](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#better-creating-an-enclosure)
 	* [BEST Installing KryoFlux in a computer tower](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#best-installing-kryoflux-in-a-computer-tower)
 
