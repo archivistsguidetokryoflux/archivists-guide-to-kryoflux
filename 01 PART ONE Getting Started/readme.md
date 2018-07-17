@@ -4,8 +4,8 @@ Part one provides provides step-by-step instructions designed to get you set up 
 
 ## SET-UP AND INSTALLATION
 
-* What's In the Box
-* Downloading the Software 
+1. [What's In the Box]
+2. [Downloading the Software] 
 * Setting Up the KryoFlux 
 * Disconnecting the KryoFlux 
 * Handling the KryoFlux 

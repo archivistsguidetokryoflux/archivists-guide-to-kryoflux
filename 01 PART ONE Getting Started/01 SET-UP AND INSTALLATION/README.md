@@ -10,13 +10,13 @@ The KryoFlux setup consists of several pieces of hardware connected by cables (s
 
 ## Downloading the Software
 
-USING WINDOWS...
+### Using Windows
 1.	Download the directory containing KryoFlux driver and DTC files from the KryoFlux website: http://kryoflux.com/?page=download.
 
 2.	Save the directory to your chosen location. Make a note of this location. For example: C:\Users\Public\Desktop\kryoflux_2.51_windows
 
 
-USING MAC...
+### Using Mac
 
 1. Download the JDK Java Runtime Platform files from the Oracle website: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html.
 
@@ -46,7 +46,7 @@ package, right click on the package and choose "Open" from the menu and then cho
 
 *Figure 3: The unidentified developer MacOSX warning.*
 
-USING LINUX...
+### Using Linux
 
 1. Download the Linux .tar file containing KryoFlux driver and DTC files from the KryoFlux website: http://kryoflux.com/?page=download
 
