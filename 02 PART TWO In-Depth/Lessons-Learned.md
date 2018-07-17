@@ -16,9 +16,13 @@ To avoid frying the board by disconnecting it improperly, follow the instruction
 **Note**: Christian Bartsch, Managing Director and Founder of KryoFlux Products and Services Ltd., provided some additional technical explanation related the experience that archivists and students from UCLA describe above:
 
 > Recent USB ports have become really powerful due to people charging their phones via the PC. Much of the  “cheap“ USB equipment simply does not have fuses, e.g. USB hubs from China where the fuse (present on the board’s layout) is simply bridged with wire.
+> 
 > So, KryoFlux has a fuse for various reasons. One is that drives, especially 5.25“ and 8“ drives, can generate significant (and unwanted) drainage and having a component (the KryoFlux) connected to something very powerful (the USB port) could cause damage. It might have happened that such drainage (which is a complex result of the different connections between the PC and the other outlet used for the PSU, plus the surface where the components are placed has triggered the fuse. [EDITOR’S NOTE: Always place the KryoFlux board on a non-conductive surface while it is in use. You may choose to use an anti-static mat or wristband, but typically this won’t be necessary and there’s debate about whether or not these types of anti-static devices will be helpful in a scenario like this one. NOTE: do not place the board on top of the anti-static bag in which the KryoFlux is shipped. The anti-static bags are conductive, and although the resistance is fairly high, it might cause data errors nonetheless.]
+> 
 > Such damage would only affect the fuse (as opposed to the board itself) which blows ("fries") for the reason of protecting 30+ year old technology. 
+> 
 > The replacement fuse recommended is this one:https://www.digikey.de/product-detail/en/bel-fuse-inc/0ZCJ0050FF2G/507-1802-1-ND/4156236?keywords=507-1802-1-nd&cur=EUR&lang=en
+> 
 > Having the fuse replaced by a trained technician will not void the warranty. Also, this replacement fuse, which is used for later KryoFlux boards, is self-resetting and will reset itself after a minute or two.
 
 ## Princeton University
