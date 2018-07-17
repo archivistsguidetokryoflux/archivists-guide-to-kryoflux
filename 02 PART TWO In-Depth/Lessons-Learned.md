@@ -1,12 +1,6 @@
-.. Lessons Learned:
+# Lessons Learned: KryoFlux Tales of Woe
 
-======================================
-Lessons Learned: KryoFlux Tales of Woe
-======================================
-
-------------------------------------
-University of California Los Angeles
-------------------------------------
+## University of California Los Angeles
 
 *Patricia Ciccone, Victoria Maches, Shira Peltzman, Scott Reed*
 We ran into several issues while setting up the KryoFlux, both in terms of trouble with the physical setup process and problems with the KryoFlux after setup. 
@@ -31,9 +25,7 @@ Ltd., provided some additional technical explanation related the experience that
  
  Having the fuse replaced by a trained technician will not void the warranty. Also, this replacement fuse, which is used for later KryoFlux boards, is self-resetting and will reset itself after a minute or two.
 
---------------------
-Princeton University
---------------------
+## Princeton University
 
 *Elvia Arroyo-Ramirez, Kelly Bolding, Faith Charlton, Allison Hughes*
 
@@ -42,12 +34,12 @@ After setting up the KryoFlux and installing the driver in Windows per the softw
 
 It’s unclear why switching from Drive 1 to Drive 0 solves this problem. We thought initially that perhaps our data cable connections were reversed, but feedback from the KryoFlux development team suggest this is incorrect. Whatever the reason, however, this solution worked for us and did not cause any damage to our KryoFlux board. In summary, if the KryoFlux won’t calibrate using one drive, try the other.
 
-.. image:: images/lessons-learned-figure01.PNG
-    :width: 45%
-    :class: left
-.. image:: images/lessons-learned-figure02.jpg
-    :width: 45%
-    :class: right
+           |  
+:-------------------------:|:-------------------------:
+![Figure 9: Select the correct drive from the Drive menu, then select Calibrate.](images/lessons-learned-figure01.PNG "Figure 9: Select the correct drive from the Drive menu, then select Calibrate.") |  ![Figure 9: Select the correct drive from the Drive menu, then select Calibrate.](images/lessons-learned-figure02.jpg "Figure 9: Select the correct drive from the Drive menu, then select Calibrate.")
+
+*Figure 9: Select the correct drive from the Drive menu, then select Calibrate.*
+
 
 **Why isn’t the KryoFlux showing up when I plug it in?**
 
