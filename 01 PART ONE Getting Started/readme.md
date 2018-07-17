@@ -4,14 +4,24 @@ Part one provides provides step-by-step instructions designed to get you set up 
 
 ## SET-UP AND INSTALLATION
 
-1. [What's In the Box]
-2. [Downloading the Software] 
-* Setting Up the KryoFlux 
-* Disconnecting the KryoFlux 
-* Handling the KryoFlux 
+1. [What's in the box](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/readme.md#what's-in-the-box)
+2. [Downloading the software]
+	* [Using Windows]
+	* [Using Mac]
+	* [Using Linux]
+3. [Using Linux: Prerequisites and dependencies]
+	* [UDEV rule]
+	* [Java dependency]
+4. [Setting up the KryoFlux] 
+5. [Disconnecting the KryoFlux] 
+6. [Handling the KryoFlux]
+	* [Good: Tips for basic handling and care]
+	* [Better: Creating an enclosure]
+	* [Best: Installing KryoFlux in a computer tower]
 
 
 ## USING THE KRYOFLUX
+
 1. [GUI vs. CLI](/01%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX/readme.md)
 	* [Ease of use for beginners](/01%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX/readme.md#ease-of-use-for-beginners)
 	* [Efficiency and flexibility](./02%20USING%20THE%20KRYOFLUX/readme.md#efficiency-and-flexibility)
