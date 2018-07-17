@@ -85,11 +85,11 @@ DTC’s output, which may help users weed out information deemed overly technica
 ultimately, unnecessary (for an example of this, see [Working with 40-track 
 floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.md)).
 
-## Using and interpreting the graphical user interface (GUI):
+## Using and interpreting the graphical user interface:
 
 ### CAPTURING DISK IMAGES
 
-1.	Launch the KryoFlux GUI, either by clicking the desktop icon, or by opening the 
+1.	Launch the KryoFlux graphical user interface, or GUI, either by clicking the desktop icon, or by opening the 
 	DTC folder where the GUI installer was located and double-clicking on the file 
 	called kryoflux-ui.jar.
 
