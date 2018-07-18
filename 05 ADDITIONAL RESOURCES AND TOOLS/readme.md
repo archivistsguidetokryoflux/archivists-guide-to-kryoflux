@@ -3,7 +3,7 @@
 
 ## Tools
 
-Floppy Disk Format Identifier Tool: <http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool/>`_ 
+Floppy Disk Format Identifier Tool: <http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool/>
 Created by Euan Cochrane, this tool lets users create multiple formatted disk images using a directory of stream files from multiple disks.  Once the images have been created, the user can click ‘Try Mounting’ to mount every disk image created in the previous step.  If the option “Delete unmountable’ is chosen, then any disk image that failed to mount is automatically deleted.  This leaves the user with a number of disk images that were successfully mounted.  This is not a guarantee that the image format is the correct, only that the disk image can be mounted.  The image files that are created keep the file name of stream file directory with an appended “-i” and a number.  That number indicates the image type as listed on page 16 of the official `KryoFlux User Manual <http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool>`_ 
 
 Instructions and further description of the Floppy Disk Format Identifier Tool are available on the Digital Continuity Blog.
