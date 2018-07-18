@@ -1,8 +1,4 @@
-.. _Glossary:
-
-===================
-Glossary
-===================
+### Glossary
 
 **Adapter or Converter:**
 
@@ -22,11 +18,11 @@ Known as soft errors or bit rot, decay of data in memory can occur when the smal
 
 *Decay of storage media*
 
-Data degradation can also be used to describe the phenomenon of storage media gradually decaying over the duration of many years. Common factors of storage media decay include sun exposure, dust, temperature, humidity, and other macro-environmental factors. For more information on ideal storage conditions for magnetic media, please see the Image Permanence Institute `Media Storage Quick Reference Guide <https://www.imagepermanenceinstitute.org/webfm_send/301>`_.
+Data degradation can also be used to describe the phenomenon of storage media gradually decaying over the duration of many years. Common factors of storage media decay include sun exposure, dust, temperature, humidity, and other macro-environmental factors. For more information on ideal storage conditions for magnetic media, please see the Image Permanence Institute [Media Storage Quick Reference Guide](https://www.imagepermanenceinstitute.org/webfm_send/301).
 
 **Deviceless Mode:**
 
-Deviceless Mode means that the user can work on raw files without having to go through the Kryoflux hardware. The DTC will function like a virtual machine and will be able to read proprietary STREAM or DRAFT files. See :ref:`Using Deviceless Mode<>` for more information.
+Deviceless Mode means that the user can work on raw files without having to go through the Kryoflux hardware. The DTC will function like a virtual machine and will be able to read proprietary STREAM or DRAFT files. See [Using Deviceless Mode](/02%20PART%20ONE%20Getting-Started/02-Using-the-Kryoflux/readme.md) for more information.
 
 **Disk Image:**
 
@@ -41,11 +37,11 @@ DRAFT FILES simply store the signals read from a disk. The interpretation of tho
 The only difference between a STREAM file and a DRAFT file is that DRAFT is a one-file only image that is fit for transient storage while STREAM files comprised a group of files that represent signals from each tracks. Both are of forensic quality.
 
 **DTC:**
-The Kryoflux’s Disk Tool Console, the command line application that sits underneath the Kryoflux’s GUI. As the tool’s underlying technology, DTC offers some added functionality and flexibility that might recommend it over the GUI in some instances. See :ref:`GUI vs. DTC<>` for more information.
+The Kryoflux’s Disk Tool Console, the command line application that sits underneath the Kryoflux’s GUI. As the tool’s underlying technology, DTC offers some added functionality and flexibility that might recommend it over the GUI in some instances. See [GUI vs. CLI](/02%20PART%20ONE%20Getting-Started/02-Using-the-Kryoflux/readme.md) for more information.
 
 **Encoding Formats:**
 
-Encoding formats are information processing systems that convert raw data into a readable output. Encoding allows the circulation of data by giving instructional keys to a computer program to input, process and output data through a series of particular patterns. However, without the proper “reading keys” formatted content can be inaccessible. Kryoflux bypasses this problem by 1) providing a wide range of decoding tools/formats; and 2) preserving the magnetic flux of a disk rather than trying to output encoded data. See :ref:`Disk Image Formats<>` for more information.
+Encoding formats are information processing systems that convert raw data into a readable output. Encoding allows the circulation of data by giving instructional keys to a computer program to input, process and output data through a series of particular patterns. However, without the proper “reading keys” formatted content can be inaccessible. Kryoflux bypasses this problem by 1) providing a wide range of decoding tools/formats; and 2) preserving the magnetic flux of a disk rather than trying to output encoded data. See [Disk Image Formats](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.md) for more information.
 
 **Formatted Image:**
 
@@ -71,7 +67,7 @@ The smallest unit of storage is Sector 0 and it contains a FAT (file allocation 
 
 **STREAM format (proprietary):**
 
-The proprietary STREAM format reads the flux transition timing and index signal timing from the raw magnetic fluxes and encodes them in a specific standard. This standard recognizes the "stream file" as "one continuous stream of bytes." In other words, there's a start of the file, and an end to the file, but nothing else is defined (for floppy disks, however, temporal measures are part of the raw magnetic fluxes, and need to be taken into account when imaging). Stream files are reusable and allow you to create new disk images based on different encoding formats without re-reading the physical media, so your legacy media will not be compromised by being physically read too many times. See :ref:`KryoFlux Stream Files<>` for more information.
+The proprietary STREAM format reads the flux transition timing and index signal timing from the raw magnetic fluxes and encodes them in a specific standard. This standard recognizes the "stream file" as "one continuous stream of bytes." In other words, there's a start of the file, and an end to the file, but nothing else is defined (for floppy disks, however, temporal measures are part of the raw magnetic fluxes, and need to be taken into account when imaging). Stream files are reusable and allow you to create new disk images based on different encoding formats without re-reading the physical media, so your legacy media will not be compromised by being physically read too many times. See [Kryoflux Stream Files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md) for more information.
 
 *\* Kryoflux stream files, preservation*
 
