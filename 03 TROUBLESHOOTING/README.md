@@ -75,7 +75,7 @@ The udev rule will prevent bcadmin permissions errors as well as erasing the nee
 
 If this is your first time installing the Kryoflux, you may need to also create a udev (Userspace Device) rule. This is often necessary to configure a Debian Linux (of which Ubuntu and BitCurator are flavors) environment, allowing access to the Kryoflux device for users in the *floppy* group. It is possible that BitCurator users will not need to to create a udev rule, as the default user (bcadmin) should already be part of the *floppy* group, however, some users report needing this udev rule on BitCurator systems as well as other Debian flavors of Linux.
 
-See [here](/02%20PART%20One%20Getting-Started/01-SET-UP-AND-INSTALLATION/readme.md#udev-rule) for instructions to create a udev rule.
+See [here](/02%20PART%20One%20Getting-Started/01-SET-UP-AND-INSTALLATION/readme.md) for instructions to create a udev rule.
 
 **Why won’t the drive calibrate when using the GUI?**
 
