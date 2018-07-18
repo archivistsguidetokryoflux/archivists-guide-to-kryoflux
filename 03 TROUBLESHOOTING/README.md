@@ -1,4 +1,4 @@
-### Troubleshooting
+# Troubleshooting
 
 ## Why isn’t my computer finding the KryoFlux?
 
