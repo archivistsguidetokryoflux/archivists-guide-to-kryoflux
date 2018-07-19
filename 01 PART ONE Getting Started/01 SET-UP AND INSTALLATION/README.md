@@ -229,15 +229,26 @@ One note for future archivists attempting to internally install a KryoFlux: Be s
 The USB cable is connected to an internal USB port on the motherboard.  Some motherboards have USB ports installed; however, if your motherboard does not, you can purchase a USB header online for under ten dollars.  This USB header connects to the motherboard to provide two internal USB ports.  Shown here, the KryoFlux USB cable is connected to our USB header.
 The greatest advantage to having the KryoFlux board mounted in this way, is that it is difficult to knock a cord loose, but if someone needs to remove the board or check the connections, the board can be disconnected and removed fairly easily as seen here.
 
-[INSERT tower_install1.jpg here]
+![Figure 1: Tower install.](tower_install1.jpg "Figure 1: Tower install.")
 
-[INSERT tower_install2.jpg here]
+*Figure 1: Tower install.*
 
-[INSERT tower_install3.jpg here]
 
-[INSERT tower_install4.jpg here]
+![Figure 2: Tower install.](tower_install2.jpg "Figure 2: Tower install.")
 
-[INSERT tower_install5.gif here]
+*Figure 2: Tower install.*
+
+![Figure 3: Tower install.](tower_install3.jpg "Figure 3: Tower install.")
+
+*Figure 3: Tower install.*
+
+![Figure 4: Tower install.](tower_install4.jpg "Figure 4: Tower install.")
+
+*Figure 2: Tower install.*
+
+![Figure 5: Tower install.](tower_install5.gif "Figure 5: Tower install.")
+
+*Figure 5: Tower install.*
 
 
 
