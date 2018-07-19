@@ -112,7 +112,7 @@ While it does not require an especially high level of technical skill, setting u
 
 5. Connect the KryoFlux board to the computer using the USB cable (see figure 5).
 	
-![Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.](figure5.png "Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.")
+![Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.](figure5.JPG "Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.")
 
 *Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.*	
 **NOTE:** If using Windows, proceed to step 6. If using Mac or Linux, skip step 6 and proceed directly to step 7.
@@ -156,11 +156,11 @@ instance seems to have forgotten the drivers in between KryoFlux sessions.
 	
 **NOTE:** the above steps may require admin credentials depending on your institution’s setup.
 
-[INSERT figure7.png here]
+![Figure 7.](figure7.png "Figure 7")
 
 *Figure 7*
 
-[INSERT figure8.png here]
+![Figure 8: Navigate to C drive by typing c: and pressing enter.](figure8.png "Figure 8: Navigate to C drive by typing c: and pressing enter.")
 
 *Figure 8: Navigate to C drive by typing c: and pressing enter.*
 
