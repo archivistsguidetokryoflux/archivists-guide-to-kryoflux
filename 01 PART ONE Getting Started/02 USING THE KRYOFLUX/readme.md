@@ -184,7 +184,7 @@ blocks of color*.
 8.	To image another disk, continue from step 4. If you switch drives (e.g. from 
 	imaging 3.5” disks to 5.25” disks) and have not calibrated the other drive, 
 	continue from step 3.
-
+<a id="devicelessmode"></a>
 ### USING DEVICELESS MODE
 
 [Stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md) created in KryoFlux can be used to create [formatted images](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.md) with the KryoFlux software.  
