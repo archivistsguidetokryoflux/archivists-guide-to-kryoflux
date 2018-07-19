@@ -3,7 +3,7 @@
 ## Why isn’t my computer finding the KryoFlux?
 
 If your KryoFlux isn’t showing up as an unknown device or if your Windows instance
-seems to have forgotten the drivers in between KryoFlux sessions, it may be that it’s being mistakenly recognized as Bossa Program Port. From the Device Manager window, search under Ports (COM & LPT). If you see Bossa Program Port listed, use the following steps to correct the problem (see also [Princeton's Tale of KryoFlux Woe](/02%20PART%20TWO%20In-Depth/Lessons-Learned.md#Princeton-University) for an alternative solution, if this one fails):
+seems to have forgotten the drivers in between KryoFlux sessions, it may be that it’s being mistakenly recognized as Bossa Program Port. From the Device Manager window, search under Ports (COM & LPT). If you see Bossa Program Port listed, use the following steps to correct the problem (see also [Princeton's Tale of KryoFlux Woe](/02%20PART%20TWO%20In-Depth/Lessons-Learned.md#princetonuniversity) for an alternative solution, if this one fails):
 
 **NOTE:** Administrative rights are required to add drivers to the computer. If you don’t have
 admin access, contact your IT administrator for help.
