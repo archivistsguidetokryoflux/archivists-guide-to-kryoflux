@@ -25,8 +25,8 @@ To avoid frying the board by disconnecting it improperly, follow the instruction
 > 
 > Having the fuse replaced by a trained technician will not void the warranty. Also, this replacement fuse, which is used for later KryoFlux boards, is self-resetting and will reset itself after a minute or two.
 
-<a id="princetonuniversity">## Princeton University</a>
-
+## Princeton University
+<a id="princetonuniversity"></a>
 *Elvia Arroyo-Ramirez, Kelly Bolding, Faith Charlton, Allison Hughes*
 
 **Why won’t the drive calibrate?**
