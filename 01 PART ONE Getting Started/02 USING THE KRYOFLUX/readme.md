@@ -32,7 +32,7 @@ provides an overview of some of the differences between the two.
 
 ### Ease of use for beginners
 
-THE WINNER: The GUI
+**THE WINNER:** The GUI
 As might be expected, the GUI provides a more intuitive interface and a lower 
 barrier of entry to use. Its color-coded interface provides immediate and 
 easily-interpreted feedback, allowing users to quickly determine whether imaging is 
