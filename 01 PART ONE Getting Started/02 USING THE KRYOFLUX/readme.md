@@ -33,6 +33,7 @@ provides an overview of some of the differences between the two.
 ### Ease of use for beginners
 
 **THE WINNER:** The GUI
+
 As might be expected, the GUI provides a more intuitive interface and a lower 
 barrier of entry to use. Its color-coded interface provides immediate and 
 easily-interpreted feedback, allowing users to quickly determine whether imaging is 
@@ -44,6 +45,7 @@ existing knowledge of the command line.
 ### Efficiency and flexibility
 
 **THE WINNER:** The CLI
+
 In terms of efficiency and flexibility, the CLI may just pip the GUI to the 
 post--especially if you are imaging a large number of disks. Whereas changing a 
 setting using the GUI might involve several clicks, changing a setting using the CLI 
@@ -64,6 +66,7 @@ information is reported as part of the KryoFlux’s log files.
 ### Reporting
 
 **THE WINNER:** The GUI
+
 A particularly nice feature of the GUI are the visualizations that it provides as 
 data is being imaged. Color-coded blocks provide immediate feedback on whether 
 imaging has been successful. The use of red, orange, green, and grey blocks to 
