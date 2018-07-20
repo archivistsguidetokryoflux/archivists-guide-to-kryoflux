@@ -75,9 +75,9 @@ If this is your first time installing the KryoFlux software, you will also need 
 * Type the following text into the file: **ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="03eb", ATTR{idProduct}=="6124", GROUP="floppy", MODE="0660"**
 
 #### *JAVA DEPENDENCY*
-The KryoFlux software relies on Java to launch the GUI. In some cases, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” As a workaround, archivists at Princeton have developed a short `bash script <https://github.com/kellybolding/scripts/blob/master/run-kryoflux-gui.sh>`_that invokes Java each time they launch the GUI. This script lives on the workstation’s desktop and users click on it in order to start up the GUI in place of a desktop icon.
+The KryoFlux software relies on Java to launch the GUI. In some cases, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” As a workaround, archivists at Princeton have developed a short [bash script](https://github.com/kellybolding/scripts/blob/master/run-kryoflux-gui.sh) that invokes Java each time they launch the GUI. This script lives on the workstation’s desktop and users click on it in order to start up the GUI in place of a desktop icon.
 
-See also the [INSERT LINK TO TROUBLESHOOTING SECTION HERE] section for more information related to this issue.
+See also the [TROUBLESHOOTING](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/tree/master/03%20TROUBLESHOOTING) section for more information related to this issue.
 
 
 
@@ -85,11 +85,11 @@ See also the [INSERT LINK TO TROUBLESHOOTING SECTION HERE] section for more info
 
 While it does not require an especially high level of technical skill, setting up the KryoFlux does demand some careful attention to detail.  
 
-* **Make sure to read this entire section before attempting to connect and power your board!**
+**NOTE:**  Make sure to read this entire section before attempting to connect and power your board!
 
-* **The floppy drive is an unstable source of power that can permanently damage the board, so it is imperative to follow the correct order when connecting/disconnecting KryoFlux.**
+**NOTE:**  The floppy drive is an unstable source of power that can permanently damage the board, so it is imperative to follow the correct order when connecting/disconnecting KryoFlux.
 
-* **If you suspect that you have a malfunctioning board or have damaged a board in the process of installing, and you have a backup board, do not use the backup board until you have successfully troubleshooted the original board. If you do not know why the original board is not working, you may inadvertently replicate the problem if you connect a backup board.**
+**NOTE:**  If you suspect that you have a malfunctioning board or have damaged a board in the process of installing, and you have a backup board, do not use the backup board until you have successfully troubleshooted the original board. If you do not know why the original board is not working, you may inadvertently replicate the problem if you connect a backup board.
 
 1. Always place the KryoFlux board on a non-conductive surface while it is in use. You may choose to use an anti-static mat or wristband, but typically this won’t be necessary and there’s debate about whether or not these types of anti-static devices will be helpful in a scenario like this one. NOTE: do not place the board on top of the anti-static bag in which the KryoFlux is shipped. The anti-static bags are conductive, and although the resistance is fairly high, it might cause data errors nonetheless.
 
@@ -97,7 +97,7 @@ While it does not require an especially high level of technical skill, setting u
 
 3. Enable write-blocking functionality by removing the jumper for the write gate (see figure 4).
 
-4. Connect the drive to the board via the data cable. Ensure that the data cable’s first pin (the colored band) is oriented correctly. For more information about this, please see the :ref:`Understanding Drive 1/0<>` section.
+4. Connect the drive to the board via the data cable. Ensure that the data cable’s first pin (the colored band) is oriented correctly. For more information about this, please see the [Understanding Drive 1/0](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/blob/master/02%20PART%20TWO%20In-Depth/Understanding-Drives-1-and-0.md) section.
 
 	* For 3.5” drives, pin 1 must face left when the front of the drive is facing away from you. For some drives, this means that pin 1 will fact the outside of the drive when plugged in correctly, but this is not always the case. The rule of facing the drive away from you before plugging it in, and making sure that pin 1 faces left, should still be applicable to all 3.5” drives.  
 
@@ -146,7 +146,7 @@ While it does not require an especially high level of technical skill, setting u
 
 *Figure 6: Device Manager. One of the devices in this menu will be labeled “Unknown Device.” This is the KryoFlux. During installation, you may have to search through this list to find the “Unknown Device.” Once the KryoFlux has been recognized, however, it should be listed under Universal Serial Bus controllers. The steps are largely the same in Windows 10, although the presentation is slightly different.* 
 
-**NOTE:** See the [INSERT LINK TO TROUBLESHOOTING SECTION HERE] if you have trouble with this step, or if your Windows 
+**NOTE:** See the [TROUBLESHOOTING](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/tree/master/03%20TROUBLESHOOTING) if you have trouble with this step, or if your Windows 
 instance seems to have forgotten the drivers in between KryoFlux sessions.
 
 * Launch the command prompt:
@@ -192,7 +192,7 @@ power cable into the Type A / B outlets used in America. If you don’t have the
 
 **NOTE:** DTC will find the maximum number of tracks available. A floppy disk typically stores data across 80 tracks, but some drives can access as many as 83. 
 
-You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See [INSERT LINK TO Using and interpreting DTC via the CLI SECTION HERE] and [INSERT LINK TO Using and interpreting the graphical user interface (GUI) SECTION HERE]
+You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See [Using and interpreting DTC via the CLI](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/tree/master/01%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX#using-and-interpreting-dtc-via-the-cli) and [Using and interpreting the graphical user interface (GUI)] 
 
 ## Disconnecting the KryoFlux
 
@@ -215,7 +215,7 @@ Another thing to keep in mind is that the board is particularly vulnerable to ch
 ### BETTER: Creating an enclosure
 In institutions where only one person will be working with the KryoFlux, it may be sufficient to handle the board carefully as described above. In cases when multiple staff members will be using the board, it will be much more challenging to monitor use to ensure careful handling. 
 
-Since the KryoFlux board is costly, you may want to look at simple enclosures. If your electronic acquisitions terminal is a commodity desktop tower or laptop computer, there is likely not going to be room in the housing to mount the board permanently. Archivists at Yale designed and wrote online about an enclosure they printed using a 3-D printer, and uploaded the design to `Thingiverse <https://www.thingiverse.com/thing:64058>`_Thingiverse. It works relatively well, though there are a few caveats:
+Since the KryoFlux board is costly, you may want to look at simple enclosures. If your electronic acquisitions terminal is a commodity desktop tower or laptop computer, there is likely not going to be room in the housing to mount the board permanently. Archivists at Yale designed and wrote online about an enclosure they printed using a 3-D printer, and uploaded the design to [Thingiverse](https://www.thingiverse.com/thing:64058). It works relatively well, though there are a few caveats:
 
 1. Depending on the 3D printer model available to you, a 3D print may have slight errors. One such enclosure printed with bits of additional polymer needed to be sanded down in order for the board to fit. At Emory, additional polymer supports, designed to help the enclosure maintain its shape during printing, later proved impossible to remove. 
 2. There are now variations on the original enclosure design. The original is a two-piece object and includes a base and a lid. A second version features a slide that may introduce additional complexity. Since 3D printing is iterative, you may want to experiment with designs until you find one that is right.
