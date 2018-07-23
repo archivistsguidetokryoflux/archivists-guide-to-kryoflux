@@ -1,11 +1,11 @@
 
 # Using the KryoFlux
 
-1. [GUI vs. CLI](#gui-vs.-cli)
+1. [GUI vs. CLI](#guivscli)
 	* [Ease of use for beginners](#ease-of-use-for-beginners)
 	* [Efficiency and flexibility](#efficiency-and-flexibility)
 	* [Reporting](#reporting)
-2. [Using and interpreting the graphical user interface (GUI)](#using-and-interpreting-the-graphical-user-interface-(gui))
+2. [Using and interpreting the graphical user interface (GUI)](#using-and-interpreting-the-gui)
 	* [Capturing disk images](#capturing-disk-images)
 	* [Using deviceless mode](#using-deviceless-mode)
 3.	[Using and interpreting DTC via the CLI](#using-and-interpreting-dtc-via-the-cli)
@@ -87,7 +87,7 @@ command-line options can be used to control the level of detail included in the
 DTC’s output, which may help users weed out information deemed overly technical and, 
 ultimately, unnecessary (for an example of this, see [Working with 40-track 
 floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.md)).
-
+<a id="using-and-interpreting-the-gui"></a>
 ## Using and interpreting the graphical user interface:
 
 ### CAPTURING DISK IMAGES
