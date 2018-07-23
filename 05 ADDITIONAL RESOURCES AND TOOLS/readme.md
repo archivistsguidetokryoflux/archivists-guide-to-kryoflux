@@ -2,7 +2,7 @@
 # Additional Tools and Resources
 1. [Tools](/05%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#tools)
 2. [Books and Articles](/05%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#booksandarticles)
-3. [Web Resources]((/05%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#webresources)
+3. [Web Resources](/05%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#webresources)
 
 <a id="tools"></a>
 ## Tools
