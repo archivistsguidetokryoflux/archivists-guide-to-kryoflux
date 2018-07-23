@@ -38,7 +38,6 @@ After setting up the KryoFlux and installing the driver in Windows per the softw
 It’s unclear why switching from Drive 1 to Drive 0 solves this problem. We thought initially that perhaps our data cable connections were reversed, but feedback from the KryoFlux development team suggest this is incorrect. Whatever the reason, however, this solution worked for us and did not cause any damage to our KryoFlux board. In summary, if the KryoFlux won’t calibrate using one drive, try the other.
 
 ![Alt Text](images/lessons-learned-figure01.PNG "Caption.") 
-![Alt Text.](images/lessons-learned-figure02.jpg "Caption")
 
 *Figure X: Caption*
 
