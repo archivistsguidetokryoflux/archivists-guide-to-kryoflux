@@ -5,6 +5,6 @@ Part two provides a more in-depth introduction to the KryoFlux and floppy disks 
 * [Log Files](/02%20PART%20TWO%20In-Depth/Log-Files.md)
 * [Disk Image Formats](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.md)
 * [KryoFlux Stream Files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md)
-* [Understanding Drive I/O](/02%20PART%20TWO%20In-Depth/Understanding-Drives-1-and-0.md)
+* [Understanding Drive 1 and 0](/02%20PART%20TWO%20In-Depth/Understanding-Drives-1-and-0.md)
 * [Working with 40-track floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.md)
 * [Lessons Learned: KryoFlux tales of woe](/02%20PART%20TWO%20In-Depth/Lessons-Learned.md)
