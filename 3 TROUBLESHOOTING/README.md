@@ -1,13 +1,13 @@
 # 3. Troubleshooting
 
-* 3.1 [Why isn’t my computer finding the KryoFlux?](/03%20TROUBLESHOOTING/README.md#findingkryoflux)
-* 3.2 [Why am I getting bcadmin permission errors when trying to run the KryoFlux using Linux BitCurator?](/03%20TROUBLESHOOTING/README.md#bcadminpermission)
-* 3.3 [Why won’t the drive calibrate when using the GUI?](/03%20TROUBLESHOOTING/README.md#calibrate)
-* 3.4 [Why is the Settings window blank when I use the KryoFlux GUI?](/03%20TROUBLESHOOTING/README.md#blanksettings)
-* 3.5 [DTC is reporting that it successfully created a sector image. Why can’t I mount or export files from the image file?](/03%20TROUBLESHOOTING/README.md#dtcreporting)
+* 3.1 [Why isn’t my computer finding the KryoFlux?](/03%20TROUBLESHOOTING/README.md#31-why-isnt-my-computer-finding-the-kryoflux)
+* 3.2 [Why am I getting bcadmin permission errors when trying to run the KryoFlux using Linux BitCurator?](/03%20TROUBLESHOOTING/README.md#32-why-am-i-getting-bcadmin-permission-errors-when-trying-to-run-the-kryoflux-using-linux-bitcurator)
+* 3.3 [Why won’t the drive calibrate when using the GUI?](/03%20TROUBLESHOOTING/README.md#33-why-wont-the-drive-calibrate-when-using-the-gui)
+* 3.4 [Why is the Settings window blank when I use the KryoFlux GUI?](/03%20TROUBLESHOOTING/README.md#34-why-is-the-settings-window-blank-when-i-use-the-kryoflux-gui)
+* 3.5 [DTC is reporting that it successfully created a sector image. Why can’t I mount or export files from the image file?](/03%20TROUBLESHOOTING/README.md#35-dtc-is-reporting-that-it-successfully-created-a-sector-image-why-cant-i-mount-or-export-files-from-the-image-file)
 
 <a id="findingkryoflux"></a>
-**3.1 Why isn’t my computer finding the KryoFlux?**
+## 3.1 Why isn’t my computer finding the KryoFlux?
 
 If your KryoFlux isn’t showing up as an unknown device or if your Windows instance
 seems to have forgotten the drivers in between KryoFlux sessions, it may be that it’s being mistakenly recognized as Bossa Program Port. From the Device Manager window, search under Ports (COM & LPT). If you see Bossa Program Port listed, use the following steps to correct the problem (see also [Princeton's Tale of KryoFlux Woe](/02%20PART%20TWO%20In-Depth/Lessons-Learned.md#princetonuniversity) for an alternative solution, if this one fails):
@@ -75,7 +75,7 @@ If this doesn’t work, it may be that your computer has stopped recognizing USB
 Altogether. Other workarounds not listed here may be necessary.  See [Princeton's Tale of KryoFlux Woe](/02%20PART%20TWO%20In-Depth/Lessons-Learned.md#princetonuniversity) for one possible solution.
 
 <a id="bcadminpermission"></a>
-**3.2 Why am I getting bcadmin permission errors when trying to run the KryoFlux using Linux BitCurator?**
+## 3.2 Why am I getting bcadmin permission errors when trying to run the KryoFlux using Linux BitCurator?
 
 If this is your first time installing the KryoFlux, you will also need to create a udev rule.
 The udev rule will prevent bcadmin permissions errors as well as erasing the need for the user to root. If this file is missing it is highly likely that the KryoFlux will not work properly.
@@ -85,18 +85,18 @@ If this is your first time installing the Kryoflux, you may need to also create 
 See [here](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#udevrule) for instructions to create a udev rule.
 
 <a id="calibrate"></a>
-**3.3 Why won’t the drive calibrate when using the GUI?**
+## 3.3 Why won’t the drive calibrate when using the GUI?
 
 When using the GUI, the drive will not calibrate if you have selected the incorrect drive
 (for example, drive 1 instead of drive 0). Select the other drive and retry. For more information, see [Understanding Drive 1/0](/02%20PART%20TWO%20In-Depth/Understanding-Drives-1-and-0.md) and [Princeton's Tale of KryoFlux Woe](/02%20PART%20TWO%20In-Depth/Lessons-Learned.md#princetonuniversity).
 
 <a id="blanksettings"></a>
-**3.4 Why is the Settings window blank when I use the KryoFlux GUI?**
+## 3.4 Why is the Settings window blank when I use the KryoFlux GUI?
 
 At Princeton, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” The GUI would appear to open correctly, but important functionality would be missing (such as a completely blank Settings window). For more information on how to address this, see [Princeton's Tale of KryoFlux Woe](/02%20PART%20TWO%20In-Depth/Lessons-Learned.md#princetonuniversity).
 
 <a id="dtcreporting"></a>
-**3.5 DTC is reporting that it successfully created a sector image. Why can’t I mount or export files from the image file?**
+## 3.5 DTC is reporting that it successfully created a sector image. Why can’t I mount or export files from the image file?
 
 There is no single answer to this question, but here a few reasons why you might be unable to successfully mount or otherwise export logical files from a disk image.
 
