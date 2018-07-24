@@ -66,6 +66,7 @@ If they are already installed, the system will tell you that your version is up 
 
 ## 1.1.3 USING LINUX: PREREQUISITES AND DEPENDENCIES
 
+<a id="udevrule"></a>
 #### *UDEV RULE*
 If this is your first time installing the KryoFlux software, you will also need to create a udev rule. The udev rule will prevent permissions errors as well as erasing the need for the user to root. (If this file is missing it is highly likely that the KryoFlux will not work properly.)
 
