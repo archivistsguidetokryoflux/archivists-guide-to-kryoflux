@@ -1,8 +1,8 @@
 
-# 5 Additional Tools and Resources
-* 5.1 [Tools](/5%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#51-tools)
-* 5.2 [Books and Articles](/5%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#52-booksandarticles)
-* 5.3 [Web Resources](/5%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#53-webresources)
+# 5. Additional Tools and Resources
+* 5.1 [Tools](/5.%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#51-tools)
+* 5.2 [Books and Articles](/5.%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#52-booksandarticles)
+* 5.3 [Web Resources](/5.%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md#53-webresources)
 
 <a id="tools"></a>
 ## 5.1 Tools
