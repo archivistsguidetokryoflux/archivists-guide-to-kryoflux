@@ -1,20 +1,20 @@
 
 # Using the KryoFlux
 
-1. [GUI vs. CLI](#guivscli)
+* 1.2.1 [GUI vs. CLI](#gui-vs.-cli)
 	* [Ease of use for beginners](#ease-of-use-for-beginners)
 	* [Efficiency and flexibility](#efficiency-and-flexibility)
 	* [Reporting](#reporting)
-2. [Using and interpreting the graphical user interface (GUI)](#using-and-interpreting-the-gui)
+* 1.2.2 [Using and interpreting the graphical user interface (GUI)](#using-and-interpreting-the-graphical-user-interface-(gui))
 	* [Capturing disk images](#capturing-disk-images)
 	* [Using deviceless mode](#using-deviceless-mode)
-3.	[Using and interpreting DTC via the CLI](#using-and-interpreting-dtc-via-the-cli)
+* 1.2.3	[Using and interpreting DTC via the CLI](#using-and-interpreting-dtc-via-the-cli)
 	* [KryoFlux command line syntax](#kryoflux-command-line-syntax)
 	* [Useful command line options](#useful-command-line-options)
 	* [Command line examples](#command-line-examples)
 	* [Adding DTC to your system variables](#adding-dtc-to-your-system-variables)
-<a id="guivscli"></a>
-## GUI vs. CLI:
+
+## 1.2.1 GUI vs. CLI:
 
 
 The Kryoflux’s Disk Tool Console (DTC) is the command line application that sits 
@@ -32,8 +32,7 @@ provides an overview of some of the differences between the two.
 
 ### Ease of use for beginners
 
-**THE WINNER:** The GUI
-
+THE WINNER: The GUI
 As might be expected, the GUI provides a more intuitive interface and a lower 
 barrier of entry to use. Its color-coded interface provides immediate and 
 easily-interpreted feedback, allowing users to quickly determine whether imaging is 
@@ -45,7 +44,6 @@ existing knowledge of the command line.
 ### Efficiency and flexibility
 
 **THE WINNER:** The CLI
-
 In terms of efficiency and flexibility, the CLI may just pip the GUI to the 
 post--especially if you are imaging a large number of disks. Whereas changing a 
 setting using the GUI might involve several clicks, changing a setting using the CLI 
@@ -66,7 +64,6 @@ information is reported as part of the KryoFlux’s log files.
 ### Reporting
 
 **THE WINNER:** The GUI
-
 A particularly nice feature of the GUI are the visualizations that it provides as 
 data is being imaged. Color-coded blocks provide immediate feedback on whether 
 imaging has been successful. The use of red, orange, green, and grey blocks to 
@@ -87,8 +84,8 @@ command-line options can be used to control the level of detail included in the
 DTC’s output, which may help users weed out information deemed overly technical and, 
 ultimately, unnecessary (for an example of this, see [Working with 40-track 
 floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.md)).
-<a id="using-and-interpreting-the-gui"></a>
-## Using and interpreting the graphical user interface:
+
+## 1.2.2 Using and interpreting the graphical user interface:
 
 ### CAPTURING DISK IMAGES
 
@@ -184,7 +181,7 @@ blocks of color*.
 8.	To image another disk, continue from step 4. If you switch drives (e.g. from 
 	imaging 3.5” disks to 5.25” disks) and have not calibrated the other drive, 
 	continue from step 3.
-<a id="devicelessmode"></a>
+
 ### USING DEVICELESS MODE
 
 [Stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md) created in KryoFlux can be used to create [formatted images](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.md) with the KryoFlux software.  
@@ -213,7 +210,7 @@ images using the KryoFlux software without needing the hardware or disk itself.
 
 The [Floppy Disk Format Identifier Tool](http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool), created by Euan Cochrane, allows the user to create multiple image types over a directory of stream files from multiple disks. See [Additional Tools and Resources](/05%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/Additional%20Resources%20and%20Tools.md) for further information.
 
-## Using and interpreting DTC via the CLI:
+## 1.2.3 Using and interpreting DTC via the CLI:
 
 ### KRYOFLUX COMMAND LINE SYNTAX
 

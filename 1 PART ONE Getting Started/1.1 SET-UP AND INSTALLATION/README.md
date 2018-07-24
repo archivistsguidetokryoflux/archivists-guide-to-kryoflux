@@ -8,7 +8,7 @@ The KryoFlux setup consists of several pieces of hardware connected by cables (s
 
 *Figure 1: The various components included in the KryoFlux package. Depending on the package purchased by your institution, your box may also include a second backup KryoFlux board or a 5.25” floppy disk drive.*
 
-## Downloading the Software
+## 1.1.2 Downloading the Software
 
 ### Using Windows
 1.	Download the directory containing KryoFlux driver and DTC files from the KryoFlux website: http://kryoflux.com/?page=download.
@@ -64,7 +64,7 @@ package, right click on the package and choose "Open" from the menu and then cho
 
 If they are already installed, the system will tell you that your version is up to date.
 
-## USING LINUX: PREREQUISITES AND DEPENDENCIES
+## 1.1.3 USING LINUX: PREREQUISITES AND DEPENDENCIES
 
 #### *UDEV RULE*
 If this is your first time installing the KryoFlux software, you will also need to create a udev rule. The udev rule will prevent permissions errors as well as erasing the need for the user to root. (If this file is missing it is highly likely that the KryoFlux will not work properly.)
@@ -80,7 +80,7 @@ See also the [INSERT LINK TO TROUBLESHOOTING SECTION HERE] section for more info
 
 
 
-## Setting Up the KryoFlux
+## 1.1.4 Setting Up the KryoFlux
 
 While it does not require an especially high level of technical skill, setting up the KryoFlux does demand some careful attention to detail.  
 
@@ -193,13 +193,13 @@ power cable into the Type A / B outlets used in America. If you don’t have the
 
 You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See [INSERT LINK TO Using and interpreting DTC via the CLI SECTION HERE] and [INSERT LINK TO Using and interpreting the graphical user interface (GUI) SECTION HERE]
 
-## Disconnecting the KryoFlux
+## 1.1.5 Disconnecting the KryoFlux
 
 1. Disconnect the floppy drive’s power supply.
 2. Eject and disconnect the USB cable.
 3. Disconnect the data cable/floppy drive cable. 
 
-## Handling the KryoFlux
+## 1.1.6 Handling the KryoFlux
 
 ### GOOD: Tips for basic handling and care
 Because it does not have a protective outer shell or cover, the KryoFlux board is fragile and vulnerable to damage. A good rule of thumb is to try to **handle it as little as possible** to avoid damage, and to **put the board away after you’re done using it**--especially overnight or over the weekend--to prevent dust gathering. 
