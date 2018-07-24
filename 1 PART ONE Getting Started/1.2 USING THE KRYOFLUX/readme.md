@@ -145,7 +145,7 @@ formatted disk images [using deviceless mode](#using-deviceless-mode).
 | 5.25" high density   | PC                | MFM sector image                 |
 
 *Figure 11: Some of the most commonly used disk encoding formats supported by the 
-KryoFlux.  Details on how to handle 40 track images are covered in [part two](/2%20PART%20TWO%20In-Depth/readme.md)*
+KryoFlux.  Details on how to handle 40 track images are covered in [part two.](/2%20PART%20TWO%20In-Depth/readme.md)*
 
 ![Figure 12: Select the image format(s) for the disk image using the dropdown list below the filename field.](figure12.png "Select the image format(s) for the disk image using the dropdown list below the filename field.")
 
