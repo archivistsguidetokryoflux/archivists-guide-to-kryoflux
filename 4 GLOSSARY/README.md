@@ -22,7 +22,7 @@ Data degradation can also be used to describe the phenomenon of storage media gr
 
 **Deviceless Mode:**
 
-Deviceless Mode means that the user can work on raw files without having to go through the Kryoflux hardware. The DTC will function like a virtual machine and will be able to read proprietary STREAM or DRAFT files. See [Using Deviceless Mode](/1%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX/readme.md#devicelessmode) for more information.
+Deviceless Mode means that the user can work on raw files without having to go through the Kryoflux hardware. The DTC will function like a virtual machine and will be able to read proprietary STREAM or DRAFT files. See [Using Deviceless Mode](/1%20PART%20ONE%20Getting%20Started/1.2%20USING%20THE%20KRYOFLUX/readme.md#devicelessmode) for more information.
 
 **Disk Image:**
 
@@ -37,7 +37,7 @@ DRAFT FILES simply store the signals read from a disk. The interpretation of tho
 The only difference between a STREAM file and a DRAFT file is that DRAFT is a one-file only image that is fit for transient storage while STREAM files comprised a group of files that represent signals from each tracks. Both are of forensic quality.
 
 **DTC:**
-The Kryoflux’s Disk Tool Console, the command line application that sits underneath the Kryoflux’s GUI. As the tool’s underlying technology, DTC offers some added functionality and flexibility that might recommend it over the GUI in some instances. See [GUI vs. CLI](/1%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX/readme.md#guivscli) for more information.
+The Kryoflux’s Disk Tool Console, the command line application that sits underneath the Kryoflux’s GUI. As the tool’s underlying technology, DTC offers some added functionality and flexibility that might recommend it over the GUI in some instances. See [GUI vs. CLI](/1%20PART%20ONE%20Getting%20Started/1.2%20USING%20THE%20KRYOFLUX/readme.md#guivscli) for more information.
 
 **Encoding Formats:**
 
