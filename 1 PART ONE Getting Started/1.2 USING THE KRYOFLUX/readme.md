@@ -101,7 +101,7 @@ Java and other dependencies can be found in the [Downloading the Software sectio
 	imaging session and any time you switch between 3.5-inch and 5.25-inch disk 	
 	drives.
 	
-**NOTE:** See the [troubleshooting section](3%20TROUBLESHOOTING/troubleshooting.md) if you experience difficulties in calibrating your drive when using the GUI.
+**NOTE:** See the [troubleshooting section](/3%20TROUBLESHOOTING/README.md) if you experience difficulties in calibrating your drive when using the GUI.
 
 ![Figure 9: Select the correct drive from the Drive menu, then select Calibrate.](figure9.png "Figure 9: Select the correct drive from the Drive menu, then select Calibrate.")
 
