@@ -1,4 +1,4 @@
-# Understanding Drives 1 and 0
+# 2.4 Understanding Drives 1 and 0
 
 <img align="right" src="images/drive1-0_figure01.jpg"> 
 Each board comes with a floppy data cable which has two sections, each section has two connectors (one for each drive type, 3.5 and 5.25 inch).  The section that is connected to the drive determines if that drive will appear as Drive 1 or Drive 0 in the GUI.  The connectors closest to the KryoFlux board will usually appear as Drive 1 and the connectors furthest from the board appear as Drive 0. It's also important to note that you have to set the jumper on the board itself to support a dual drive setup. 

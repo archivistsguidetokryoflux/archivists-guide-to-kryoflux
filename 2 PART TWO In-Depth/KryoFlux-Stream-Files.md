@@ -1,4 +1,4 @@
-# KRYOFLUX STREAM FILES
+# 2.3 KryoFlux Stream Files
 
 The KryoFlux stream file format is a proprietary,<a href="#anchor1"><sup>1</sup></a> though publicly documented, file format for each of the sectors found on a floppy disk. Compared to a disk image file, KryoFlux stream files comprising an entire disk are much larger--a set of stream files for a 1.44 megabyte (MB) floppy disk may be around 20-25 MB. While such a footprint is much smaller many other file types created in contemporary digital environments, it is considerably larger than the maximum capacity of a floppy disk. This, along with the proprietary nature of the stream file format, make it difficult to recommend a set of stream files as a preservation format.
 

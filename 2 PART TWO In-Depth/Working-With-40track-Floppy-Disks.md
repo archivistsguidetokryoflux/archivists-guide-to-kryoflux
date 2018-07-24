@@ -1,4 +1,4 @@
-# Working with 40-Track Floppy Disks
+# 2.5 Working with 40-Track Floppy Disks
 
 ## What are 40-track disks?
 

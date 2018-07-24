@@ -1,4 +1,4 @@
-# Lessons Learned: KryoFlux Tales of Woe
+# 2.6 Lessons Learned: KryoFlux Tales of Woe
 
 ## University of California Los Angeles
 

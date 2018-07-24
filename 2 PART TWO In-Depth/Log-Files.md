@@ -1,4 +1,4 @@
-# Log Files
+# 2.1 Log Files
 
 The Disk Tool Console (DTC) application maintains a log of benchmarks as it runs over a floppy disk. If running the application on the command line (CLI), the user needs to specify a filename for the log to be saved as, otherwise it will print to stdout. By default, the graphical user interface (GUI) saves this file in the location specified during configuration. This section describes the information included in a log file and how it might be interpreted before discussing the merits of saving the log files as metadata or supporting documentation. 
 

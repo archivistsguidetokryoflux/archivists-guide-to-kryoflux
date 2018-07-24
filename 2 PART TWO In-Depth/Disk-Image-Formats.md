@@ -1,5 +1,5 @@
 
-# Disk Image Formats
+# 2.2 Disk Image Formats
 
 There are over 20 distinct types of disk images available using the DTC application, and trying to visually parse the list either in the GUI or from the CLI reference list in the official KryoFlux manual is daunting. This section will briefly cover the two broad categories of disk image types and the full range of options available to the user, before providing a longer discussion of the two more common formats one will likely encounter including how to configure the CLI and GUI to create them. The section will close with a discussion of KryoFlux preservation stream files, specifically addressing the format’s positives and negatives.
 
