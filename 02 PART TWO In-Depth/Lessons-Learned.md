@@ -33,7 +33,8 @@ To avoid frying the board by disconnecting it improperly, follow the instruction
 
 **Why won’t the drive calibrate?**
 
-<img align="right" src="images/drive1-0_figure01.jpg"> 
+<img align="right" src="images/lessons-learned-figure01.PNG">
+
 After setting up the KryoFlux and installing the driver in Windows per the software installation instructions (p. 8-10 of the <a href="http://www.kryoflux.com/download/kryoflux_manual.pdf">official KryoFlux manual</a>) with apparent success, we tried to calibrate it. The calibration worked fine in the command line (i.e., we typed “dtc -c2” and it gave us the message “CM: maxtrack=83”) but when we attempted to calibrate in the GUI (which is what we really wanted to use, for the visualization tool and to make things easier for delegating bulk disk imaging work to student assistants) we got an error message: “Error: Could not communicate with floppy drive.”  We tried disconnecting and restarting the computer but the problem persisted. We were super confused why it would be working in one place and not the other so we wrote to the KryoFlux support team, who advised us that we had probably selected the wrong drive in the GUI, and indeed, when we switched from Drive 1 to Drive 0 it worked with no problems.
 
 It’s unclear why switching from Drive 1 to Drive 0 solves this problem. We thought initially that perhaps our data cable connections were reversed, but feedback from the KryoFlux development team suggest this is incorrect. Whatever the reason, however, this solution worked for us and did not cause any damage to our KryoFlux board. In summary, if the KryoFlux won’t calibrate using one drive, try the other.
