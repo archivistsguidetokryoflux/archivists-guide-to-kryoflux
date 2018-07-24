@@ -1,10 +1,10 @@
 # 3. Troubleshooting
 
-* 3.1 [Why isn’t my computer finding the KryoFlux?](/03%20TROUBLESHOOTING#31-why-isnt-my-computer-finding-the-kryoflux)
-* 3.2 [Why am I getting bcadmin permission errors when trying to run the KryoFlux using Linux BitCurator?](/03%20TROUBLESHOOTING#32-why-am-i-getting-bcadmin-permission-errors-when-trying-to-run-the-kryoflux-using-linux-bitcurator)
-* 3.3 [Why won’t the drive calibrate when using the GUI?](/03%20TROUBLESHOOTING33-why-wont-the-drive-calibrate-when-using-the-gui)
-* 3.4 [Why is the Settings window blank when I use the KryoFlux GUI?](/03%20TROUBLESHOOTING#34-why-is-the-settings-window-blank-when-i-use-the-kryoflux-gui)
-* 3.5 [DTC is reporting that it successfully created a sector image. Why can’t I mount or export files from the image file?](/03%20TROUBLESHOOTING#35-dtc-is-reporting-that-it-successfully-created-a-sector-image-why-cant-i-mount-or-export-files-from-the-image-file)
+* 3.1 [Why isn’t my computer finding the KryoFlux?](/3%20TROUBLESHOOTING#31-why-isnt-my-computer-finding-the-kryoflux)
+* 3.2 [Why am I getting bcadmin permission errors when trying to run the KryoFlux using Linux BitCurator?](/3%20TROUBLESHOOTING#32-why-am-i-getting-bcadmin-permission-errors-when-trying-to-run-the-kryoflux-using-linux-bitcurator)
+* 3.3 [Why won’t the drive calibrate when using the GUI?](/3%20TROUBLESHOOTING#33-why-wont-the-drive-calibrate-when-using-the-gui)
+* 3.4 [Why is the Settings window blank when I use the KryoFlux GUI?](/3%20TROUBLESHOOTING#34-why-is-the-settings-window-blank-when-i-use-the-kryoflux-gui)
+* 3.5 [DTC is reporting that it successfully created a sector image. Why can’t I mount or export files from the image file?](/3%20TROUBLESHOOTING#35-dtc-is-reporting-that-it-successfully-created-a-sector-image-why-cant-i-mount-or-export-files-from-the-image-file)
 
 <a id="findingkryoflux"></a>
 ## 3.1 Why isn’t my computer finding the KryoFlux?
