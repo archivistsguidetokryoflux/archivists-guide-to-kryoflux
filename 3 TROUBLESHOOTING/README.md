@@ -1,4 +1,4 @@
-# Troubleshooting
+# 3 Troubleshooting
 
 1. [Why isn’t my computer finding the KryoFlux?](/03%20TROUBLESHOOTING/README.md#findingkryoflux)
 2. [Why am I getting bcadmin permission errors when trying to run the KryoFlux using Linux BitCurator?](/03%20TROUBLESHOOTING/README.md#bcadminpermission)
