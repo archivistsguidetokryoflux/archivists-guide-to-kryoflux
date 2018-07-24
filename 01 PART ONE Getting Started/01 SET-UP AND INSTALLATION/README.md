@@ -80,7 +80,7 @@ The KryoFlux software relies on Java to launch the GUI. In some cases, even thou
 See also the [TROUBLESHOOTING](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/tree/master/03%20TROUBLESHOOTING) section for more information related to this issue.
 
 
-
+<a id="setting-up-the-kryoflux"></a>
 ## Setting Up the KryoFlux
 
 While it does not require an especially high level of technical skill, setting up the KryoFlux does demand some careful attention to detail.  
@@ -194,6 +194,7 @@ power cable into the Type A / B outlets used in America. If you don’t have the
 
 You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See [Using and interpreting DTC via the CLI](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/tree/master/01%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX#using-and-interpreting-dtc-via-the-cli) and [Using and interpreting the graphical user interface (GUI)] 
 
+<a id="disconnecting-the-kryoflux"></a>
 ## Disconnecting the KryoFlux
 
 1. Disconnect the floppy drive’s power supply.
