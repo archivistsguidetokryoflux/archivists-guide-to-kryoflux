@@ -4,7 +4,7 @@ Part one provides provides step-by-step instructions designed to get you set up 
 
 ## 1.1 SET-UP AND INSTALLATION
 
-* 1.1.1 [What's in the   box](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#111whats-in-the-box)
+* 1.1.1 [What's in the   box](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#1.1.1whats-in-the-box)
 * 1.1.2 [Downloading the software](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#112downloading-the-software)
 	* [Using Windows](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#using-windows)
 	* [Using Mac](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#using-mac)
