@@ -1,4 +1,4 @@
-# 4 Glossary
+# 4. Glossary
 
 **Adapter or Converter:**
 

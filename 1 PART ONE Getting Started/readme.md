@@ -1,4 +1,4 @@
-# 1 Part One: Getting Started
+# 1. Part One: Getting Started
 
 Part one provides provides step-by-step instructions designed to get you set up and started. You may wish to start here if you already have a KryoFlux in hand and are ready to jump in. We’ve included links to relevant sections in part two so you can dip in and out as needed.
 

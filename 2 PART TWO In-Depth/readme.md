@@ -1,4 +1,4 @@
-# 2 Part Two: In Depth
+# 2. Part Two: In Depth
 
 Part two provides a more in-depth introduction to the KryoFlux and floppy disks as a medium for data storage. You may wish to start with part two if you are interested in learning more about the ins and outs of how the KryoFlux works before diving in, or if you’re weighing the benefits of purchasing a KryoFlux for your institution.
 
