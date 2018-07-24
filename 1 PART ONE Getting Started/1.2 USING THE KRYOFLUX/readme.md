@@ -1,5 +1,5 @@
 
-# Using the KryoFlux
+# 1.2 Using the KryoFlux
 
 1. [GUI vs. CLI](#gui-vs.-cli)
 	* [Ease of use for beginners](#ease-of-use-for-beginners)
@@ -14,7 +14,7 @@
 	* [Command line examples](#command-line-examples)
 	* [Adding DTC to your system variables](#adding-dtc-to-your-system-variables)
 
-## GUI vs. CLI:
+## 1.2.1 GUI vs. CLI:
 
 
 The Kryoflux’s Disk Tool Console (DTC) is the command line application that sits 
@@ -85,7 +85,7 @@ DTC’s output, which may help users weed out information deemed overly technica
 ultimately, unnecessary (for an example of this, see [Working with 40-track 
 floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.md)).
 
-## Using and interpreting the graphical user interface:
+## 1.2.2 Using and interpreting the graphical user interface:
 
 ### CAPTURING DISK IMAGES
 
@@ -210,7 +210,7 @@ images using the KryoFlux software without needing the hardware or disk itself.
 
 The [Floppy Disk Format Identifier Tool](http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool), created by Euan Cochrane, allows the user to create multiple image types over a directory of stream files from multiple disks. See [Additional Tools and Resources](/05%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/Additional%20Resources%20and%20Tools.md) for further information.
 
-## Using and interpreting DTC via the CLI:
+## 1.2.3 Using and interpreting DTC via the CLI:
 
 ### KRYOFLUX COMMAND LINE SYNTAX
 
