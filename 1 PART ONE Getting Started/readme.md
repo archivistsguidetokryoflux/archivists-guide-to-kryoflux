@@ -6,18 +6,18 @@ Part one provides provides step-by-step instructions designed to get you set up 
 
 1. 1.1 [What's in the   box](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#111whats-in-the-box)
 1. 1.2 [Downloading the software](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#downloading-the-software)
-       * [Using Windows](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#using-windows)
-       * [Using Mac](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#using-mac)
-       * [Using Linux](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#using-linux)
+	* [Using Windows](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#using-windows)
+	* [Using Mac](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#using-mac)
+	* [Using Linux](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#using-linux)
 1. 1.3 [Using Linux: Prerequisites and dependencies](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#using-linux-prerequisites-and-dependencies)
-       * [UDEV rule](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#udev-rule)
-       * [Java dependency](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#java-dependency)
+	* [UDEV rule](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#udev-rule)
+	* [Java dependency](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#java-dependency)
 1. 1.4 [Setting up the KryoFlux](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#setting-up-the-kryoflux)
 1. 1.5 [Disconnecting the KryoFlux](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#disconnecting-the-kryoflux) 
 1. 1.6 [Handling the KryoFlux](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#handling-the-kryoflux)
-       * [GOOD: Tips for basic handling and care](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#good-tips-for-basic-handling-and-care)
-       * [BETTER: Creating an enclosure](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#better-creating-an-enclosure)
-       * [BEST: Installing KryoFlux in a computer tower](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#best-installing-kryoflux-in-a-computer-tower)
+	* [GOOD: Tips for basic handling and care](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#good-tips-for-basic-handling-and-care)
+	* [BETTER: Creating an enclosure](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#better-creating-an-enclosure)
+	* [BEST: Installing KryoFlux in a computer tower](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/README.md#best-installing-kryoflux-in-a-computer-tower)
 
 
 ## 1.2 USING THE KRYOFLUX
