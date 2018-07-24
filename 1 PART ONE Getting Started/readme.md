@@ -25,7 +25,7 @@ Part one provides provides step-by-step instructions designed to get you set up 
 * 1.2.1 [GUI vs. CLI](/01%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX/readme.md#gui-vs-cli)
 	* [Ease of use for beginners](/01%20PART%20ONE%20Getting%20Started/02%20USING%20THE%20KRYOFLUX/readme.md#ease-of-use-for-beginners)
 	* [Efficiency and flexibility](./02%20USING%20THE%20KRYOFLUX/readme.md#efficiency-and-flexibility)
-		* [Reporting](./02%20USING%20THE%20KRYOFLUX/readme.md#reporting)
+	* [Reporting](./02%20USING%20THE%20KRYOFLUX/readme.md#reporting)
 * 1.2.2 [Using and interpreting the graphical user interface](./02%20USING%20THE%20KRYOFLUX/readme.md#using-and-interpreting-the-graphical-user-interface)
 	* [Capturing disk images](./02%20USING%20THE%20KRYOFLUX/readme.md#capturing-disk-images)
 	* [Using deviceless mode](./02%20USING%20THE%20KRYOFLUX/readme.md#using-deviceless-mode)
