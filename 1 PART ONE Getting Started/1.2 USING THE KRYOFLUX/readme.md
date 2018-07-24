@@ -1,14 +1,14 @@
 
 # 1.2 Using the KryoFlux
 
-1. [GUI vs. CLI](#gui-vs.-cli)
+* 1.2.1 [GUI vs. CLI](#gui-vs.-cli)
 	* [Ease of use for beginners](#ease-of-use-for-beginners)
 	* [Efficiency and flexibility](#efficiency-and-flexibility)
 	* [Reporting](#reporting)
-2. [Using and interpreting the graphical user interface (GUI)](#using-and-interpreting-the-graphical-user-interface-(gui))
+* 1.2.2 [Using and interpreting the graphical user interface (GUI)](#using-and-interpreting-the-graphical-user-interface-(gui))
 	* [Capturing disk images](#capturing-disk-images)
 	* [Using deviceless mode](#using-deviceless-mode)
-3.	[Using and interpreting DTC via the CLI](#using-and-interpreting-dtc-via-the-cli)
+* 1.2.3	[Using and interpreting DTC via the CLI](#using-and-interpreting-dtc-via-the-cli)
 	* [KryoFlux command line syntax](#kryoflux-command-line-syntax)
 	* [Useful command line options](#useful-command-line-options)
 	* [Command line examples](#command-line-examples)
@@ -82,8 +82,7 @@ Command line output provides similar levels of information, but its text-heavy
 delivery may not be quite as digestible as the GUI’s visualizations. That said, 
 command-line options can be used to control the level of detail included in the 
 DTC’s output, which may help users weed out information deemed overly technical and, 
-ultimately, unnecessary (for an example of this, see [Working with 40-track 
-floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.md)).
+ultimately, unnecessary (for an example of this, see [Working with 40-track floppy disks](/2%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.md#25-working-with-40-track-floppy-disks)).
 
 ## 1.2.2 Using and interpreting the graphical user interface:
 
@@ -94,7 +93,7 @@ floppy disks](/02%20PART%20TWO%20In-Depth/Working-With-40track-Floppy-Disks.md))
 	called kryoflux-ui.jar.
 
 **NOTE:** Java is required in order to launch the GUI. Instructions for installing 
-Java and other dependencies can be found in the [Downloading the Software section](/01%20PART%20ONE%20Getting%20Started/01%20SET-UP%20AND%20INSTALLATION/Set-Up-and-Installation.md#downloading-the-software))
+Java and other dependencies can be found in the [Downloading the Software section](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#112-downloading-the-software))
 
 2.	At the beginning of each imaging session calibrate the floppy drive by selecting 
 	the correct drive from the Drive menu then selecting Calibrate from the same 
@@ -102,7 +101,7 @@ Java and other dependencies can be found in the [Downloading the Software sectio
 	imaging session and any time you switch between 3.5-inch and 5.25-inch disk 	
 	drives.
 	
-**NOTE:** See the [troubleshooting section](03%20TROUBLESHOOTING/troubleshooting.md) if you experience difficulties in calibrating your drive when using the GUI.
+**NOTE:** See the [troubleshooting section](3%20TROUBLESHOOTING/troubleshooting.md) if you experience difficulties in calibrating your drive when using the GUI.
 
 ![Figure 9: Select the correct drive from the Drive menu, then select Calibrate.](figure9.png "Figure 9: Select the correct drive from the Drive menu, then select Calibrate.")
 
@@ -124,14 +123,14 @@ OK.*
 	filename for any disk images and log files created.  Do not include the 
 	extension of the file name.
 	
-5.	Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.md) for the disk image using the dropdown list 
+5.	Select the [image format(s)](/2%20PART%20TWO%20In-Depth/Disk-Image-Formats.md#22-disk-image-formats) for the disk image using the dropdown list 
 	below the filename field (see figure 12). Use the table below (figure 11) to  
 	select the necessary image formats. In order to choose multiple outputs, hold 
 	down the *Control (Ctrl)* key while making your selections.  In most cases, 
 	selecting an image format to obtain a sector image requires that you know 
 	something about the media in hand.
 	
-**NOTE:** You may wish to capture [preservation stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md) (listed as 
+**NOTE:** You may wish to capture [preservation stream files](/2%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md#23-kryoflux-stream-files) (listed as 
 *KryoFlux stream files, preservation*) in addition to a formatted disk image as part 
 of your imaging workflow, since these stream files can be used later to create 
 formatted disk images [using deviceless mode](#using-deviceless-mode).
@@ -146,11 +145,11 @@ formatted disk images [using deviceless mode](#using-deviceless-mode).
 | 5.25" high density   | PC                | MFM sector image                 |
 
 *Figure 11: Some of the most commonly used disk encoding formats supported by the 
-KryoFlux.  Details on how to handle 40 track images are covered in [part two](/02%20PART%20TWO%20In-Depth/readme.md)*
+KryoFlux.  Details on how to handle 40 track images are covered in [part two](/2%20PART%20TWO%20In-Depth/readme.md)*
 
 ![Figure 12: Select the image format(s) for the disk image using the dropdown list below the filename field.](figure12.png "Select the image format(s) for the disk image using the dropdown list below the filename field.")
 
-*Figure 12: Select the [image format(s)](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.md) for the disk image using the dropdown list below the filename field.*
+*Figure 12: Select the [image format(s)](/2%20PART%20TWO%20In-Depth/Disk-Image-Formats.md#22-disk-image-formats) for the disk image using the dropdown list below the filename field.*
 
 6.	After you have selected the appropriate image format, insert a disk and select 
 	*Start*. You should see the green *Stream* indicator flash on and off, and see 
@@ -184,7 +183,7 @@ blocks of color*.
 
 ### USING DEVICELESS MODE
 
-[Stream files](/02%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md) created in KryoFlux can be used to create [formatted images](/02%20PART%20TWO%20In-Depth/Disk-Image-Formats.md) with the KryoFlux software.  
+[Stream files](/2%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md#23-kryoflux-stream-files) created in KryoFlux can be used to create [formatted images](/2%20PART%20TWO%20In-Depth/Disk-Image-Formats.md#22-disk-image-formats) with the KryoFlux software.  
 
 If you have previously created stream files you can use this workflow to create 
 images using the KryoFlux software without needing the hardware or disk itself.
@@ -208,7 +207,7 @@ images using the KryoFlux software without needing the hardware or disk itself.
 	
 5.	Click *Start* and browse to the folder containing stream files.
 
-The [Floppy Disk Format Identifier Tool](http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool), created by Euan Cochrane, allows the user to create multiple image types over a directory of stream files from multiple disks. See [Additional Tools and Resources](/05%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/Additional%20Resources%20and%20Tools.md) for further information.
+The [Floppy Disk Format Identifier Tool](http://digitalcontinuity.org/post/144268258748/floppy-disk-format-identifer-tool), created by Euan Cochrane, allows the user to create multiple image types over a directory of stream files from multiple disks. See [Additional Tools and Resources](/5%20ADDITIONAL%20RESOURCES%20AND%20TOOLS/readme.md) for further information.
 
 ## 1.2.3 Using and interpreting DTC via the CLI:
 
