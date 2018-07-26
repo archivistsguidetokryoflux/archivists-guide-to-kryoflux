@@ -22,7 +22,7 @@ Data degradation can also be used to describe the phenomenon of storage media gr
 
 **Deviceless Mode:**
 
-Deviceless Mode means that the user can work on raw files without having to go through the Kryoflux hardware. The DTC will function like a virtual machine and will be able to read proprietary STREAM or DRAFT files. See [Using Deviceless Mode](/1%20PART%20ONE%20Getting%20Started/1.2%20USING%20THE%20KRYOFLUX/readme.md#devicelessmode) for more information.
+Deviceless Mode means that the user can work on raw files without having to go through the Kryoflux hardware. The DTC will function like a virtual machine and will be able to read proprietary STREAM or DRAFT files. See [Using Deviceless Mode](/1%20PART%20ONE%20Getting%20Started/1.2%20USING%20THE%20KRYOFLUX/readme.md#using-deviceless-mode) for more information.
 
 **Disk Image:**
 
