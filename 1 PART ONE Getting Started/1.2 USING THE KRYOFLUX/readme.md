@@ -14,6 +14,7 @@
 	* [Command line examples](#command-line-examples)
 	* [Adding DTC to your system variables](#adding-dtc-to-your-system-variables)
 
+<a id="gui-vs.-cli"></a>
 ## 1.2.1 GUI vs. CLI:
 
 
@@ -180,7 +181,8 @@ blocks of color*.
 8.	To image another disk, continue from step 4. If you switch drives (e.g. from 
 	imaging 3.5” disks to 5.25” disks) and have not calibrated the other drive, 
 	continue from step 3.
-
+	
+<a id="using-deviceless-mode"></a>
 ### USING DEVICELESS MODE
 
 [Stream files](/2%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md#23-kryoflux-stream-files) created in KryoFlux can be used to create [formatted images](/2%20PART%20TWO%20In-Depth/Disk-Image-Formats.md#22-disk-image-formats) with the KryoFlux software.  
