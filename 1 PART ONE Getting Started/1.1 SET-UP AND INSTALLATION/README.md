@@ -75,9 +75,9 @@ If this is your first time installing the KryoFlux software, you will also need 
 * Type the following text into the file: **ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="03eb", ATTR{idProduct}=="6124", GROUP="floppy", MODE="0660"**
 
 #### *JAVA DEPENDENCY*
-The KryoFlux software relies on Java to launch the GUI. In some cases, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” As a workaround, archivists at Princeton have developed a short `bash script <https://github.com/kellybolding/scripts/blob/master/run-kryoflux-gui.sh>`_that invokes Java each time they launch the GUI. This script lives on the workstation’s desktop and users click on it in order to start up the GUI in place of a desktop icon.
+The KryoFlux software relies on Java to launch the GUI. In some cases, even though Java was installed on the Ubuntu Linux workstation, archivists observed that the KryoFlux GUI did not call Java correctly when launching the GUI by clicking on “kryoflux-ui.jar.” As a workaround, archivists at Princeton have developed a short [bash script](https://github.com/kellybolding/scripts/blob/master/run-kryoflux-gui.sh) that invokes Java each time they launch the GUI. This script lives on the workstation’s desktop and users click on it in order to start up the GUI in place of a desktop icon.
 
-See also the [INSERT LINK TO TROUBLESHOOTING SECTION HERE] section for more information related to this issue.
+See also the [Troubleshooting](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/tree/master/3%20TROUBLESHOOTING) section for more information related to this issue.
 
 
 
@@ -97,7 +97,7 @@ While it does not require an especially high level of technical skill, setting u
 
 3. Enable write-blocking functionality by removing the jumper for the write gate (see figure 4).
 
-4. Connect the drive to the board via the data cable. Ensure that the data cable’s first pin (the colored band) is oriented correctly. For more information about this, please see the :ref:`Understanding Drive 1/0<>` section.
+4. Connect the drive to the board via the data cable. Ensure that the data cable’s first pin (the colored band) is oriented correctly. For more information about this, please see the [Understanding Drive 1 and 0](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/blob/master/2%20PART%20TWO%20In-Depth/Understanding-Drives-1-and-0.md) section.
 
 	* For 3.5” drives, pin 1 must face left when the front of the drive is facing away from you. For some drives, this means that pin 1 will fact the outside of the drive when plugged in correctly, but this is not always the case. The rule of facing the drive away from you before plugging it in, and making sure that pin 1 faces left, should still be applicable to all 3.5” drives.  
 
