@@ -37,6 +37,7 @@ DRAFT FILES simply store the signals read from a disk. The interpretation of tho
 The only difference between a STREAM file and a DRAFT file is that DRAFT is a one-file only image that is fit for transient storage while STREAM files comprised a group of files that represent signals from each tracks. Both are of forensic quality.
 
 **DTC:**
+
 The Kryoflux’s Disk Tool Console, the command line application that sits underneath the Kryoflux’s GUI. As the tool’s underlying technology, DTC offers some added functionality and flexibility that might recommend it over the GUI in some instances. See [GUI vs. CLI](/1%20PART%20ONE%20Getting%20Started/1.2%20USING%20THE%20KRYOFLUX/readme.md#gui-vs.-cli) for more information.
 
 **Encoding Formats:**
@@ -69,11 +70,11 @@ The smallest unit of storage is Sector 0 and it contains a FAT (file allocation 
 
 The proprietary STREAM format reads the flux transition timing and index signal timing from the raw magnetic fluxes and encodes them in a specific standard. This standard recognizes the "stream file" as "one continuous stream of bytes." In other words, there's a start of the file, and an end to the file, but nothing else is defined (for floppy disks, however, temporal measures are part of the raw magnetic fluxes, and need to be taken into account when imaging). Stream files are reusable and allow you to create new disk images based on different encoding formats without re-reading the physical media, so your legacy media will not be compromised by being physically read too many times. See [Kryoflux Stream Files](/2%20PART%20TWO%20In-Depth/KryoFlux-Stream-Files.md) for more information.
 
-*\* Kryoflux stream files, preservation*
+*Kryoflux stream files, preservation*
 
 The software validates the data read against the constraints normally used by generic MFM controllers/formats. If the decoder finds the data to be faulty, the software retries reading the track until the read is correct or there are no more retries allowed.
 
-*\* Kryoflux stream files, format guided*
+*Kryoflux stream files, format guided*
 
 The software records only tracks that would be normally used by the guide format. This is just for your records; think of it as logging the data the software processed for future reference. Using stream files this way does NOT set preservation parameters, but sampling is much faster.
 
