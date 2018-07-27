@@ -1,6 +1,6 @@
 # 2.6 Lessons Learned: KryoFlux Tales of Woe
 
-## University of California Los Angeles
+## 2.6.1 University of California, Los Angeles
 
 *Patricia Ciccone, Victoria Maches, Shira Peltzman, Scott Reed*
 
@@ -27,7 +27,7 @@ To avoid frying the board by disconnecting it improperly, follow the instruction
 > Having the fuse replaced by a trained technician will not void the warranty. Also, this replacement fuse, which is used for later KryoFlux boards, is self-resetting and will reset itself after a minute or two.
 
 <a id="princetonuniversity"></a>
-## Princeton University
+## 2.6.2 Princeton University
 
 *Elvia Arroyo-Ramirez, Kelly Bolding, Faith Charlton, Allison Hughes*
 
