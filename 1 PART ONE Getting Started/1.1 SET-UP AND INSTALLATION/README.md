@@ -162,7 +162,7 @@ While it does not require an especially high level of technical skill, setting u
 
 *Figure 6: Device Manager. One of the devices in this menu will be labeled “Unknown Device.” This is the KryoFlux. During installation, you may have to search through this list to find the “Unknown Device.” Once the KryoFlux has been recognized, however, it should be listed under Universal Serial Bus controllers. The steps are largely the same in Windows 10, although the presentation is slightly different.* 
 
-**NOTE:** See the [INSERT LINK TO TROUBLESHOOTING SECTION HERE] if you have trouble with this step, or if your Windows 
+**NOTE:** See [Troubleshooting](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux/tree/master/3%20TROUBLESHOOTING) if you have trouble with this step, or if your Windows 
 instance seems to have forgotten the drivers in between KryoFlux sessions.
 
 * Launch the command prompt:
@@ -208,7 +208,7 @@ power cable into the Type A / B outlets used in America. If you don’t have the
 
 **NOTE:** DTC will find the maximum number of tracks available. A floppy disk typically stores data across 80 tracks, but some drives can access as many as 83. 
 
-You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See [INSERT LINK TO Using and interpreting DTC via the CLI SECTION HERE] and [INSERT LINK TO Using and interpreting the graphical user interface (GUI) SECTION HERE]
+You are now ready to start capturing disk images using the KryoFlux, either using the command line interface (CLI) or the graphical user interface (GUI). See [Using and interpreting DTC via the CLI](/1%20PART%20ONE%20Getting%20Started/1.2%20USING%20THE%20KRYOFLUX/readme.md#123-using-and-interpreting-dtc-via-the-cli) and [Using and interpreting the graphical user interface](/1%20PART%20ONE%20Getting%20Started/1.2%20USING%20THE%20KRYOFLUX/readme.md#122-using-and-interpreting-the-graphical-user-interface).
 
 ## 1.1.5 Disconnecting the KryoFlux
 
