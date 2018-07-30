@@ -19,7 +19,7 @@
 
 The KryoFlux setup consists of several pieces of hardware connected by cables (see figure 1). Because the KryoFlux board is so small and light, the setup can be a little precarious once connected. It also takes up more space than it does when boxed, so be sure that you have enough desk space to accommodate the various components. When moving hardware, handle it with caution, and have someone else help move the components as needed. As always when working with sensitive electronic components, take steps to protect against static electricity by using an anti-static mat or anti-static wristband; always place the KryoFlux board on a non-conductive surface while it is in use. 
 
-[INSERT figure1.png here]
+![Figure 1: The various components included in the KryoFlux package. Depending on the package purchased by your institution, your box may also include a second backup KryoFlux board or a 5.25” floppy disk drive.](figure1.png "The various components included in the KryoFlux package. Depending on the package purchased by your institution, your box may also include a second backup KryoFlux board or a 5.25” floppy disk drive.")
 
 *Figure 1: The various components included in the KryoFlux package. Depending on the package purchased by your institution, your box may also include a second backup KryoFlux board or a 5.25” floppy disk drive.*
 
@@ -48,7 +48,7 @@ The KryoFlux setup consists of several pieces of hardware connected by cables (s
 - Double-click KryoFlux.mpkg (see figure 2);
 - Follow prompts to install the software.
 
-[INSERT figure2.png here]
+![Figure 2: If using MacOSX, double-click KryoFlux.mpkg to install DTC.](figure2.png "If using MacOSX, double-click KryoFlux.mpkg to install DTC.")
 
 *Figure 2: If using MacOSX, double-click KryoFlux.mpkg to install DTC.*
 
@@ -57,7 +57,7 @@ The KryoFlux setup consists of several pieces of hardware connected by cables (s
 **NOTE:** If you receive an unidentified developer warning (see figure 3) when trying to install the 
 package, right click on the package and choose "Open" from the menu and then choose "Open" from the pop-up window.
 
-[INSERT figure3.png here]
+![Figure 3: The unidentified developer MacOSX warning.](figure3.png "The unidentified developer MacOSX warning.")
 
 *Figure 3: The unidentified developer MacOSX warning.*
 
@@ -120,7 +120,7 @@ While it does not require an especially high level of technical skill, setting u
 
 	* On the KryoFlux side, the cable’s first pin should be on the right if viewing the board with the cable connector closest to you (as in figure 5).	
 	
-[INSERT figure4.png here]
+![Figure 4: Enable writeblocking functionality by removing the jumper for the write gate. This photograph shows the write gate once the jumper has been removed and writeblocking functionality enabled.](figure4.png "Enable writeblocking functionality by removing the jumper for the write gate. This photograph shows the write gate once the jumper has been removed and writeblocking functionality enabled.")
 
 *Figure 4: Enable writeblocking functionality by removing the jumper for the write gate. This photograph shows the write gate once the jumper has been removed and writeblocking functionality enabled.*	
 
@@ -128,7 +128,7 @@ While it does not require an especially high level of technical skill, setting u
 
 5. Connect the KryoFlux board to the computer using the USB cable (see figure 5).
 	
-[INSERT figure5.JPG here]
+![Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.](figure5.png "Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.")
 
 *Figure 5: Once the drive is connected to the KryoFlux board via the data cable, connect the board to the computer using the USB cable.*	
 **NOTE:** If using Windows, proceed to step 6. If using Mac or Linux, skip step 6 and proceed directly to step 7.
@@ -157,7 +157,7 @@ While it does not require an especially high level of technical skill, setting u
 
 	* Click *OK* on all of the prompts to install the drivers.
 
-[INSERT figure6.png here]
+![Figure 6: Device Manager. One of the devices in this menu will be labeled “Unknown Device.” This is the KryoFlux. During installation, you may have to search through this list to find the “Unknown Device.” Once the KryoFlux has been recognized, however, it should be listed under Universal Serial Bus controllers. The steps are largely the same in Windows 10, although the presentation is slightly different.](figure6.png "Device Manager. One of the devices in this menu will be labeled “Unknown Device.” This is the KryoFlux. During installation, you may have to search through this list to find the “Unknown Device.” Once the KryoFlux has been recognized, however, it should be listed under Universal Serial Bus controllers. The steps are largely the same in Windows 10, although the presentation is slightly different.")
 
 *Figure 6: Device Manager. One of the devices in this menu will be labeled “Unknown Device.” This is the KryoFlux. During installation, you may have to search through this list to find the “Unknown Device.” Once the KryoFlux has been recognized, however, it should be listed under Universal Serial Bus controllers. The steps are largely the same in Windows 10, although the presentation is slightly different.* 
 
@@ -172,11 +172,11 @@ instance seems to have forgotten the drivers in between KryoFlux sessions.
 	
 **NOTE:** the above steps may require admin credentials depending on your institution’s setup.
 
-[INSERT figure7.png here]
+![Figure 7](figure7.png)
 
 *Figure 7*
 
-[INSERT figure8.png here]
+![Figure 8: Navigate to C drive by typing c: and pressing enter.](figure8.png "Navigate to C drive by typing c: and pressing enter.")
 
 *Figure 8: Navigate to C drive by typing c: and pressing enter.*
 
@@ -244,15 +244,15 @@ One note for future archivists attempting to internally install a KryoFlux: Be s
 The USB cable is connected to an internal USB port on the motherboard.  Some motherboards have USB ports installed; however, if your motherboard does not, you can purchase a USB header online for under ten dollars.  This USB header connects to the motherboard to provide two internal USB ports.  Shown here, the KryoFlux USB cable is connected to our USB header.
 The greatest advantage to having the KryoFlux board mounted in this way, is that it is difficult to knock a cord loose, but if someone needs to remove the board or check the connections, the board can be disconnected and removed fairly easily as seen here.
 
-[INSERT tower_install1.jpg here]
+![Figure 9](tower_install1.jpg)
 
-[INSERT tower_install2.jpg here]
+![Figure 10](tower_install2.jpg)
 
-[INSERT tower_install3.jpg here]
+![Figure 11](tower_install3.jpg)
 
-[INSERT tower_install4.jpg here]
+![Figure 12](tower_install4.jpg)
 
-[INSERT tower_install5.gif here]
+![Figure 13](tower_install5.jpg)
 
 
 
