@@ -1,5 +1,20 @@
 # 1.1 Set-Up and Installation
 
+* 1.1.1 [What's in the   box](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#111-whats-in-the-box)
+* 1.1.2 [Downloading the software](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#112-downloading-the-software)
+	* [Using Windows](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#using-windows)
+	* [Using Mac](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#using-mac)
+	* [Using Linux](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#using-linux)
+* 1.1.3 [Using Linux: Prerequisites and dependencies](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#113-using-linux-prerequisites-and-dependencies)
+	* [UDEV rule](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#udev-rule)
+	* [Java dependency](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#java-dependency)
+* 1.1.4 [Setting up the KryoFlux](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#114-setting-up-the-kryoflux)
+* 1.1.5 [Disconnecting the KryoFlux](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#115-disconnecting-the-kryoflux) 
+* 1.1.6 [Handling the KryoFlux](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#116-handling-the-kryoflux)
+	* [GOOD: Tips for basic handling and care](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#good-tips-for-basic-handling-and-care)
+	* [BETTER: Creating an enclosure](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#better-creating-an-enclosure)
+	* [BEST: Installing KryoFlux in a computer tower](/1%20PART%20ONE%20Getting%20Started/1.1%20SET-UP%20AND%20INSTALLATION/README.md#best-installing-kryoflux-in-a-computer-tower) 
+	
 ## 1.1.1 What's in the Box?
 
 The KryoFlux setup consists of several pieces of hardware connected by cables (see figure 1). Because the KryoFlux board is so small and light, the setup can be a little precarious once connected. It also takes up more space than it does when boxed, so be sure that you have enough desk space to accommodate the various components. When moving hardware, handle it with caution, and have someone else help move the components as needed. As always when working with sensitive electronic components, take steps to protect against static electricity by using an anti-static mat or anti-static wristband; always place the KryoFlux board on a non-conductive surface while it is in use. 
