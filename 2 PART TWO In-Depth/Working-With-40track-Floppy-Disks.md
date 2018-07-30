@@ -23,8 +23,10 @@ In the above image, the pattern occurs because the drive detects “crosstalk”
 In order to confirm that this pattern indicates a 40-track disk, you will need to use the command line. 
 
 In the command line, navigate to the folder containing the DTC executable file, and enter:
-::
+
+``
   dtc -m1 -fpath\to\STREAM\file/* -i -fpath\to\MFMimageFile/new_image_filename.img -i4 -l8
+``
 
 This will create an MFM image of the disk from stream files. (We chose to create an MFM image because we thought this was the most likely format for the disk we were imaging, and the output confirmed that we were right. If another format is more likely, the command you enter to image the disk will be slightly different. See Using and interpreting DTC via the CLI for more information.) 
 
@@ -35,16 +37,18 @@ Then look at the output:
 *Figure 2: STDOUT to console.*
 
 After the first few lines, each line should look something like this:
-::
+
+``
   02.0      :  MFM OK*, trk: 002[001], sec: 9, *HT      +5
+``
 
-Here, *02.0* is the track number, and *MFM OK** means that the disk is MFM-formatted, so the MFM image will work. *Trk:  002* means that the software expects to find track 2, and [001] means that it found track 001 instead. 
+Here, ``02.0`` is the track number, and ``MFM OK*`` means that the disk is MFM-formatted, so the MFM image will work. ``Trk:  002`` means that the software expects to find track 2, and ``001`` means that it found track 001 instead. 
 
-The number after *trk:* and the number in the bracket will depend on the track. If there is a number in brackets, then the disk is a 40-track disk. This is because the brackets won’t appear if the track number matches the number after trk. If they do not match, then the track number the program found will be listed in the brackets, and you’ll know you have a 40-track disk.
+The number after ``trk:`` and the number in the bracket will depend on the track. If there is a number in brackets, then the disk is a 40-track disk. This is because the brackets won’t appear if the track number matches the number after trk. If they do not match, then the track number the program found will be listed in the brackets, and you’ll know you have a 40-track disk.
 
-In the output, *H* stands for header gap. If there’s a header gap, that means that the track has been modified (in other words, the user wrote something to it) so it has data that we want. *T* represents the track warning, which is when the track number the software finds doesn’t match the track number it should find. Each line of output also includes a number that represents the number of modified sectors on that track. In this case, there are 9 modified sectors.
+In the output, ``H``stands for header gap. If there’s a header gap, that means that the track has been modified (in other words, the user wrote something to it) so it has data that we want. ``T`` represents the track warning, which is when the track number the software finds doesn’t match the track number it should find. Each line of output also includes a number that represents the number of modified sectors on that track. In this case, there are 9 modified sectors.
 
-An additional sign that you have a 40-track disk instead of an 80-track disk is that, after the first few tracks, every other track returns three lines: one that looks like the line shown above, but with MFM <error> instead of MFM OK*, one that says “Bad sector found,” and one that says “Read operation failed.” This is because there’s no track for the software to read.
+An additional sign that you have a 40-track disk instead of an 80-track disk is that, after the first few tracks, every other track returns three lines: one that looks like the line shown above, but with ``MFM <error>`` instead of ``MFM OK*``, one that says ``Bad sector found``, and one that says ``Read operation failed``. This is because there’s no track for the software to read.
 
 The following breaks down the sample line of output described above, and explains what each part means:
 
@@ -61,9 +65,12 @@ The following breaks down the sample line of output described above, and explain
 ### Command line
 
 From the command line, navigate to DTC. Type in: 
-::
+
+``
   dtc -m1 -fpath\to\STREAM\files/* -i -fpath\to\new\image\file/new_image_filename.img -k2 -i4 -l8 
-This tells the KryoFlux to create an MFM image of a 40-track disk from stream files. -k2 sets the track distance to 2, so DTC will image every other track (40 tracks instead of 80), and skip the parts of the disk that do not contain data. The screenshot below shows what this will look like in the command line.
+``
+  
+This tells the KryoFlux to create an MFM image of a 40-track disk from stream files. ``-k2`` sets the track distance to 2, so DTC will image every other track (40 tracks instead of 80), and skip the parts of the disk that do not contain data. The screenshot below shows what this will look like in the command line.
 
 ![Figure 3: STDOUT to console imaging a 40-track floppy.](images/40-track-figure03.png "Figure 3: STDOUT to console imaging a 40-track floppy.")
 
@@ -98,9 +105,6 @@ Once the profiles are up to date, it’s time to create a 40-track version of th
 *Figure 5: The Image Profiles window in the DTC GUI showing a 40-track profile.*
 
 5. Every time you image a 40-track disk with the GUI, select the 40-track copy of the image profile you want to use in addition to preservation stream files. Then, create your disk image in the GUI as usual. The displayed result will look something like the screenshot below, with every other track unintelligible. This means the 40-track disk was imaged correctly.
-
-.. image:: 
-
 
 ![Figure 6: The DTC GUI showing a successfully created 40-track disk image](images/40-track-figure06.PNG "Figure 6: The DTC GUI showing a successfully created 40-track disk image")
 
