@@ -73,14 +73,15 @@ disk drive:
 	read the magnetic flux that represents data stored on a floppy disk and store it 
 	as raw stream files. This can also be a useful feature if disks are 
 	copy-protected. This allows users to capture an image of data stored on any 
-	disk, regardless of format. That said, the KryoFlux’s stream file format is 
-	proprietary and cannot be rendered. As such, it offers a temporary solution to 
-	unknown or unsupported formats, but is not considered ideal for preservation 
-	purposes.
+	disk, regardless of format. That said, the KryoFlux’s stream file format cannot be 
+	reliably rendered back to diskette due to the inherent jitter present during the 
+	reading and writing phase.  It is a temporary solution for unknown or unsupported 
+	formats, and is the only solution for deliberately non-standard formats such as 
+	copy-protected disks.
 *	**Creates disk images from stream files:** This process is called “deviceless 
 	mode.” Deviceless mode allows for the creation of multiple images, without 
 	having to physically image a disk again, by using stream files. This way, it is 
-	possible to try multiple file systems out on the same set of stream files.
+	possible to try multiple disk formats and encodings out on the same set of stream files.
 *	**Effectively handles degraded data:** There are several ways that floppy disks 
 	can become difficult or impossible to read, all of which tend to occur within 
 	10-20 years. Magnetic storage is vulnerable to wear, and the adhesive keeping 
