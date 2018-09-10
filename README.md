@@ -1,5 +1,12 @@
 # Introduction
 
+* [Contributors](#contributors)
+* [About this guide](#about-this-guide)
+* [Introduction to the KryoFlux](#introduction-to-the-kryoflux)
+* [Revision process](#revision-process)
+	* [Revision workflow](#revision-workflow)
+* [Authors](#authors)
+* [License](#license)
 
 ## Contributors
 
@@ -102,4 +109,53 @@ papers of writer and activist Alice Walker. The integrated setup of the KryoFlux
 allowed for an OS- and file system-agnostic approach that allowed for the 
 identification and imaging of a wide variety of disks in various states of 
 degradation. An article in the [June 2014 issue of Practical Technology for Archives](https://web.archive.org/web/20141016233702/http://practicaltechnologyforarchives.org/issue2_waugh) describes the project in greater detail.
+
+## Revision Process<a href="#anchor1"><sup>1</sup></a>
+
+*The Archivist's Guide to KryoFlux* is intended to be a living document and the authors invite updates and revisions.
+
+### Revision Workflow 
+
+Revisions to *The Archivist's Guide to KryoFlux* are managed and tracked using Github. Contributors can submit revsions for review using the following procedure:
+
+1. A contributor creates a Github pull request with the proposed revision, including the justification for the change.
+2. Members of *The Archivist's Guide to KryoFlux* working group review the pull request, including the revised text, over a seven-day review period.
+3. At the end of the review period, the group decides whether or not the revision should proceed.
+3. Where a revision is approved by the working group, a member of the working group merges the pull request and the *Guide* is updated with the revised text on Github. Where a revision is not approved, the working group provides feedback to the contributor.
+
+**NOTE:** The PDF copy of the *Guide,* also stored within the Github repository, will not be updated as revisions are submitted and approved. Readers should refer to Github markdown files for the most up-to-date version of the *Guide*.
+
+### Getting started with Github
+
+There are multiple ways you can interact with Github to propose a revision, including using their [desktop application](https://guides.github.com/activities/forking/) or [the command line](http://kbroman.org/github_tutorial/pages/fork.html). The instructions below show you how to propose a revision from [the web interface](https://help.github.com/articles/github-flow-in-the-browser/).
+
+1. Create a [Github account](https://github.com/join).
+2. Make a copy of *The Archivist's Guide to KryoFlux* to work on, which is called "creating a fork."
+	a. Log in  to your Github account.
+    b. Go to the [Archivist's Guide to KryoFlux repository](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux).
+    c. Click "Fork" in the upper right.
+3. Make the changes in your copy of the repository.
+	a. In your copy, [create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) in which to make your changes.
+	b. To edit, click on a document and then click the pencil icon in the upper right. This will give you a text editor. Formatting can be added using the [markdown syntax](https://daringfireball.net/projects/markdown/).
+	c. When the editing is complete, give the edit a title and description in the Commit changes box, which is below the editing screen. Commit the change directly to your new branch.
+4. Suggest your changes to the Rchivist's Gide to KryoFlux repository, which is called a "[pull request](https://help.github.com/articles/using-pull-requests/)".
+ 	a. Go back to the main page of your copy of the repository by clicking on "archivists-guide-to-kryoflux" in the breadcrumb trail in the upper left.
+    b. Select your branch with the edits and click "New pull request."
+	c. Give the request a title that explains the change. In the description, including your justification for the change and its impact.
+	d. Click "Create pull request" which will alert *The Archivist's Guide to KryoFlux* working group that your change has been suggested.
+
+## Authors
+
+This content is maintained by the 2018-19 *Archivist's guide to KryoFlux* working group:
+
+* [Matthew] Farrell
+* Dorothy Waugh
+
+## License
+
+CC-BY
+
+---
+
+<a id="anchor1">[1]</a> Language and process borrowed in large part and with much gratitude from the SAA-TS-DACS repository: https://github.com/saa-ts-dacs/dacs/blob/master/README.md
 
