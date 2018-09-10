@@ -144,7 +144,7 @@ There are multiple ways you can interact with Github to propose a revision, incl
 	c. Give the request a title that explains the change. In the description, including your justification for the change and its impact.
 	d. Click "Create pull request" which will alert *The Archivist's Guide to KryoFlux* working group that your change has been suggested.
 
-## Authors
+## Working group
 
 This content is maintained by the 2018-19 *Archivist's guide to KryoFlux* working group:
 
