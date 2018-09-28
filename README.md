@@ -5,7 +5,7 @@
 * [Introduction to the KryoFlux](#introduction-to-the-kryoflux)
 * [Revision process](#revision-process)
 	* [Revision workflow](#revision-workflow)
-* [Authors](#authors)
+* [Working group](#working-group)
 * [License](#license)
 
 ## Contributors
