@@ -19,6 +19,8 @@ Instructions and further description of the Floppy Disk Format Identifier Tool a
 
 - White, Ron and Timothy Edward Downs. How Computers Work. 10th Edition. How It Works Series. Indianapolis, IN: Que, 2014.
 
+- Walker Sampson, Abby Adams, and Austin Roche: Data Recovery and Investigation from 8-inch Floppy Disk Media: Three Use Cases <https://mfr.osf.io/render?url=https://osf.io/8eqhr/?action=download%26mode=render>
+
 <a id="webresources"></a>
 ## 5.3 Web Resources
 
