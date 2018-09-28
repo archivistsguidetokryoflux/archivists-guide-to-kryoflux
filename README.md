@@ -132,15 +132,15 @@ There are multiple ways you can interact with Github to propose a revision, incl
 1. Create a [Github account](https://github.com/join).
 2. Make a copy of *The Archivist's Guide to KryoFlux* to work on, which is called "creating a fork."
 	a. Log in  to your Github account.
-    b. Go to the [Archivist's Guide to KryoFlux repository](https://github.com/archivistsguidetokryoflux/archivists-guide-to-kryoflux).
-    c. Click "Fork" in the upper right.
+	b. Go to the [Archivist's Guide to KryoFlux repository](https://github.com/archivistsguidetokryoflux/archivists-guide-		to-kryoflux).
+	c. Click "Fork" in the upper right.
 3. Make the changes in your copy of the repository.
-	a. In your copy, [create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) in which to make your changes.
+	a. In your copy, [create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-		repository/) in which to make your changes.
 	b. To edit, click on a document and then click the pencil icon in the upper right. This will give you a text editor. Formatting can be added using the [markdown syntax](https://daringfireball.net/projects/markdown/).
 	c. When the editing is complete, give the edit a title and description in the Commit changes box, which is below the editing screen. Commit the change directly to your new branch.
 4. Suggest your changes to the Archivist's Guide to KryoFlux repository, which is called a "[pull request](https://help.github.com/articles/using-pull-requests/)".
  	a. Go back to the main page of your copy of the repository by clicking on "archivists-guide-to-kryoflux" in the breadcrumb trail in the upper left.
-    b. Select your branch with the edits and click "New pull request."
+   	b. Select your branch with the edits and click "New pull request."
 	c. Give the request a title that explains the change. In the description, including your justification for the change and its impact.
 	d. Click "Create pull request" which will alert *The Archivist's Guide to KryoFlux* working group that your change has been suggested.
 
