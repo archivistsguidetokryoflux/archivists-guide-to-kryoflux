@@ -149,6 +149,8 @@ There are multiple ways you can interact with Github to propose a revision, incl
 This content is maintained by the 2018-19 *Archivist's guide to KryoFlux* working group:
 
 * [Matthew] Farrell
+* Shira Peltzman
+* Alice Prael
 * Dorothy Waugh
 
 ## License
