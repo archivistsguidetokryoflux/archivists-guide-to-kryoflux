@@ -3,7 +3,7 @@
 * [Contributors](#contributors)
 * [About this guide](#about-this-guide)
 * [Introduction to the KryoFlux](#introduction-to-the-kryoflux)
-* [Revision process](#revision-process)
+* [Revision process](#revision-process1)
 	* [Revision workflow](#revision-workflow)
 * [Working group](#working-group)
 * [License](#license)
