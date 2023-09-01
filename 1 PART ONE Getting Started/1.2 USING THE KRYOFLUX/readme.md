@@ -295,9 +295,9 @@ fragile.
 	
 **NOTE:** For people who are less familiar with the command line, here is an example 
 of how the above command would look in practice, and a breakdown of its component 
-parts:
+parts - also see how quotes are used for paths which contain spaces:
 
-	dtc -fc:\Users\username\Desktop\Stream_Files\Track00.0.raw 
+	dtc -f"c:\Users\username\Desktop\Stream Files\Track00.0.raw" -i0
 	-fc:\Users\username\Desktop\Disk_1.img -i4 -m1
 	
 | Command component                                          | Function                                                                                                                                                                                                   |
@@ -383,15 +383,3 @@ with .profile or .bashrc.
 	PATH=$PATH:/path/to/dtc-dir``
 4.	Save and close the .bash_profile file.
 5.	Type ``source ~/.bash_profile``
- 	
-
-
-
-
-	
-
-
-
-
-
-
